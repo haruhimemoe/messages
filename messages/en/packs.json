@@ -1,0 +1,598 @@
+{
+  "nav": {
+    "home": "Home",
+    "newPack": "New pack",
+    "packs": "Packs",
+    "guides": "Guides",
+    "signIn": "Sign in",
+    "publicPacks": "Public packs",
+    "openKey": "Open a key",
+    "api": "API"
+  },
+  "palette": {
+    "new": "New pack",
+    "newSub": "Build a pack from beatmap IDs or links",
+    "pasteKey": "Paste pack key",
+    "pasteKeySub": "Open a pack someone shared with you",
+    "myPacks": "My packs",
+    "myPacksSub": "Your saved packs, API key and packs data",
+    "packs": "Packs"
+  },
+  "footer": {
+    "finePrint": "Beatmap files come from mirror.hinamizawa.ai straight to your browser; this site never stores them. Not affiliated with or endorsed by ppy Pty Ltd. osu! is a trademark of ppy Pty Ltd.",
+    "clear": "Clear local data",
+    "clearQuestion": "Delete your saved draft and downloaded maps from this browser?",
+    "delete": "Delete",
+    "deleting": "Deleting…",
+    "cleared": "Local data cleared.",
+    "clearFailed": "Couldn't clear everything. Clear this site's data in your browser settings."
+  },
+  "pages": {
+    "rootNotFound": {
+      "pageNotFound": "Page not found",
+      "thatPageDoesnT": "That page doesn't exist, or it moved.",
+      "backHome": "Back home"
+    },
+    "protectedMe": {
+      "myPacks": "My packs",
+      "newer": "Newer",
+      "older": "Older",
+      "yourData": "Your data",
+      "signedInAsUsername": "Signed in as {username}. This page is your packs settings.",
+      "admin": "Admin",
+      "haruhimeMoeAccount": "haruhime.moe account",
+      "downloadACopyOf": "Download a copy of everything packs stores about you: your osu! profile details, your\n            API key's prefix and dates, and every pack you saved. Your sessions and deleting your\n            haruhime account are on your haruhime.moe account.",
+      "deletingYourPacksData": "Deleting your packs data removes your API key and every pack you saved, with their\n            history. Your haruhime account stays. Files you downloaded and torrents you seed stay on\n            your devices, so they aren't ours to delete."
+    },
+    "publicBrand": {
+      "brand": "Brand",
+      "thePacksNameLogos": "The packs name, logos, colors and type."
+    },
+    "publicDocsLayout": {
+      "docs": "Docs"
+    },
+    "publicDocs": {
+      "docs": "Docs",
+      "forDevelopersThePacks": "For developers: the packs API and how to use it.",
+      "searchTheDocs": "Search the docs"
+    },
+    "publicGuidesLayout": {
+      "guides": "Guides"
+    },
+    "publicGuides": {
+      "guides": "Guides",
+      "shortHowTosFor": "Short how-tos for building and sharing packs."
+    },
+    "publicNew": {
+      "newPack": "New pack",
+      "yourDraftSavesIn": "Your draft saves in this browser as you go. Share it with the pack key when you're done."
+    },
+    "publicLegalLayout": {
+      "legal": "Legal"
+    },
+    "publicLegal": {
+      "legal": "Legal",
+      "theTermsHowWe": "The terms, how we handle your data, and how to reach us about a pack."
+    },
+    "publicPSlugHistory": {
+      "packHistory": "Pack history",
+      "historyOfName": "History of {name}"
+    }
+  },
+  "homeScreen": {
+    "osuBeatmapPacksFor": "osu! beatmap packs for tournament hosts",
+    "packsTurnsAMappool": "packs turns a mappool into one download. Paste beatmap IDs or links, sort them into slots, and share the pack with a key or a short link.",
+    "haveAPackKey": "Have a pack key?",
+    "questions": "Questions",
+    "moreHaruhimeTools": "More haruhime tools",
+    "newPack": "New pack",
+    "browsePublicPacks": "Browse public packs",
+    "seeAllPublicPacks": "See all public packs",
+    "howPackKeysWork": "How pack keys work",
+    "recentPublicPacks": "Recent public packs",
+    "pasteIdsLinksOr": "Paste IDs, links, or a whole spreadsheet. Maps land in NM, HD, HR, DT, FM, TB or your own slots.",
+    "everyPackHasA": "Every pack has a pack key anyone can open, no account needed. Save it to get a short link.",
+    "getTheWholePool": "Get the whole pool as one zip or a torrent, numbered in pool order, with a pack.txt listing every map.",
+    "isItFree": "Is it free?",
+    "yesNoAccountIs": "Yes. No account is needed to build, open, or download a pack. Signing in with osu! lets you save packs and get short links.",
+    "whereDoTheBeatmaps": "Where do the beatmaps come from?",
+    "yourBrowserDownloadsThem": "Your browser downloads them straight from the mirror.hinamizawa.ai beatmap mirror.",
+    "whatSAPack": "What's a pack key?",
+    "aShortPieceOf": "A short piece of text that holds the whole pool. Anyone who pastes it here gets the same pack back.",
+    "canIMakeMy": "Can I make my pack public?",
+    "yesSaveItSet": "Yes. Save it, set it to Public, and it's listed on the public packs page.",
+    "howDoThePublic": "How do the public pack filters match?",
+    "aPackMatchesWhen": "A pack matches when its star rating, length or BPM range overlaps the range you set, when it has every mod and mode you tick, and when its map count is in range. While a star rating, length, BPM, mod or mode filter is set, packs whose stats aren't ready yet are hidden, and the list says how many.",
+    "howCanISort": "How can I sort public packs?",
+    "byNewestTheDefault": "By newest (the default), recently updated, star rating low to high or high to low, most maps, or name. Pinned packs sit above the list until you search, filter or sort.",
+    "howDoICopy": "How do I copy a map's ID for !mp map?",
+    "pressCopyIdOn": "Press Copy ID on the map's row, on any pack page or in the builder. It copies the beatmap ID.",
+    "canIShareA": "Can I share a pack as a torrent?",
+    "yesDownloadTheMaps": "Yes. Download the maps, press Make torrent in the Download card, and seed it with a torrent app like qBittorrent. The torrent file is built in your browser, and you do the seeding.",
+    "canIAddA": "Can I add a pack to my osu! collections?",
+    "buildAPackFrom": "Build a pack from beatmap IDs, links or a pasted mappool",
+    "downloadAWholePool": "Download a whole pool as one zip, built in the browser",
+    "makeATorrentOf": "Make a torrent of a pack and share its magnet link",
+    "shareAPackWith": "Share a pack with a pack key or a short link",
+    "addAPackS": "Add a pack's maps to an osu!stable or osu!lazer collection",
+    "searchAndFilterPublic": "Search and filter public packs by star rating, length, BPM and mods",
+    "publicApiWithPersonal": "Public API with personal API keys",
+    "buildTheMappoolItself": "Build the mappool itself: search maps with mods, check the content rules, and see where each map was played before.",
+    "writeTheTournamentS": "Write the tournament's forum post or your userpage in osu! BBCode and see it as you type.",
+    "faq": {
+      "0": {
+        "question": "Is it free?",
+        "answer": "Yes. No account is needed to build, open, or download a pack. Signing in with osu! lets you save packs and get short links."
+      },
+      "1": {
+        "question": "Where do the beatmaps come from?",
+        "answer": "Your browser downloads them straight from the mirror.hinamizawa.ai beatmap mirror."
+      },
+      "2": {
+        "question": "What's a pack key?",
+        "answer": "A short piece of text that holds the whole pool. Anyone who pastes it here gets the same pack back."
+      },
+      "3": {
+        "question": "Can I make my pack public?",
+        "answer": "Yes. Save it, set it to Public, and it's listed on the public packs page."
+      },
+      "4": {
+        "question": "How do the public pack filters match?",
+        "answer": "A pack matches when its star rating, length or BPM range overlaps the range you set, when it has every mod and mode you tick, and when its map count is in range. While a star rating, length, BPM, mod or mode filter is set, packs whose stats aren't ready yet are hidden, and the list says how many."
+      },
+      "5": {
+        "question": "How can I sort public packs?",
+        "answer": "By newest (the default), recently updated, star rating low to high or high to low, most maps, or name. Pinned packs sit above the list until you search, filter or sort."
+      },
+      "6": {
+        "question": "How do I copy a map's ID for !mp map?",
+        "answer": "Press Copy ID on the map's row, on any pack page or in the builder. It copies the beatmap ID."
+      },
+      "7": {
+        "question": "Can I share a pack as a torrent?",
+        "answer": "Yes. Download the maps, press Make torrent in the Download card, and seed it with a torrent app like qBittorrent. The torrent file is built in your browser, and you do the seeding."
+      },
+      "8": {
+        "question": "Can I add a pack to my osu! collections?",
+        "answer": "Yes. Use \"Add to osu! collection\" on the pack's page. On osu!stable, close osu!, load your collection.db and download it back with the maps added, then put it in your osu! folder in place of the old one before you start osu!. On osu!lazer, download a zip and import it with lazer's setup wizard. Your collection.db is read in your browser and isn't uploaded."
+      }
+    }
+  },
+  "collectionPanel": {
+    "addToOsuCollection": "Add to osu! collection",
+    "whichOsuDoYou": "Which osu! do you play?",
+    "howItWorks": "How it works",
+    "loadingMapInfo": "Loading map info…",
+    "noneOfTheseMaps": "None of these maps can go in a collection, so there's nothing to add.",
+    "loadYourCollectionDb": "Load your collection.db and download it back with the maps added.",
+    "downloadAZipThat": "Download a zip that lazer's setup wizard imports.",
+    "mapInfoDidnT": "Map info didn't load for {map}. Retry loading maps in the Download card first."
+  },
+  "lazerCollection": {
+    "collectionNameInOsu": "Collection name in osu!lazer",
+    "typeItExactlyAs": "Type it exactly as it shows in lazer. Case and spaces count: any other name makes a new collection.",
+    "thisNameStartsOr": "This name starts or ends with a space. lazer treats it as a different collection from the\n          same name without the space.",
+    "thenInOsuLazer": "Then, in osu!lazer:",
+    "extractTheZipYou": "Extract the zip. You get one folder holding collection.db and an empty osu!.import.cfg.",
+    "openSettingsThenGeneral": "Open Settings, then General, and press \"Run setup wizard\". Press Next until you reach\n            the Import step.",
+    "chooseTheExtractedFolder": "Choose the extracted folder as the previous osu! install, or drag the folder onto the\n            osu! window. If osu!stable is installed, the field already points at it: change it.",
+    "untickBeatmapsScoresAnd": "Untick Beatmaps, Scores and Skins, leave Collections ticked, and press \"Import content\n            from previous version\".",
+    "waitUntilLazerSays": "Wait until lazer says it imported the collections. Maps you don't have yet show up once\n            you download them.",
+    "thisWorksOnDesktop": "This works on desktop only. osu!lazer on Android and iOS can't import collections.",
+    "downloadZipForOsu": "Download zip for osu!lazer",
+    "thatNameHasA": "That name has a broken character, like half of an emoji (invalid_name).",
+    "couldnTSaveThe": "Couldn't save the zip. Try again.",
+    "couldnTBuildThe": "Couldn't build the zip ({code}). Try again.",
+    "typeACollectionName": "Type a collection name.",
+    "downloadedZipnameFollowThe": "Downloaded {zipName}. Follow the steps above to import it.",
+    "addsMapToName": "Adds {map} to \"{name}\". Maps already in it are skipped."
+  },
+  "stableCollection": {
+    "yourCollectionDb": "Your collection.db",
+    "collection": "Collection",
+    "name": "Name",
+    "caseCountsAndSo": "Case counts, and so do spaces inside the name. A name you already have adds to that collection.",
+    "readingCollectionDb": "Reading collection.db…",
+    "newCollection": "New collection",
+    "thenToUseIt": "Then, to use it:",
+    "keepOsuClosedUntil": "Keep osu! closed until the new file is in place. It reads collection.db when it\n                starts and saves its own copy later, so it ignores a file swapped while it runs,\n                then overwrites it.",
+    "keepACopyOf": "Keep a copy of your old collection.db.",
+    "putTheNewFile": "Put the new file in your osu! folder, named exactly collection.db. If your browser\n                saved it as collection (1).db, rename it.",
+    "startOsu": "Start osu!.",
+    "downloadCollectionDb": "Download collection.db",
+    "retryLoadingMaps": "Retry loading maps",
+    "someMapInfoDidn": "Some map info didn't load. Press \"Retry loading maps\" in the Download card, and the preview shows once it has.",
+    "thePreviewShowsOnce": "The preview shows once every map's info has loaded.",
+    "youAlreadyHaveSimilarname": "You already have \"{similarName}\". Case and spaces count, so this makes a second collection.",
+    "addToSimilarnameInstead": "Add to \"{similarName}\" instead"
+  },
+  "pinnedPacks": {
+    "pinnedPacks": "Pinned packs",
+    "unpinName": "Unpin {name}",
+    "nothingIsPinnedPin": "Nothing is pinned. Pin a public pack from the table above or from its page.",
+    "unpin": "Unpin"
+  },
+  "adminPackTable": {
+    "noPacksHere": "No packs here.",
+    "actions": "Actions"
+  },
+  "packStatsBackfill": {
+    "packStats": "Pack stats",
+    "fillingInStats": "Filling in stats…",
+    "fillInStats": "Fill in stats"
+  },
+  "adminPackTableRow": {
+    "delete": "Delete",
+    "itGoesForIts": "It goes for its host too, and its short link stops working for everyone.",
+    "keepIt": "Keep it",
+    "yesDeleteIt": "Yes, delete it",
+    "couldnTDeleteIt": "Couldn't delete it. The reason is above the table.",
+    "deleteNameForGood": "Delete {name} for good?",
+    "pinned": "Pinned"
+  },
+  "adminScreen": {
+    "admin": "Admin",
+    "publicAndUnlistedPacks": "Public and unlisted packs. Private packs never show here.",
+    "filter": "Filter",
+    "packName": "Pack name",
+    "newer": "Newer",
+    "older": "Older"
+  },
+  "shortLinkField": {
+    "shortLink": "Short link",
+    "copyLink": "Copy link",
+    "linkCopied": "Link copied.",
+    "couldnTCopySelect": "Couldn't copy. Select the link and copy it by hand."
+  },
+  "magnetLinks": {
+    "torrent": "Torrent",
+    "addedByThePack": "Added by the pack owner. packs doesn't host or check these files.",
+    "howToDownloadWith": "How to download with a torrent",
+    "couldnTRemoveIt": "Couldn't remove it. Try again."
+  },
+  "myPacksList": {
+    "thereAreNoPacks": "There are no packs on this page.",
+    "backToYourNewest": "Back to your newest packs",
+    "youHavenTSaved": "You haven't saved any packs yet.",
+    "buildAPack": "Build a pack"
+  },
+  "bucketRenameForm": {
+    "newCodeForCode": "New code for {code}",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "bucketAddForm": {
+    "newSlotCode": "New slot code",
+    "ez": "EZ",
+    "addSlot": "Add slot",
+    "colorForTheNew": "Color for the new slot"
+  },
+  "poolTable": {
+    "noMapsYetAdd": "No maps yet. Add a beatmap ID or paste a mappool above."
+  },
+  "addBeatmapForm": {
+    "slot": "Slot",
+    "beatmapIdOrLink": "Beatmap ID or link",
+    "n129891OrHttpsOsu": "129891 or https://osu.ppy.sh/beatmapsets/…#osu/…",
+    "add": "Add"
+  },
+  "savedPackEditor": {
+    "editPack": "Edit pack",
+    "visibility": "Visibility",
+    "description": "Description",
+    "deletePack": "Delete pack",
+    "deleteThisPackFor": "Delete this pack for good?",
+    "keepIt": "Keep it",
+    "yesDeleteIt": "Yes, delete it",
+    "deleting": "Deleting…",
+    "itsShortLinkP": "Its short link (/p/{slug}) stops working for everyone. Pack keys you've shared still open the pool.",
+    "cancel": "Cancel",
+    "changingTheNameMaps": "Changing the name, maps, or slots removes this pack's magnet links.",
+    "somethingWentWrongTry": "Something went wrong. Try again.",
+    "saving": "Saving…",
+    "saveChanges": "Save changes"
+  },
+  "packNotFound": {
+    "packNotFound": "Pack not found",
+    "thisPackMayHave": "This pack may have been deleted by its owner, or it's private. If someone shared its pack key with you, open that instead.",
+    "openAPackKey": "Open a pack key",
+    "buildAPack": "Build a pack"
+  },
+  "packKeyView": {
+    "openingPack": "Opening pack…",
+    "couldnTOpenThat": "Couldn't open that pack",
+    "openAPack": "Open a pack",
+    "save": "Save",
+    "share": "Share",
+    "editACopy": "Edit a copy",
+    "replacesTheDraftIn": "Replaces the draft in this browser.",
+    "maps": "Maps",
+    "signingInOpensThis": "Signing in opens this pack in the builder (replacing the draft in this browser), where you can save it."
+  },
+  "modsField": {
+    "mods": "Mods",
+    "modsForCode": "Mods for {code}",
+    "noMods": "No mods"
+  },
+  "packKeyField": {
+    "packKey": "Pack key",
+    "copyKey": "Copy key",
+    "keyCopied": "Key copied.",
+    "copyShareLink": "Copy share link",
+    "linkCopied": "Link copied.",
+    "couldnTCopySelect": "Couldn't copy. Select the key and copy it by hand."
+  },
+  "savedPackView": {
+    "share": "Share",
+    "edit": "Edit",
+    "maps": "Maps",
+    "thisPackIsPrivate": "This pack is private. Only you can open the short link; the pack key works for anyone.",
+    "versionHistory": "Version history"
+  },
+  "descriptionField": {
+    "descriptionOptional": "Description (optional)",
+    "whatThePackIs": "What the pack is for: the tournament, the round, anything players should know."
+  },
+  "packBuilder": {
+    "save": "Save",
+    "share": "Share"
+  },
+  "bulkPasteInput": {
+    "pasteAMappool": "Paste a mappool",
+    "addToPool": "Add to pool",
+    "addedMap": "Added {map}.",
+    "addedSlotsJoin": "Added {slots} {join}.",
+    "replacedJoin": "Replaced {join}."
+  },
+  "packStats": {
+    "packStats": "Pack stats",
+    "avgLength": "Avg length",
+    "avg": "Avg ★",
+    "maps": "Maps",
+    "length": "Length",
+    "range": "★ range",
+    "bpm": "BPM",
+    "skipped": "Stats leave out {count, plural, one {# map that} other {# maps that}} didn't load."
+  },
+  "keyPasteForm": {
+    "packKeyOrLink": "Pack key or link",
+    "pk1": "pk1.…",
+    "open": "Open"
+  },
+  "magnetLinkRow": {
+    "copyMagnetLink": "Copy magnet link",
+    "magnetLinkCopied": "Magnet link copied.",
+    "couldnTCopyUse": "Couldn't copy. Use Open, or copy the link by hand.",
+    "remove": "Remove",
+    "removeThisLinkAnyone": "Remove this link? Anyone using it can't find it here after.",
+    "keepIt": "Keep it",
+    "yesRemove": "Yes, remove",
+    "removing": "Removing…",
+    "copyMagnetLinkShort": "Copy magnet link {short}",
+    "openMagnetLinkShort": "Open magnet link {short}",
+    "open": "Open",
+    "removeMagnetLinkShort": "Remove magnet link {short}"
+  },
+  "savePackButton": {
+    "signInToSave": "Sign in to save",
+    "couldnTSaveThe": "Couldn't save the pack. Try again.",
+    "saveThisPackTo": "Save this pack to your account for a short link you can edit later.",
+    "signInWithOsu": "Sign in with osu! to save this pack and get a short link you can edit later.",
+    "saving": "Saving…",
+    "saveToAccount": "Save to account"
+  },
+  "packEditor": {
+    "packName": "Pack name",
+    "addMaps": "Add maps",
+    "slots": "Slots",
+    "pool": "Pool",
+    "retryLoadingMaps": "Retry loading maps",
+    "cancel": "Cancel",
+    "confirmClear": "Confirm clear",
+    "clearPack": "Clear pack"
+  },
+  "packNotFoundFallback": {
+    "loadingPack": "Loading pack…"
+  },
+  "bucketManager": {
+    "slots": "Slots",
+    "renameCode": "Rename {code}",
+    "deleteCode": "Delete {code}",
+    "mapsWithoutASlot": "Maps without a slot always come first. Drag a slot by its handle, or use Up and Down, to\n        change the order.",
+    "removeOrMoveIts": "Remove or move its maps first.",
+    "rename": "Rename",
+    "delete": "Delete",
+    "colorForCode": "Color for {code}"
+  },
+  "visibilityField": {
+    "whoCanOpenIt": "Who can open it"
+  },
+  "slotRow": {
+    "moveTitleTo": "Move {title} to",
+    "moveTitle": "Move {title}",
+    "removeTitle": "Remove {title}",
+    "withMods": "With mods:",
+    "moveTo": "Move to…",
+    "remove": "Remove",
+    "move": "Move",
+    "beatmapIdWasnT": "Beatmap {id} wasn't found on the mirror. Check the ID."
+  },
+  "publicPackCard": {
+    "length": "Length",
+    "addedCreatedat": "Added {createdAt}",
+    "updatedUpdatedat": "Updated {updatedAt}",
+    "stars": "stars"
+  },
+  "publicPacksScreen": {
+    "newer": "Newer",
+    "older": "Older",
+    "publicPacks": "Public packs",
+    "pinned": "Pinned",
+    "allPacks": "All packs",
+    "packsHostsSharePublicly": "Packs hosts share publicly show up here."
+  },
+  "publicPackList": {
+    "noPublicPacksYet": "No public packs yet. Save a pack and set it to Public to list it here."
+  },
+  "packFilterBar": {
+    "searchPublicPacks": "Search public packs",
+    "packNameHostOr": "Pack name, host, or description",
+    "sortBy": "Sort by",
+    "filters": "Filters",
+    "mods": "Mods",
+    "mode": "Mode",
+    "starRating": "Star rating",
+    "minimumNoun": "Minimum {noun}",
+    "maximumNoun": "Maximum {noun}"
+  },
+  "publicPackBrowser": {
+    "loadingPacks": "Loading packs…",
+    "showMore": "Show more",
+    "noPacksMatchQ": "No packs match “{q}” with these filters.",
+    "noPacksMatchQ2": "No packs match “{q}”.",
+    "noPacksMatchThese": "No packs match these filters.",
+    "noPublicPacksYet": "No public packs yet.",
+    "thatPackSStats": "That pack's stats are still being worked out. Clear the star rating, mod, length, BPM and mode filters to see it.",
+    "thosePacksStatsAre": "Those packs' stats are still being worked out. Clear the star rating, mod, length, BPM and mode filters to see them.",
+    "tryAWiderRange": "Try a wider range or fewer mods or modes.",
+    "tryAWiderRange2": "Try a wider range, fewer mods or modes, or other words.",
+    "tryOtherWords": "Try other words.",
+    "searchAndFiltersAren": "Search and filters aren't available right now.",
+    "searchAndFiltersStill": "Search and filters still aren't available. Try again in a minute.",
+    "tryingAgain": "Trying again…",
+    "tryAgain": "Try again",
+    "found": "{count, plural, one {# pack matches} other {# packs match}}.",
+    "hidden": "{count, plural, one {# pack is hidden until its stats are ready.} other {# packs are hidden until their stats are ready.}}"
+  },
+  "historyTable": {
+    "versions": "Versions",
+    "when": "When",
+    "who": "Who",
+    "what": "What",
+    "changes": "Changes",
+    "olderVersions": "Older versions"
+  },
+  "changeList": {
+    "changesInThisVersion": "Changes in this version",
+    "theFirstSavedVersion": "The first saved version.",
+    "nothingAPersonWould": "Nothing a person would see changed."
+  },
+  "downloadOptions": {
+    "includeVideos": "Include videos",
+    "videosMakePacksSeveral": "Videos make packs several times larger.",
+    "includeBackgrounds": "Include backgrounds",
+    "turnThisOffTo": "Turn this off to remove background images in your browser. osu! shows its default background instead.",
+    "downloadOptions": "Download options",
+    "youCanChangeThese": "You can change these once the download, zip or torrent is done.",
+    "downloadOptionsVideosBackgrounds": "Download options: {videos}, {backgrounds}",
+    "summary": "Download options: {videos, select, true {videos} other {no videos}}, {backgrounds, select, true {backgrounds} other {no backgrounds}}"
+  },
+  "torrentExport": {
+    "makingTorrent": "Making torrent",
+    "theSameFilesAs": "The same files as a .torrent and a magnet link, for torrent apps like qBittorrent.",
+    "yourBrowserCanT": "Your browser can't make torrents on this page.",
+    "cancel": "Cancel",
+    "couldnTMakeThe": "Couldn't make the torrent. Try again.",
+    "torrentFile": "Torrent file",
+    "makingTorrentPercent": "Making torrent… {percent}%",
+    "makeTorrentWithoutMap": "Make torrent without {map}",
+    "makeTorrent": "Make torrent"
+  },
+  "exportPanel": {
+    "download": "Download",
+    "loadingMapInfo": "Loading map info…",
+    "retryLoadingMaps": "Retry loading maps",
+    "someMapInfoDidn": "Some map info didn't load.",
+    "downloadMaps": "Download maps",
+    "someMapInfoDidn2": "Some map info didn't load. Retry loading maps first.",
+    "noneOfTheseMaps": "None of these maps are on the mirror, so there's nothing to download.",
+    "cancel": "Cancel",
+    "retryFailed": "Retry failed",
+    "fromTheMirror": "From the mirror",
+    "mapsDownload4At": "Maps download 4 at a time and stay cached in this browser, so the next download is\n            quick.",
+    "couldnTRemoveBackgrounds": "Couldn't remove backgrounds from {map}. They're included as downloaded."
+  },
+  "torrentMadePanel": {
+    "magnetLink": "Magnet link",
+    "copyMagnetLink": "Copy magnet link",
+    "magnetLinkCopied": "Magnet link copied.",
+    "couldnTCopySelect": "Couldn't copy. Select the link and copy it by hand.",
+    "saveTorrent": "Save .torrent",
+    "seedingGuide": "Seeding guide",
+    "couldnTAddThe": "Couldn't add the magnet link. Try again.",
+    "magnetLinkAdded": "Magnet link added",
+    "adding": "Adding…",
+    "addMagnetLinkTo": "Add magnet link to this pack"
+  },
+  "zipExport": {
+    "oneFolderNumberedIn": "One folder, numbered in pool order, with a pack.txt.",
+    "zip": "Zip",
+    "buildingTheZip": "Building the zip…",
+    "zipSaved": "Zip saved.",
+    "downloadStarted": "Download started.",
+    "couldnTSaveThe": "Couldn't save the zip. Try again.",
+    "saveZip": "Save .zip",
+    "saveZipWithoutMap": "Save .zip without {map}"
+  },
+  "downloadProgress": {
+    "downloadProgress": "Download progress",
+    "checking": "Checking…",
+    "downloadingTotal": "Downloading {total}%",
+    "downloadingLoaded": "Downloading {loaded}",
+    "mirrorIsBusyRetrying": "Mirror is busy, retrying in {retryInMs}s",
+    "removingBackgrounds": "Removing backgrounds…",
+    "readySavedInThis": "Ready (saved in this browser)"
+  },
+  "signOutButton": {
+    "couldnTSignOut": "Couldn't sign out. Try again.",
+    "signingOut": "Signing out…",
+    "signOut": "Sign out"
+  },
+  "downloadDataLink": {
+    "downloadMyData": "Download my data"
+  },
+  "apiKeyReveal": {
+    "yourNewApiKey": "Your new API key",
+    "keyCopied": "Key copied.",
+    "couldnTCopySelect": "Couldn't copy. Select the key and copy it by hand.",
+    "copyYourKeyNow": "Copy your key now. You won't see it again.",
+    "iVeSavedIt": "I've saved it"
+  },
+  "apiKeyCard": {
+    "apiKey": "API key",
+    "regenerate": "Regenerate",
+    "yourCurrentKeyStops": "Your current key stops working right away.",
+    "keepIt": "Keep it",
+    "yesRegenerate": "Yes, regenerate",
+    "revoke": "Revoke",
+    "revokeThisKeyAnything": "Revoke this key? Anything using it stops working right away.",
+    "yesRevoke": "Yes, revoke",
+    "apiKeyCreatedCopy": "API key created. Copy it now; it won't be shown again.",
+    "apiKeyRevoked": "API key revoked.",
+    "keySaved": "Key saved.",
+    "readTheApiDocs": "Read the API docs",
+    "createApiKey": "Create API key",
+    "couldnTMakeA": "Couldn't make a key. Try again.",
+    "couldnTRevokeThe": "Couldn't revoke the key. Try again.",
+    "lastUsedLastusedat": "Last used {lastUsedAt}.",
+    "notUsedYet": "Not used yet."
+  },
+  "deletePacksDataButton": {
+    "deleteMyPacksData": "Delete my packs data",
+    "deleteYourPacksData": "Delete your packs data?",
+    "deleteForGood": "Delete for good",
+    "deleting": "Deleting…",
+    "thisDeletesYourApi": "This deletes your API key and {pack}. Their short links stop working. Pack keys you've shared still open, and your haruhime account stays.",
+    "couldnTDeleteYour": "Couldn't delete your packs data. Try again."
+  },
+  "historyVisibilityForm": {
+    "onlyMe": "Only me",
+    "anyoneWhoCanSee": "Anyone who can see the pack",
+    "somethingWentWrongTry": "Something went wrong. Try again."
+  },
+  "pinButton": {
+    "pinnedToTheTop": "Pinned to the top of /packs.",
+    "unpinnedFromPacks": "Unpinned from /packs.",
+    "somethingWentWrongTry": "Something went wrong. Try again."
+  }
+}

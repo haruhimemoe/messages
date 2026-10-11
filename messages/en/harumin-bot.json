@@ -1,0 +1,641 @@
+{
+  "router": {
+    "somethingBrokeOnHarumin": "Something broke on harumin's side. It's been logged."
+  },
+  "score": {
+    "bestScoreOnThis": "Best score on this map"
+  },
+  "matchcost": {
+    "thatIsnTAn": "That isn't an mp link or id.",
+    "whichMatchPassMatch": "Which match? Pass `match`, or link one here first."
+  },
+  "compare": {
+    "thatIsnTAn": "That isn't an osu! username."
+  },
+  "help": {
+    "thereSNo": "There's no `/{name}`. Run `/help` for the list."
+  },
+  "pool": {
+    "whichPoolPassPool": "Which pool? Pass `pool`, or link one here first.",
+    "thatIsnTA": "That isn't a pool link, id or pack key.",
+    "noPublicPoolThere": "No public pool there.",
+    "notEnoughTopPlays": "Not enough top plays to draft a pool.",
+    "openAsAPack": "Open as a pack",
+    "buildItOnPools": "Build it on pools",
+    "openOnPacks": "Open on packs",
+    "openOnPools": "Open on pools",
+    "openTheUnplayedAs": "Open the unplayed as a pack",
+    "pasteAPool": "Paste a pool",
+    "mapsOnePerLine": "Maps, one per line",
+    "pastedPool": "Pasted pool",
+    "nothingToReadThere": "Nothing to read there.\n{HELP}",
+    "lineError": "line {line}: {reason}"
+  },
+  "nochoke": {
+    "oneNochokeEveryMs": "One /nochoke every {MS} seconds, please.",
+    "withoutChokes": "Without chokes"
+  },
+  "recent": {
+    "mostRecentPlay": "Most recent play",
+    "recentPlayIndex": "Recent play #{index}"
+  },
+  "shared": {
+    "beatmapLinkOrId": "Beatmap link or id",
+    "beatmapLinkOrId2": "Beatmap link or id (default: the last map in this channel)",
+    "thisDiscordAccountIsn": "This Discord account isn't linked to a haruhime.moe account yet, so I don't know your osu! name. Link Discord on {URL}/account (**/link** has the button), or pass `name`.",
+    "thatIsnTA": "That isn't a beatmap link or id. Open the difficulty on osu! and copy its link (a set link without a difficulty won't do).",
+    "whichMapPassMap": "Which map? Pass `map`, or link one in this channel first.",
+    "notLinked": "<@{discordId}> hasn't linked Discord on haruhime.moe. Pass `name` instead."
+  },
+  "map": {
+    "thatIsnTA": "That isn't a mod combination. Try `HDDT` or `HR`."
+  },
+  "top": {
+    "sortedBySortReversed": "Sorted by {sort}{reversed, select, true {, reversed} other {}}",
+    "topPlays": "Top plays",
+    "topRulesetPlays": "Top {ruleset} plays"
+  },
+  "practice": {
+    "yourTop100Is": "Your top 100 is mostly mixed mods. Pick `mods` (NM, HD, HR or DT).",
+    "openAsAPack": "Open as a pack",
+    "firstMap": "First map",
+    "over": "over {min}",
+    "range": "{min} to {max}",
+    "noPlays": "No {bucket, select, none {} other {{bucket} }}plays in your top 100 to go on."
+  },
+  "simulate": {
+    "thatIsnTA": "That isn't a mod combination. Try `HDDT`.",
+    "couldnTGetThat": "Couldn't get that map's file from osu! right now. Try again in a minute."
+  },
+  "invite": {
+    "addHaruminToA": "Add harumin to a server you manage. Settings live on the [dashboard]({dashboard}).",
+    "addToServer": "Add to server",
+    "addToYourApps": "Add to your apps",
+    "dashboard": "Dashboard",
+    "website": "Website"
+  },
+  "track": {
+    "youNeedManageServer": "You need Manage Server to change tracking.",
+    "thatIsnTAn": "That isn't an osu! username.",
+    "stoppedTrackingUsernameRuleset": "Stopped tracking **{username}** ({ruleset}).",
+    "pickAChannel": "Pick a channel.",
+    "thisServerAlreadyTracks": "This server already tracks {GUILD} players. Remove one first.",
+    "trackingUsernameRulesetIn": "Tracking **{username}** ({ruleset}) in <#{id}>. New top plays show up within a few minutes."
+  },
+  "render": {
+    "renderPositionInLine": "Render #{position} in line, starts {startsInMs}.",
+    "renderingProgress": "Rendering: {progress}",
+    "renderDoneTheVideo": "Render done. The video is in the reply below.",
+    "renderFailedMessage": "Render failed. {message}",
+    "gettingInLineBelow": "Getting in line...{below}",
+    "yourRenderVideourl": "Your render: {videoUrl}",
+    "youAlreadyHaveA": "You already have a replay in line. Wait for it to start.",
+    "theRenderLineIs": "The render line is full. Try again in a few minutes.",
+    "thatIsnTA": "That isn't a replay. Attach the `.osr` file osu! saves.",
+    "thatReplayIsOver": "That replay is over 10 MB, which is more than o!rdr takes.",
+    "discordDidnTHand": "Discord didn't hand over that file. Try attaching it again.",
+    "giveAScoreLink": "Give a `score` link or attach a `replay` (.osr).",
+    "thatIsnTA2": "That isn't a score link. Copy it from the score's page on osu!.",
+    "thatReplayIsnT": "That replay isn't there anymore. Post it again or use **/render**.",
+    "now": "now",
+    "inMinutes": "in about {count, plural, one {# minute} other {# minutes}}"
+  },
+  "leaderboard": {
+    "thatIsnTA": "That isn't a mod combination. Try `HD` or `NM`."
+  },
+  "server": {
+    "thisServer": "This server"
+  },
+  "link": {
+    "manageOnHaruhimeMoe": "Manage on haruhime.moe",
+    "linkOnHaruhimeMoe": "Link on haruhime.moe"
+  },
+  "pack": {
+    "thatIsnTA": "That isn't a pack link, code or key.",
+    "whichPackPassPack": "Which pack? Pass `pack`, or link one here first.",
+    "thatPackKeyDoesn": "That pack key doesn't decode. Copy it again from packs.",
+    "noPublicPackWith": "No public pack with that code."
+  },
+  "bot": {
+    "anOsuBotFrom": "An osu! bot from haruhime.moe, for players, mappers and tournament hosts.",
+    "youReLinkedTo": "You're linked to **[{username}]({osuId})**. Commands use it when you leave the player empty.\nTo change or remove it, open your account on [haruhime.moe]({hubUrl}/account).",
+    "signInOnHaruhime": "Sign in on [haruhime.moe]({hubUrl}/account) with osu!, then link Discord there. It takes a minute, and works for every haruhime tool.\nAfter that, `/osu`, `/recent` and the rest know who you are.",
+    "linkYourOsuAccount": "Link your osu! account",
+    "helpIntro": "osu! in Discord. Pick a command for details: `/help command:top`.\nPlayer options default to your linked account (`/link`)."
+  },
+  "osu": {
+    "ssSshSsSs": "SS+ {ssh} · SS {ss} · S+ {sh} · S {s} · A {a}",
+    "levelTofixedPlaycountPlays": "Level {toFixed} · {playCount} plays · {playTime}",
+    "maxComboMaxcomboRanked": "Max combo {maxCombo} · Ranked score {rankedScore}",
+    "tryTries": "Try #{tries}",
+    "nothingHere": "Nothing here.",
+    "pagePageOfPages": "Page {page} of {pages} · harumin",
+    "csCsArAr": "CS {cs} · AR {ar} · OD {od} · HP {hp}",
+    "mappedByCreator": "Mapped by {creator}",
+    "noScores": "No scores.",
+    "joined": "Joined {date}{supporter, select, true { · supporter} other {}}",
+    "unknownStatus": "unknown"
+  },
+  "tools": {
+    "allRowsMapsAre": "All {rows} maps are fine for officially supported tournaments.",
+    "lineLineReason": "Line {line}: {reason}",
+    "packKey": "Pack key",
+    "openOnPacks": "Open on packs",
+    "openOnPools": "Open on pools",
+    "allRowsMapsAre2": "All {rows} maps are fine for official tournaments.",
+    "contentRules": "Content rules",
+    "bbcodeTemplate": "BBCode template",
+    "anOsuBbcodeTemplate": "An osu! BBCode template. Open it to preview, copy or remix.",
+    "contentRulesNamed": "Content rules · {name}",
+    "contentRulesUntitled": "Content rules · Untitled",
+    "readSlots": "Read {count, plural, one {# map} other {# maps}}",
+    "by": "by {name}"
+  },
+  "social": {
+    "nobodyHereHasLinked": "Nobody here has linked an osu! account yet. `/link` shows how.",
+    "pagePageOfPages": "Page {page} of {pages} · harumin",
+    "nobodyYetTrackAdd": "Nobody yet. `/track add` posts a player's new top plays to a channel.",
+    "redRedBlueBlue": "Red **{red}** : **{blue}** Blue",
+    "noCompletedGamesYet": "No completed games yet.",
+    "trackedPlayersEntriesMax": "Tracked players ({entries}/{max})",
+    "level": "level {level}"
+  },
+  "toolCards": {
+    "matchId": "Match {id}",
+    "thisServer": "This server"
+  },
+  "replay": {
+    "thatFileIsnT": "That file isn't an osu! replay I can read."
+  },
+  "cards": {
+    "beatmapBeatmapid": "Beatmap #{beatmapId}"
+  },
+  "links": {
+    "matchCosts": "Match costs",
+    "openOnBb": "Open on bb"
+  },
+  "context": {
+    "beatmapBeatmapid": "Beatmap #{beatmapId}"
+  },
+  "renders": {
+    "sentToORdr": "Sent to o!rdr",
+    "refused": "o!rdr said no: {message}",
+    "noAnswer": "o!rdr didn't answer."
+  },
+  "commands": {
+    "osu": {
+      "description": "A player's osu! profile",
+      "options": {
+        "name": {
+          "description": "osu! username, profile link or #id"
+        },
+        "discord": {
+          "description": "A Discord member who linked their osu! account"
+        },
+        "mode": {
+          "description": "Ruleset (default: the server's, then the player's own)",
+          "choices": {
+            "osu": "osu!",
+            "taiko": "taiko",
+            "fruits": "catch",
+            "mania": "mania"
+          }
+        }
+      }
+    },
+    "recent": {
+      "description": "A player's most recent play",
+      "options": {
+        "name": {
+          "description": "osu! username, profile link or #id"
+        },
+        "discord": {
+          "description": "A Discord member who linked their osu! account"
+        },
+        "mode": {
+          "description": "Ruleset (default: the server's, then the player's own)",
+          "choices": {
+            "osu": "osu!",
+            "taiko": "taiko",
+            "fruits": "catch",
+            "mania": "mania"
+          }
+        },
+        "index": {
+          "description": "1 is the latest, 2 the one before, ..."
+        },
+        "passes-only": {
+          "description": "Skip failed plays"
+        }
+      }
+    },
+    "top": {
+      "description": "A player's top plays",
+      "options": {
+        "name": {
+          "description": "osu! username, profile link or #id"
+        },
+        "discord": {
+          "description": "A Discord member who linked their osu! account"
+        },
+        "mode": {
+          "description": "Ruleset (default: the server's, then the player's own)",
+          "choices": {
+            "osu": "osu!",
+            "taiko": "taiko",
+            "fruits": "catch",
+            "mania": "mania"
+          }
+        },
+        "sort": {
+          "description": "Order (default pp)",
+          "choices": {
+            "pp": "pp",
+            "recent": "newest",
+            "accuracy": "accuracy",
+            "combo": "combo",
+            "score": "score",
+            "misses": "fewest misses"
+          }
+        },
+        "mods": {
+          "description": "Only plays with these mods, e.g. HDDT, or NM"
+        },
+        "reverse": {
+          "description": "Reverse the order"
+        }
+      }
+    },
+    "score": {
+      "description": "A player's scores on a map",
+      "options": {
+        "map": {
+          "description": "Beatmap link or id (default: the last map in this channel)"
+        },
+        "name": {
+          "description": "osu! username, profile link or #id"
+        },
+        "discord": {
+          "description": "A Discord member who linked their osu! account"
+        },
+        "mode": {
+          "description": "Ruleset (default: the server's, then the player's own)",
+          "choices": {
+            "osu": "osu!",
+            "taiko": "taiko",
+            "fruits": "catch",
+            "mania": "mania"
+          }
+        }
+      }
+    },
+    "map": {
+      "description": "A beatmap's stats and pp",
+      "options": {
+        "map": {
+          "description": "Beatmap link or id (default: the last map in this channel)"
+        },
+        "mods": {
+          "description": "Mods, e.g. HDDT"
+        }
+      }
+    },
+    "leaderboard": {
+      "description": "A map's global leaderboard",
+      "options": {
+        "map": {
+          "description": "Beatmap link or id (default: the last map in this channel)"
+        },
+        "mods": {
+          "description": "Only scores with these mods, e.g. HD, or NM"
+        }
+      }
+    },
+    "compare": {
+      "description": "Two players head to head",
+      "options": {
+        "player": {
+          "description": "osu! username, profile link or #id"
+        },
+        "other": {
+          "description": "Compare against this player instead of you"
+        },
+        "mode": {
+          "description": "Ruleset (default: the server's, then the player's own)",
+          "choices": {
+            "osu": "osu!",
+            "taiko": "taiko",
+            "fruits": "catch",
+            "mania": "mania"
+          }
+        }
+      }
+    },
+    "nochoke": {
+      "description": "Top plays if every choke had been a full combo",
+      "options": {
+        "name": {
+          "description": "osu! username, profile link or #id"
+        },
+        "discord": {
+          "description": "A Discord member who linked their osu! account"
+        },
+        "mode": {
+          "description": "Ruleset (default: the server's, then the player's own)",
+          "choices": {
+            "osu": "osu!",
+            "taiko": "taiko",
+            "fruits": "catch",
+            "mania": "mania"
+          }
+        }
+      }
+    },
+    "simulate": {
+      "description": "pp for a score you describe",
+      "options": {
+        "map": {
+          "description": "Beatmap link or id (default: the last map in this channel)"
+        },
+        "accuracy": {
+          "description": "Percent, e.g. 98.5"
+        },
+        "combo": {
+          "description": "Max combo"
+        },
+        "misses": {
+          "description": "Misses"
+        },
+        "mods": {
+          "description": "Mods, e.g. HDDT"
+        }
+      }
+    },
+    "server": {
+      "description": "This server's linked players, ranked",
+      "options": {
+        "stat": {
+          "description": "Rank by (default pp)",
+          "choices": {
+            "pp": "pp",
+            "rank": "rank",
+            "accuracy": "accuracy",
+            "playcount": "playcount",
+            "level": "level"
+          }
+        },
+        "mode": {
+          "description": "Ruleset (default: the server's, then the player's own)",
+          "choices": {
+            "osu": "osu!",
+            "taiko": "taiko",
+            "fruits": "catch",
+            "mania": "mania"
+          }
+        }
+      }
+    },
+    "track": {
+      "description": "Post a player's new top plays in a channel",
+      "options": {
+        "add": {
+          "description": "Start tracking a player",
+          "options": {
+            "name": {
+              "description": "osu! username, profile link or #id"
+            },
+            "mode": {
+              "description": "Ruleset (default osu!)",
+              "choices": {
+                "osu": "osu!",
+                "taiko": "taiko",
+                "fruits": "catch",
+                "mania": "mania"
+              }
+            },
+            "channel": {
+              "description": "Where to post (default: here)"
+            }
+          }
+        },
+        "remove": {
+          "description": "Stop tracking a player",
+          "options": {
+            "name": {
+              "description": "osu! username, profile link or #id"
+            },
+            "mode": {
+              "description": "Ruleset (default osu!)",
+              "choices": {
+                "osu": "osu!",
+                "taiko": "taiko",
+                "fruits": "catch",
+                "mania": "mania"
+              }
+            }
+          }
+        },
+        "list": {
+          "description": "Who this server tracks"
+        }
+      }
+    },
+    "matchcost": {
+      "description": "Match costs for a multiplayer match",
+      "options": {
+        "match": {
+          "description": "mp link or id (default: the last match linked here)"
+        },
+        "warmups": {
+          "description": "Games to skip at the start"
+        },
+        "formula": {
+          "description": "Default Bathbot's",
+          "choices": {
+            "bathbot": "bathbot",
+            "osuplus": "osuplus",
+            "flashlight": "flashlight",
+            "elitebotix": "elitebotix"
+          }
+        }
+      }
+    },
+    "render": {
+      "description": "Render a replay to video with o!rdr, from a score link or an .osr",
+      "options": {
+        "score": {
+          "description": "An osu! score link (osu.ppy.sh/scores/...)"
+        },
+        "replay": {
+          "description": "Or the .osr file"
+        },
+        "skin": {
+          "description": "An o!rdr skin name (default: the osu! default skin)"
+        }
+      }
+    },
+    "pack": {
+      "description": "A pack from packs.haruhime.moe",
+      "options": {
+        "pack": {
+          "description": "Pack link, code or pack key"
+        }
+      }
+    },
+    "pool": {
+      "description": "Mappools from pools.haruhime.moe",
+      "options": {
+        "view": {
+          "description": "A pool's maps",
+          "options": {
+            "pool": {
+              "description": "Pool link or id (default: the last one here)"
+            }
+          }
+        },
+        "check": {
+          "description": "Check every map against osu!'s content usage rules",
+          "options": {
+            "pool": {
+              "description": "Pool link, pack link or pack key"
+            }
+          }
+        },
+        "parse": {
+          "description": "Paste a pool and get it back as slots"
+        },
+        "fromtop": {
+          "description": "Draft a tournament pool from your top plays",
+          "options": {
+            "size": {
+              "description": "Pool size (default medium)",
+              "choices": {
+                "small": "small (14 maps)",
+                "medium": "medium (18 maps)",
+                "large": "large (22 maps)"
+              }
+            },
+            "name": {
+              "description": "osu! username, profile link or #id"
+            },
+            "discord": {
+              "description": "A Discord member who linked their osu! account"
+            },
+            "mode": {
+              "description": "Ruleset (default: the server's, then the player's own)",
+              "choices": {
+                "osu": "osu!",
+                "taiko": "taiko",
+                "fruits": "catch",
+                "mania": "mania"
+              }
+            }
+          }
+        },
+        "me": {
+          "description": "Your best score on each map of a pool",
+          "options": {
+            "pool": {
+              "description": "Pool link, pack link or key (default: the last one here)"
+            },
+            "name": {
+              "description": "osu! username, profile link or #id"
+            },
+            "discord": {
+              "description": "A Discord member who linked their osu! account"
+            },
+            "mode": {
+              "description": "Ruleset (default: the server's, then the player's own)",
+              "choices": {
+                "osu": "osu!",
+                "taiko": "taiko",
+                "fruits": "catch",
+                "mania": "mania"
+              }
+            }
+          }
+        }
+      }
+    },
+    "practice": {
+      "description": "Maps like your top plays, a bit harder (from pools.haruhime.moe)",
+      "options": {
+        "name": {
+          "description": "osu! username, profile link or #id"
+        },
+        "discord": {
+          "description": "A Discord member who linked their osu! account"
+        },
+        "mods": {
+          "description": "Mods (default: your most played in your top 100)",
+          "choices": {
+            "NM": "NM",
+            "HD": "HD",
+            "HR": "HR",
+            "DT": "DT"
+          }
+        },
+        "stars": {
+          "description": "Star target (default: a bit over your usual)"
+        },
+        "length": {
+          "description": "Map length (default: about as long as your top plays)",
+          "choices": {
+            "short": "short (under 2:00)",
+            "medium": "medium (2:00 to 4:00)",
+            "long": "long (4:00 to 7:00)",
+            "marathon": "marathon (over 7:00)",
+            "any": "any"
+          }
+        },
+        "count": {
+          "description": "How many maps (default 10)"
+        }
+      }
+    },
+    "link": {
+      "description": "Link your osu! account, or see which one is linked"
+    },
+    "help": {
+      "description": "What harumin can do",
+      "options": {
+        "command": {
+          "description": "One command in detail"
+        }
+      }
+    },
+    "info": {
+      "description": "About harumin"
+    },
+    "invite": {
+      "description": "Add harumin to your server"
+    },
+    "eval": {
+      "description": "Owner only: run code in the bot",
+      "options": {
+        "code": {
+          "description": "JavaScript (empty: open an editor)"
+        }
+      }
+    }
+  },
+  "common": {
+    "beatmap": "Beatmap",
+    "noPlayer": "osu! has no player {who}."
+  },
+  "info": {
+    "website": "Website",
+    "commands": "Commands",
+    "dashboard": "Dashboard",
+    "support": "Support",
+    "source": "Source"
+  },
+  "poolMe": {
+    "played": "played {played} of {total}"
+  },
+  "session": {
+    "firstPass": "first pass after {count, plural, one {# fail} other {# fails}}",
+    "bestOf": "best of {count}",
+    "bestWas": "best was {accuracy}%, {count, plural, one {# try} other {# tries}} ago"
+  }
+}

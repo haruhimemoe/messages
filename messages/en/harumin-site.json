@@ -155,5 +155,93 @@
   },
   "legal": {
     "lead": "The terms, and what harumin keeps and why."
+  },
+  "cards": {
+    "bbCard": {
+      "bbHaruhimeMoe": "bb.haruhime.moe",
+      "bbcodeTemplate": "BBCode template",
+      "anOsuBbcodeTemplate": "An osu! BBCode template. Open it to preview, copy or remix."
+    },
+    "compareCard": {
+      "globalRank": "Global rank",
+      "topPlay": "Top play",
+      "playCount": "Play count",
+      "playTime": "Play time",
+      "maxCombo": "Max combo"
+    },
+    "infoCard": {
+      "about": "About",
+      "servers": "Servers",
+      "uptime": "Uptime",
+      "ping": "Ping",
+      "haruminVersion": "harumin {version}",
+      "anOsuBotFrom": "An osu! bot from haruhime.moe, for players, mappers and tournament hosts."
+    },
+    "inviteCard": {
+      "addToAServer": "Add to a server",
+      "servers": "Servers",
+      "profilesScoresMapsMatch": "Profiles, scores, maps, match costs and pools, in your osu! server.",
+      "settingsLiveOnThe": "Settings live on the dashboard"
+    },
+    "leaderboardCard": {
+      "noScores": "No scores.",
+      "globalLeaderboard": "Global leaderboard",
+      "globalTop100": "Global top 100"
+    },
+    "linkCard": {
+      "linked": "Linked",
+      "notLinked": "Not linked",
+      "linkYourOsuAccount": "Link your osu! account",
+      "commandsUseThisAccount": "Commands use this account when you leave the player empty.",
+      "signInWithOsu": "Sign in with osu! on haruhime.moe, then link Discord there."
+    },
+    "mapCard": {
+      "length": "Length",
+      "bpm": "BPM",
+      "maxCombo": "Max combo"
+    },
+    "matchCostCard": {
+      "matchCosts": "Match costs",
+      "noCompletedGamesYet": "No completed games yet."
+    },
+    "parts": {
+      "harumin": "harumin"
+    },
+    "poolCard": {
+      "contentRules": "Content rules",
+      "pastedPool": "Pasted pool",
+      "draftFromTopPlays": "Draft from top plays",
+      "yourScores": "Your scores",
+      "noMaps": "No maps."
+    },
+    "profileCard": {
+      "accuracy": "Accuracy",
+      "level": "Level",
+      "plays": "Plays",
+      "playTime": "Play time",
+      "maxCombo": "Max combo",
+      "favoriteTitle": "Favorite: {title}"
+    },
+    "scoreCard": {
+      "accuracy": "Accuracy",
+      "score": "Score",
+      "comboFc": "Combo · FC"
+    },
+    "scoreListCard": {
+      "nothingHere": "Nothing here."
+    },
+    "serverCard": {
+      "nobodyHereHasLinked": "Nobody here has linked an osu! account yet."
+    },
+    "simulateCard": {
+      "accuracy": "Accuracy",
+      "combo": "Combo",
+      "ifYouPlayedIt": "If you played it like this"
+    },
+    "tracksCard": {
+      "topPlayTracking": "Top play tracking",
+      "trackedPlayers": "Tracked players",
+      "nobodyYetTrackAdd": "Nobody yet. /track add posts a player's new top plays."
+    }
   }
 }

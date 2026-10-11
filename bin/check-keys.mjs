@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
  * @file bin/check-keys.mjs
- * @desc messages-check-keys <dir...>: finds next-intl translators in an app's source
+ * @desc messages-check-keys <dir...> [--scope <namespace>]: finds next-intl translators (and,
+ *       with --scope, harumin's scope() ones) in an app's source
  *       (`const t = await getTranslations("ns")`, `useTranslations("ns.sub")`, `uiLabels(...)`
  *       aside) and checks every literal key they're called with exists in the English catalogs
  *       of @haruhimemoe/messages. A template key (`features.${x}.title`) is checked up to its
@@ -15,7 +16,13 @@ import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 
 const CATALOGS = new URL("../dist/en/", import.meta.url);
-const dirs = process.argv.slice(2);
+// --scope <namespace>: also read `const t = scope("x")` translators (harumin's src/i18n.ts) as
+// keys under "<namespace>.x".
+const scopeAt = process.argv.indexOf("--scope");
+const scopeNamespace = scopeAt === -1 ? null : process.argv[scopeAt + 1];
+const dirs = process.argv
+  .slice(2)
+  .filter((arg, i, all) => arg !== "--scope" && all[i - 1] !== "--scope");
 if (dirs.length === 0) {
   console.error("usage: messages-check-keys <src dir> [more dirs]");
   process.exit(2);
@@ -56,7 +63,15 @@ const missing = [];
 let checked = 0;
 for (const file of files) {
   const source = readFileSync(file, "utf8");
-  for (const [, name, namespace] of source.matchAll(TRANSLATOR)) {
+  const found = [...source.matchAll(TRANSLATOR)].map(([, name, namespace]) => [name, namespace]);
+  if (scopeNamespace) {
+    for (const [, name, prefix] of source.matchAll(
+      /(?:const|let)\s+([A-Za-z_$][\w$]*)\s*=\s*scope\(\s*["'`]([^"'`]+)["'`]/g,
+    )) {
+      found.push([name, `${scopeNamespace}.${prefix}`]);
+    }
+  }
+  for (const [name, namespace] of found) {
     const call = new RegExp(
       `(?<![\\w$.])${name.replace(/\$/g, "\\$")}(?:\\.(?:rich|markup|raw|has))?\\(\\s*(["'\`])((?:(?!\\1).)*)\\1`,
       "g",

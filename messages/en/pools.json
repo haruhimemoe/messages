@@ -1,0 +1,731 @@
+{
+  "nav": {
+    "home": "Home",
+    "search": "Search",
+    "check": "Check a pool",
+    "submit": "Submit a pool",
+    "make": "Make a pool",
+    "yours": "Your pools",
+    "settings": "pools settings",
+    "data": "Data",
+    "poolData": "Pool data",
+    "mapData": "Map data",
+    "credits": "Credits"
+  },
+  "palette": {
+    "pools": "Pools",
+    "new": "New pool",
+    "newSub": "Start one from scratch, or copy a pool to build on",
+    "searchMaps": "Search maps",
+    "searchMapsSub": "Every osu! map played in a pool, or all of them",
+    "myPools": "My pools"
+  },
+  "footer": {
+    "finePrint": "Star ratings with mods come from the hinai mirror and can differ slightly from osu!'s. Not affiliated with or endorsed by ppy Pty Ltd or the osu! Tournament Committee. osu! is a trademark of ppy Pty Ltd."
+  },
+  "pages": {
+    "rootNotFound": {
+      "pageNotFound": "Page not found",
+      "thatPageDoesnT": "That page doesn't exist, or it moved.",
+      "backHome": "Back home"
+    },
+    "credits": {
+      "credits": "Credits",
+      "poolsIsBuiltOn": "pools is built on other people's work. This is where everything comes from.",
+      "poolData": "Pool data",
+      "mapDetails": "Map details",
+      "similarMaps": "Similar maps",
+      "contentRules": "Content rules",
+      "builtWith": "Built with"
+    },
+    "submit": {
+      "submitAPool": "Submit a pool",
+      "tournamentHostsAndCommunity": "Tournament hosts and community members can send pools. There's no form: post in Discord or send an email.",
+      "whereToSendIt": "Where to send it",
+      "whatToInclude": "What to include",
+      "theTournamentSName": "The tournament's name.",
+      "theRoundLikeQualifiers": "The round, like Qualifiers or Grand Finals.",
+      "theYearItWas": "The year it was played.",
+      "aLinkToThe": "A link to the tournament's forum post or sheet.",
+      "whoToCreditOn": "Who to credit on the pool's page: the tournament's hosts, or your name. If you'd\n              rather not be named, say so.",
+      "whatHappensNext": "What happens next",
+      "anAdminChecksEvery": "An admin checks every pool by hand before it appears. If its maps match a pool we\n            already have, you're added to that pool's sources instead of making a second copy."
+    },
+    "brand": {
+      "brand": "Brand",
+      "thePoolsNameLogos": "The pools name, logos, colors and type."
+    },
+    "admin": {
+      "admin": "Admin",
+      "packsSync": "Packs sync",
+      "builtPools": "Built pools",
+      "publicPages": "Public pages",
+      "imports": "Imports",
+      "signedInAsUsername": "Signed in as {username}",
+      "addAPool": "Add a pool",
+      "everyPool": "Every pool",
+      "packCleanup": "Pack cleanup",
+      "afterAnImportRefresh": "After an import, refresh them so the home page, the sitemap and llms.txt show it now.\n          Otherwise the home page catches up within the hour and the other two within a day."
+    },
+    "docsLayout": {
+      "docs": "Docs"
+    },
+    "docs": {
+      "docs": "Docs",
+      "forDevelopersThePools": "For developers: the pools API and how to use it.",
+      "searchTheDocs": "Search the docs"
+    },
+    "new": {
+      "signInFirst": "Sign in first",
+      "thatPoolIsnT": "That pool isn't there to start from.",
+      "makingAPoolNeeds": "Making a pool needs your osu! account. You'll come back here after signing in.",
+      "signInWithOsu": "Sign in with osu!"
+    },
+    "account": {
+      "poolsSettings": "pools settings",
+      "yourOsuAccount": "Your osu! account",
+      "yourPools": "Your pools",
+      "deleteMyPoolsData": "Delete my pools data",
+      "admin": "Admin",
+      "haruhimeMoeAccount": "haruhime.moe/account"
+    },
+    "legalLayout": {
+      "legal": "Legal"
+    },
+    "legal": {
+      "legal": "Legal",
+      "theTermsHowWe": "The terms, how we handle your data, and what pools is not."
+    },
+    "data": {
+      "data": "Data",
+      "whereThePoolsAnd": "Where the pools and map details on this site come from, and how to fix them when they're wrong.",
+      "poolData": "Pool data",
+      "poolsOnThisSite": "Pools on this site come from a few places:",
+      "tournamentHostsSendTheir": "Tournament hosts send their own pools.",
+      "communityMembersSendPools": "Community members send pools they played in or found.",
+      "morePartnersMayJoin": "More partners may join later. When two sources have the same maps, pools keeps one pool\n            with both of them. Each pool page names its sources.",
+      "poolsBuiltHereAre": "Pools built here are different: people make them with the builder, and they aren't past\n            tournament pools. A built pool that's unlisted or public and has maps gets a pack on\n            packs, under packs' haruhime pools account, crediting its owner and editors and kept in\n            step with the pool; the pack goes when the pool goes private or is deleted. Built pools\n            never count toward where a map was played before.",
+      "mapData": "Map data",
+      "aPoolSSlots": "A pool's slots show star rating, AR, OD, BPM and length under the slot's mods (HD, HR,\n            DT, EZ, HT, FL and forced custom mods; NM, FM and TB slots show no-mod values). Star\n            ratings, AR, OD and CS with mods come from the hinai mirror's precomputed values and can\n            differ slightly from osu!'s; BPM and length are worked out from the mod. A map the\n            mirror has no mod data for shows its no-mod rating, marked \"no mod data\". The map\n            browser shows the mirror's rating under the lens, marks AR, OD and CS it had to work out\n            \"no mod data\", and searches Qualified and Pending maps without mods.",
+      "whereAMapWas": "Where a map was played before comes from the pools on this site, so it only knows the\n            pools we have.",
+      "mapCoversAndPreview": "Map covers and preview clips load in your browser straight from osu!'s servers; pools\n            never passes them through its own. A slot's star range badge uses the same values as the\n            slot, so a map without mod data counts as unknown there.",
+      "contentRules": "Content rules",
+      "theCheckCanBe": "The check can be wrong. Its results are guidance, not rulings: the osu! Tournament\n            Committee decides. A map it couldn't read is marked as such, never passed.",
+      "corrections": "Corrections"
+    },
+    "adminPools": {
+      "everyPool": "Every pool",
+      "search": "Search",
+      "show": "Show",
+      "pages": "Pages",
+      "totalPools": "{total} pools",
+      "filter": "Filter",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "poolsIdHistory": {
+      "historyOfName": "History of {name}"
+    },
+    "adminPoolsNew": {
+      "addAPool": "Add a pool",
+      "aPoolATournament": "A pool a tournament's hosts or a community member sent. If its maps match a pool we have, the source joins that pool instead of making a second one.",
+      "pool": "Pool"
+    },
+    "adminPoolsId": {
+      "packSync": "Pack sync",
+      "edit": "Edit",
+      "badgedForTheWhole": "Badged, for the whole tournament"
+    }
+  },
+  "mapHistoryTable": {
+    "poolsThatUsedThis": "Pools that used this map, newest first",
+    "pool": "Pool",
+    "year": "Year",
+    "slot": "Slot",
+    "badged": "Badged",
+    "notKnown": "Not known"
+  },
+  "mapView": {
+    "details": "Details",
+    "tournamentHistory": "Tournament history",
+    "beatmapId": "Beatmap {id}",
+    "openOnOsu": "Open on osu!",
+    "downloadFromTheMirror": "Download from the mirror",
+    "noCurrentPoolUses": "No current pool uses this map.",
+    "setHost": "Set host",
+    "notKnown": "Not known",
+    "starsNoMod": "Stars (no mod)",
+    "unknownArtist": "Unknown artist"
+  },
+  "recentlyBuilt": {
+    "recentlyBuilt": "Recently built",
+    "builtByBuiltby": "Built by {builtBy}"
+  },
+  "mapSearchForm": {
+    "maps": "Maps",
+    "anyOsuMapTitle": "Any osu! map: title, artist, mapper, or a beatmap ID or link",
+    "searchMaps": "Search maps"
+  },
+  "homeAbout": {
+    "whatPoolsIs": "What pools is",
+    "questions": "Questions"
+  },
+  "homeScreen": {
+    "buildAnOsuTournament": "Build an osu! tournament mappool",
+    "searchMaps": "Search maps",
+    "searchPastPools": "Search past pools",
+    "pools": "Pools",
+    "tournamentRoundOrPool": "Tournament, round or pool name",
+    "recentlyAdded": "Recently added",
+    "whereTheyComeFrom": "where they come from",
+    "makeAPool": "Make a pool",
+    "searchPools": "Search pools",
+    "browseAndFilter": "Browse and filter",
+    "checkAPool": "Check a pool",
+    "submitAPool": "Submit a pool",
+    "noPools": "No pools yet.",
+    "counts": "{pools} pools · {maps} maps · "
+  },
+  "poolSlotTable": {
+    "thePoolSMaps": "The pool's maps, with values under each slot's mods",
+    "copyId": "Copy ID",
+    "copyBeatmapIdBeatmapid": "Copy beatmap ID {beatmapId}",
+    "noModData": "no mod data",
+    "slot": "Slot",
+    "map": "Map"
+  },
+  "poolView": {
+    "notes": "Notes",
+    "maps": "Maps",
+    "sources": "Sources",
+    "openInPacks": "Open in packs",
+    "startFromThisPool": "Start from this pool",
+    "thisPoolIsHidden": "This pool is hidden. Only admins see this preview."
+  },
+  "poolSources": {
+    "earlierVersionsOfThis": "Earlier versions of this pool came from:"
+  },
+  "builtPoolModeration": {
+    "delete": "Delete",
+    "itGoesForIts": "It goes for its owner and editors too, with its pack on packs. This can't be undone.",
+    "deleteForGood": "Delete for good",
+    "deleting": "Deleting…",
+    "deleteNameForGood": "Delete {name} for good?"
+  },
+  "badgedForm": {
+    "whichPools": "Which pools",
+    "badged": "Badged",
+    "everyYearOfThis": "Every year of this tournament",
+    "notKnown": "Not known",
+    "notBadged": "Not badged",
+    "setBadged": "Set badged"
+  },
+  "retrySyncButtons": {
+    "retrying": "Retrying…",
+    "retryFailedSyncs": "Retry failed syncs",
+    "retryFailedAndRejected": "Retry failed and rejected"
+  },
+  "importReportList": {
+    "noImportsYet": "No imports yet."
+  },
+  "retryPackCleanupButton": {
+    "retrying": "Retrying…",
+    "theRetryDidnT": "The retry didn't reach the server.",
+    "retryPackCleanup": "Retry pack cleanup"
+  },
+  "refreshPagesButton": {
+    "refreshing": "Refreshing…",
+    "theRefreshDidnT": "The refresh didn't reach the server.",
+    "refreshPublicPages": "Refresh public pages"
+  },
+  "addPoolForm": {
+    "sentBy": "Sent by",
+    "nameToCredit": "Name to credit",
+    "creditLink": "Credit link",
+    "optionalHttpsOnlyThe": "Optional, https only: the forum post, sheet or site they gave.",
+    "tournament": "Tournament",
+    "round": "Round",
+    "emptyForNone": "Empty for none.",
+    "year": "Year",
+    "emptyWhenItIsn": "Empty when it isn't known.",
+    "badgedTournament": "Badged tournament",
+    "notes": "Notes",
+    "maps": "Maps",
+    "aPacksLinkOr": "A packs link or pack key, or one map per line with its slot (NM1 129891, HD1 https://osu.ppy.sh/b/75), or bare beatmap IDs. A pack's /p/ link doesn't work: use its key or /k link.",
+    "fixTheFieldsMarked": "Fix the fields marked above.",
+    "thePoolWasnT": "The pool wasn't added: the request didn't reach the server.",
+    "theTournamentSHosts": "The tournament's hosts",
+    "aCommunityMember": "A community member",
+    "notKnown": "Not known",
+    "badged": "Badged",
+    "notBadged": "Not badged",
+    "addPool": "Add pool"
+  },
+  "poolEditForm": {
+    "tournament": "Tournament",
+    "round": "Round",
+    "emptyForNone": "Empty for none.",
+    "year": "Year",
+    "emptyWhenItIsn": "Empty when it isn't known.",
+    "notes": "Notes",
+    "hidden": "Hidden",
+    "offEveryPublicPage": "Off every public page, and unlisted on packs.",
+    "badgedTournament": "Badged tournament",
+    "theSaveDidnT": "The save didn't reach the server.",
+    "notKnown": "Not known",
+    "badged": "Badged",
+    "notBadged": "Not badged",
+    "save": "Save"
+  },
+  "adminBuiltPoolTable": {
+    "noUnlistedOrPublic": "No unlisted or public pool has been built yet.",
+    "hidden": "hidden"
+  },
+  "adminPoolTable": {
+    "pool": "Pool",
+    "tournament": "Tournament",
+    "marks": "Marks",
+    "pack": "Pack"
+  },
+  "statusChips": {
+    "status": "Status"
+  },
+  "allMapFilterPanel": {
+    "filterMaps": "Filter maps",
+    "search": "Search",
+    "titleArtistOrMapper": "Title, artist or mapper",
+    "status": "Status",
+    "explicit": "Explicit",
+    "showExplicitMaps": "Show explicit maps",
+    "starsNoMod": "Stars (no mod)",
+    "starRatingWithoutMods": "Star rating without mods"
+  },
+  "searchDefault": {
+    "commonSearches": "Common searches",
+    "latestPastPools": "Latest past pools"
+  },
+  "poolFilterPanel": {
+    "filterPools": "Filter pools",
+    "pools": "Pools",
+    "search": "Search",
+    "tournamentRoundOrPool": "Tournament, round or pool name",
+    "year": "Year",
+    "badged": "Badged",
+    "starsNoMod": "Stars (no mod)",
+    "starRatingWithoutMods": "Star rating without mods",
+    "maps": "Maps",
+    "numberOfMaps": "Number of maps",
+    "hasMap": "Has map",
+    "beatmapIdOrLink": "Beatmap ID or link",
+    "sort": "Sort",
+    "sortPools": "Sort pools"
+  },
+  "searchScreen": {
+    "whatToSearch": "What to search",
+    "nothingMatchesTryFewer": "Nothing matches. Try fewer filters.",
+    "searchMapsPlayedIn": "Search maps played in pools",
+    "pagePage": "Page {page}",
+    "loading": "Loading…"
+  },
+  "allMapResultList": {
+    "poolHistoryUnavailable": "Pool history unavailable",
+    "notPlayedInA": "Not played in a pool yet",
+    "unranked": "Unranked",
+    "checkFirst": "Check first",
+    "playedIn": "Played in {count, plural, one {# pool} other {# pools}}"
+  },
+  "mapScopeSwitch": {
+    "whichMaps": "Which maps"
+  },
+  "mapFilterPanel": {
+    "filterMaps": "Filter maps",
+    "search": "Search",
+    "titleArtistSetHost": "Title, artist, set host or difficulty",
+    "playedAs": "Played as",
+    "sort": "Sort",
+    "sortMaps": "Sort maps",
+    "starsNoMod": "Stars (no mod)",
+    "starRatingWithoutMods": "Star rating without mods",
+    "approachRate": "Approach rate",
+    "overallDifficulty": "Overall difficulty",
+    "circleSize": "Circle size",
+    "timesUsed": "Times used",
+    "lastUsed": "Last used",
+    "lastUsedYear": "Last used year"
+  },
+  "revertButton": {
+    "restoreThisVersion": "Restore this version"
+  },
+  "historyVisibilityForm": {
+    "saved": "Saved.",
+    "ownerAndEditors": "Owner and editors",
+    "anyoneWhoCanSee": "Anyone who can see the pool"
+  },
+  "historyTable": {
+    "versions": "Versions",
+    "when": "When",
+    "who": "Who",
+    "what": "What",
+    "changes": "Changes",
+    "olderVersions": "Older versions"
+  },
+  "changeList": {
+    "changesInThisVersion": "Changes in this version",
+    "theFirstSavedVersion": "The first saved version.",
+    "nothingAPersonWould": "Nothing a person would see changed."
+  },
+  "deletePoolsDataForm": {
+    "deleteMyPoolsData": "Delete my pools data",
+    "deleteYourPoolsData": "Delete your pools data?",
+    "deleteForGood": "Delete for good",
+    "deleting": "Deleting…",
+    "couldnTReachPools": "Couldn't reach pools. Nothing was deleted.",
+    "deletingFailedStatus": "Deleting failed ({status})."
+  },
+  "apiKeySection": {
+    "apiKey": "API key",
+    "yourNewApiKey": "Your new API key",
+    "keyCopied": "Key copied.",
+    "couldnTCopySelect": "Couldn't copy. Select the key and copy it by hand.",
+    "regenerate": "Regenerate",
+    "yourCurrentKeyStops": "Your current key stops working right away.",
+    "keepIt": "Keep it",
+    "yesRegenerate": "Yes, regenerate",
+    "revoke": "Revoke",
+    "revokeThisKeyAnything": "Revoke this key? Anything using it stops working right away.",
+    "yesRevoke": "Yes, revoke",
+    "apiKeyCreatedCopy": "API key created. Copy it now; it won't be shown again.",
+    "apiKeyRevoked": "API key revoked.",
+    "keySaved": "Key saved.",
+    "readTheApiDocs": "Read the API docs",
+    "copyYourKeyNow": "Copy your key now. You won't see it again.",
+    "iVeSavedIt": "I've saved it",
+    "createApiKey": "Create API key",
+    "lastUsedLastusedat": "Last used {lastUsedAt}.",
+    "notUsedYet": "Not used yet."
+  },
+  "yourPools": {
+    "yours": "Yours",
+    "youEdit": "You edit",
+    "editName": "Edit {name}",
+    "makeAPool": "Make a pool",
+    "youHavenTMade": "You haven't made a pool yet.",
+    "edit": "Edit"
+  },
+  "customBucketForm": {
+    "slotCode": "Slot code",
+    "n1To12Letters": "1 to 12 letters and digits, like EX or HDHR.",
+    "playedWith": "Played with",
+    "forcedMods": "Forced mods",
+    "freemod": "Freemod",
+    "noMods": "No mods",
+    "addSlot": "Add slot",
+    "thatFailsTheContent": "That fails the content filter."
+  },
+  "newPoolForm": {
+    "template": "Template",
+    "setsHowManyMaps": "Sets how many maps each slot should hold. It adds no maps, and you can change the counts.",
+    "thatDraftLinkDidn": "That draft link didn't open.",
+    "likeSpringCup2026": "Like Spring Cup 2026 Qualifiers. You can change it later.",
+    "optional": "Optional.",
+    "aYearIsA": "A year is a whole number.",
+    "makingIt": "Making it…",
+    "makeThePool": "Make the pool"
+  },
+  "addAsCandidate": {
+    "candidateFor": "Candidate for",
+    "addAsCandidateVersion": "Add as candidate: {version}",
+    "addVersionAsA": "Add {version} as a candidate",
+    "add": "Add",
+    "cancel": "Cancel",
+    "addAsCandidate": "Add as candidate"
+  },
+  "undoButton": {
+    "undo": "Undo"
+  },
+  "findSimilarButton": {
+    "findSimilarLabel": "Find similar: {label}",
+    "findSimilar": "Find similar"
+  },
+  "poolSummary": {
+    "starRangePerSlot": "Star range per slot (with its mods)",
+    "noMapsYet": "No maps yet.",
+    "sameBeatmapsetTwice": "Same beatmapset twice",
+    "noBeatmapsetIsIn": "No beatmapset is in two slots.",
+    "playedInPastPools": "Played in past pools",
+    "noneOfTheseMaps": "None of these maps were in a past pool."
+  },
+  "targetsForm": {
+    "slot": "Slot",
+    "maps": "Maps",
+    "lowestStars": "Lowest stars",
+    "optionalLike58": "Optional, like 5.8.",
+    "highestStars": "Highest stars",
+    "optionalLike63": "Optional, like 6.3.",
+    "howManyMapsEach": "How many maps each slot should hold, and the star range they should sit in (under the slot's\n        mods). The maps pane shows the gaps.",
+    "saveTarget": "Save target"
+  },
+  "saveState": {
+    "dismiss": "Dismiss",
+    "saving": "Saving…",
+    "allChangesSaved": "All changes saved."
+  },
+  "bucketSection": {
+    "removeSlotCode": "Remove slot {code}",
+    "findMapsForCode": "Find maps for {code}",
+    "removeSlot": "Remove slot",
+    "findMaps": "Find maps"
+  },
+  "ownerSettings": {
+    "ownerSettings": "Owner settings",
+    "handThisPoolTo": "Hand this pool to an editor",
+    "deleteThisPool": "Delete this pool"
+  },
+  "browseSetCard": {
+    "poolHistoryUnavailable": "Pool history unavailable",
+    "notPlayedInA": "Not played in a past pool",
+    "unranked": "Unranked",
+    "checkFirst": "Check first",
+    "noModData": "(no mod data)",
+    "playedIn": "Played in {count, plural, one {# past pool} other {# past pools}}"
+  },
+  "contentRulesCheck": {
+    "result": "Result",
+    "checksEachMapAgainst": "Checks each map against the content rules for officially supported tournaments.",
+    "contentUsagePermissions": "content usage permissions",
+    "officialSupport": "official support",
+    "osuMappoolComplianceProject": "osu! Mappool Compliance project",
+    "checkAgain": "Check again",
+    "checkTheMaps": "Check the maps",
+    "checking": "Checking…",
+    "thePoolChangedSince": "The pool changed since this check."
+  },
+  "candidateRow": {
+    "promoteNameToPick": "Promote {name} to pick",
+    "removeName": "Remove {name}",
+    "promote": "Promote",
+    "remove": "Remove",
+    "takeBackYourVote": "Take back your vote for",
+    "voteFor": "Vote for"
+  },
+  "browseResults": {
+    "mapPages": "Map pages",
+    "retry": "Retry",
+    "loadingMaps": "Loading maps…",
+    "noMapsOnThis": "No maps on this page match. Try fewer filters or another lens."
+  },
+  "exportPanel": {
+    "copyBeatmapIds": "Copy beatmap IDs",
+    "copyMpLines": "Copy !mp lines",
+    "addMapsToExport": "Add maps to export them.",
+    "theMpLinesSet": "The !mp lines set each map for osu!standard, then its slot's mods (None, the forced mods, or\n        Freemod), ready to paste into a tournament room one at a time.",
+    "downloadCsv": "Download CSV"
+  },
+  "yourCandidates": {
+    "searchYourCandidates": "Search your candidates",
+    "mapMapperPoolOr": "Map, mapper, pool or note.",
+    "fromSlot": "From slot",
+    "candidatePages": "Candidate pages",
+    "anySlot": "Any slot",
+    "loading": "Loading…"
+  },
+  "browseRanges": {
+    "nameUnderLens": "{name} under {lens}"
+  },
+  "mapBrowserPane": {
+    "source": "Source",
+    "findMaps": "Find maps",
+    "searching": "Searching…"
+  },
+  "browseFilters": {
+    "filters": "Filters",
+    "modLens": "Mod lens",
+    "valuesUnder": "Values under",
+    "search": "Search",
+    "titleArtistOrMapper": "Title, artist or mapper",
+    "status": "Status",
+    "sort": "Sort",
+    "order": "Order",
+    "hide": "Hide",
+    "hideMapsInThis": "Hide maps in this pool",
+    "hideMapsPlayedIn": "Hide maps played in past pools",
+    "explicit": "Explicit",
+    "showExplicitMaps": "Show explicit maps"
+  },
+  "addEditorForm": {
+    "addAnEditor": "Add an editor",
+    "aPoolCanHave": "A pool can have at most {EDITORS} editors.",
+    "theirOsuUsernameThey": "Their osu! username. They can change the maps and details, not who sees the pool.",
+    "adding": "Adding…",
+    "addEditor": "Add editor"
+  },
+  "transferOwnerForm": {
+    "newOwner": "New owner",
+    "handThePoolOver": "Hand the pool over",
+    "theyGetEveryOwner": "They get every owner setting, and you stay on as an editor. Only they can give it back.",
+    "handItOver": "Hand it over",
+    "handingOver": "Handing over…",
+    "handThisPoolTo": "Hand this pool to {editor}?",
+    "typeNameToHand": "Type {name} to hand it over"
+  },
+  "addToPool": {
+    "slot": "Slot",
+    "chooseSlotForVersion": "Choose slot for {version}",
+    "noSlot": "No slot",
+    "add": "Add",
+    "cancel": "Cancel",
+    "chooseSlot": "Choose slot",
+    "inThisPoolVersion": "In this pool: {version}",
+    "addVersionChooseA": "Add {version}: choose a slot",
+    "addToDefaultbucketVersion": "Add to {defaultBucket}: {version}",
+    "inThisPool": "In this pool",
+    "addToDefaultbucket": "Add to {defaultBucket}"
+  },
+  "pasteBox": {
+    "pasteMaps": "Paste maps",
+    "slotLinesLikeNm1": "Slot lines like NM1 129891, or beatmap IDs and links. Lines starting with # are skipped.",
+    "whatThePasteDoes": "What the paste does",
+    "addToThePool": "Add to the pool (a slot already there takes the pasted map)",
+    "replaceEveryMapIn": "Replace every map in the pool",
+    "theseLinesCouldnT": "These lines couldn't be read:"
+  },
+  "detailsForm": {
+    "name": "Name",
+    "tournament": "Tournament",
+    "emptyForNone": "Empty for none.",
+    "round": "Round",
+    "year": "Year",
+    "notes": "Notes",
+    "aYearIsA": "A year is a whole number.",
+    "invalid": "That isn't valid."
+  },
+  "targetSummary": {
+    "targetsShortOfMaps": "Targets short of maps",
+    "everySlotHasThe": "Every slot has the maps its target asks for.",
+    "mapsOutsideTheirStar": "Maps outside their star range",
+    "everyMapWithKnown": "Every map with known stars is in its slot's range."
+  },
+  "slotNote": {
+    "noteForLabel": "Note for {label}",
+    "upToLengthCharacters": "Up to {LENGTH} characters, like \"jump aim check\".",
+    "saveNoteForLabel": "Save note for {label}",
+    "save": "Save",
+    "cancel": "Cancel",
+    "thatNoteCanT": "That note can't be saved.",
+    "editNoteForLabel": "Edit note for {label}",
+    "addNoteToLabel": "Add note to {label}",
+    "editNote": "Edit note",
+    "addNote": "Add note"
+  },
+  "builtSlotList": {
+    "noMapsYet": "No maps yet."
+  },
+  "packPanel": {
+    "openThePackOn": "Open the pack on packs",
+    "updating": "Updating…",
+    "updatePackNow": "Update pack now"
+  },
+  "builtPoolView": {
+    "notes": "Notes",
+    "builtBy": "Built by",
+    "maps": "Maps",
+    "summary": "Summary",
+    "export": "Export",
+    "downloadOnPacks": "Download on packs",
+    "edit": "Edit",
+    "history": "History",
+    "startFromThisPool": "Start from this pool",
+    "checkAgainstTheContent": "Check against the content rules"
+  },
+  "recentChanges": {
+    "recentChangesDidnT": "Recent changes didn't load; this is the last list.",
+    "noChangesYet": "No changes yet.",
+    "recentChangesDidnT2": "Recent changes didn't load.",
+    "loading": "Loading…",
+    "fullHistory": "Full history"
+  },
+  "emptySlotRow": {
+    "noPickYetPromote": "No pick yet. Promote a candidate or drop one here."
+  },
+  "poolEditor": {
+    "details": "Details",
+    "maps": "Maps",
+    "pasteAPool": "Paste a pool",
+    "targets": "Targets",
+    "customSlots": "Custom slots",
+    "summary": "Summary",
+    "recentChanges": "Recent changes",
+    "export": "Export",
+    "editors": "Editors",
+    "packOnPacks": "Pack on packs",
+    "viewThePoolS": "View the pool's page",
+    "checkAgainstTheContent": "Check against the content rules",
+    "youOwnThisPool": "You own this pool.",
+    "youEditThisPool": "You edit this pool."
+  },
+  "visibilityForm": {
+    "whoCanSeeThis": "Who can see this pool",
+    "saveWhoCanSee": "Save who can see it",
+    "savedLabel": "Saved: {label}."
+  },
+  "deletePoolForm": {
+    "deleteThisPool": "Delete this pool",
+    "thisDeletesThePool": "This deletes the pool for you and everyone who edits it. It can't be undone.",
+    "deleteForGood": "Delete for good",
+    "deleting": "Deleting…",
+    "deleteName": "Delete {name}?",
+    "backToYourPools": "Back to your pools",
+    "thePoolIsDeleted": "The pool is deleted. {done}"
+  },
+  "similarMaps": {
+    "backToSearch": "Back to search",
+    "retry": "Retry",
+    "findingSimilarMaps": "Finding similar maps…",
+    "underLens": "Under {lens}",
+    "noMod": "no mod"
+  },
+  "slotRow": {
+    "moveLabelTo": "Move {label} to",
+    "demoteLabelSPick": "Demote {label}'s pick to a candidate",
+    "removeLabel": "Remove {label}",
+    "moveTo": "Move to…",
+    "demote": "Demote",
+    "remove": "Remove",
+    "move": "Move",
+    "moveLabelToCode": "Move {label} to {code}",
+    "moveLabel": "Move {label}"
+  },
+  "editorsPanel": {
+    "remove": "Remove",
+    "removing": "Removing…",
+    "removeUsernameAsAn": "Remove {username} as an editor?",
+    "noEditorsYet": "No editors yet.",
+    "leaveThisPool": "Leave this pool",
+    "removeUsernameAsAn2": "Remove {username} as an editor"
+  },
+  "checkScreen": {
+    "checkAPool": "Check a pool",
+    "pasteBeatmapIdsOr": "Paste beatmap IDs or links, a pool (a slot and a map on each line), or a pack key. Each map is checked against the content rules for officially supported tournaments.",
+    "mapsToCheck": "Maps to check",
+    "aPackKeyIs": "A pack key is read first, then slot lines like NM1 129891, then bare IDs and links. Up to 64 maps.",
+    "check": "Check",
+    "checking": "Checking…",
+    "checkAgain": "Check again",
+    "contentUsagePermissions": "content usage permissions",
+    "officialSupport": "official support",
+    "osuMappoolComplianceProject": "osu! Mappool Compliance project"
+  },
+  "checkResults": {
+    "eachMapSVerdict": "Each map's verdict and where pools used it",
+    "slot": "Slot",
+    "map": "Map",
+    "verdict": "Verdict",
+    "inPools": "In pools",
+    "mapI": "Map {i}",
+    "beatmapBeatmapid": "Beatmap {beatmapId}"
+  },
+  "poolResultList": {
+    "builtOnPools": "Built on pools",
+    "builtByOwner": "Built by {owner}"
+  }
+}

@@ -54,7 +54,7 @@ Messages use [ICU message syntax](https://unicode-org.github.io/icu/userguide/fo
 
 ## Checking an app's keys
 
-`messages-check-keys <dir>` scans an app's source for next-intl translators (`getTranslations("ns")`, `useTranslations("ns.sub")`) and fails when a literal key they're called with isn't in the English catalogs. A template key is checked up to its first placeholder.
+`messages-check-keys <dir>` scans an app's source for next-intl translators (`getTranslations("ns")`, `useTranslations("ns.sub")`) and fails when a literal key they're called with isn't in the English catalogs. A template key is checked up to its first placeholder. `--scope harumin-bot` also reads harumin's `const t = scope("render")` translators as keys under `harumin-bot.render`.
 
 ```sh
 bunx messages-check-keys src

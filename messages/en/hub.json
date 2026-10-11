@@ -1,0 +1,212 @@
+{
+  "nav": {
+    "soon": "soon",
+    "tools": "Tools",
+    "toolsNav": "Tools",
+    "account": "Account",
+    "home": "{name} home"
+  },
+  "pages": {
+    "thanks": {
+      "thanks": "Thanks",
+      "theseToolsLeanOn": "these tools lean on other people's work, feedback, encouragement, and so much more. thank you."
+    },
+    "libraries": {
+      "libraries": "Libraries",
+      "githubComHaruhimemoe": "github.com/haruhimemoe",
+      "haruhimemoe": "@haruhimemoe"
+    },
+    "changelog": {
+      "changelog": "Changelog",
+      "whatChangedInThe": "What changed in the tools, this site, the packages and the Claude plugin, newest release first."
+    },
+    "brand": {
+      "brand": "Brand",
+      "writeToMe": "write to me"
+    },
+    "ui": {
+      "ui": "UI",
+      "copyInstallCommand": "Copy install command",
+      "onThisPage": "On this page",
+      "versionVersionLicenseLicense": "Version {version}, {license} license. Install: {INSTALL}",
+      "haruhimemoeUi": "@haruhimemoe/ui",
+      "github": "GitHub",
+      "librariesUi": "/libraries/ui"
+    },
+    "contact": {
+      "contact": "Contact",
+      "emailIsTheEasiest": "email is the easiest way to reach me.",
+      "email": "Email",
+      "discord": "Discord",
+      "github": "GitHub",
+      "security": "Security",
+      "sendAnEmail": "Send an email"
+    },
+    "root": {
+      "osuToolsForPlayers": "osu! tools for players, mappers and tournament hosts",
+      "hellosuHaruhimeHereThese": "hellosu, haruhime here. these are free tools i make for osu!: packs turns a mappool into one download, pools is for building and looking up tournament pools, bb is a BBCode editor for userpages and forum posts, harumin is an osu! bot for your Discord server, and tourney runs a tournament from registration to results.",
+      "tools": "Tools"
+    },
+    "rootNotFound": {
+      "pageNotFound": "Page not found",
+      "thatPageDoesnT": "That page doesn't exist, or it moved.",
+      "backHome": "Back home"
+    },
+    "signin": {
+      "signIn": "Sign in",
+      "oneOsuSignIn": "One osu! sign-in for packs, pools and bb. Browsing works without an account.",
+      "privacyPage": "privacy page"
+    },
+    "account": {
+      "account": "Account",
+      "yourOsuAccount": "Your osu! account",
+      "timeDisplay": "Time display",
+      "connectedApps": "Connected apps",
+      "yourData": "Your data",
+      "deleteMyAccount": "Delete my account",
+      "everyHaruhimeAppShows": "Every haruhime app shows dates and times with these. Leave Time zone on \"Use my browser's\"\n          to match where you are; Hour format defaults to 12-hour unless you pick otherwise.",
+      "oneHaruhimeAccountSigns": "One haruhime account signs you in to each of these.",
+      "discord": "Discord",
+      "connect": "Connect",
+      "everythingHaruhimeAndIts": "Everything haruhime and its apps keep about you, as one JSON file.",
+      "downloadMyData": "Download my data",
+      "linkedAs": "Linked as {name}.",
+      "notLinked": "Not linked.",
+      "deletes": "This deletes your haruhime account and signs you out of packs, pools and bb on every device. It also deletes what you made inside each app. It can't be undone."
+    },
+    "legalLayout": {
+      "legal": "Legal"
+    },
+    "legal": {
+      "legal": "Legal",
+      "theTermsThePrivacy": "The terms, the privacy policy and what this site collects."
+    },
+    "changelogSlug": {
+      "versions": "Versions",
+      "labelChangelog": "{label} changelog",
+      "everyLabelReleaseNewest": "Every {label} release, newest first."
+    },
+    "changelogKindKind": {
+      "changelogTolowercase": "Changelog: {toLowerCase}"
+    },
+    "librariesName": {
+      "libraries": "Libraries",
+      "theReadmeOnGithub": "the README on GitHub"
+    }
+  },
+  "footer": {
+    "finePrint": "Not affiliated with or endorsed by ppy Pty Ltd. osu! is a trademark of ppy Pty Ltd."
+  },
+  "palette": {
+    "openDocs": "Open {name} docs",
+    "libraries": "Libraries",
+    "openChangelog": "Open {name} changelog",
+    "changelog": "Changelog"
+  },
+  "egcBanner": {
+    "evergreencupOrg": "evergreencup.org"
+  },
+  "haruminFeature": {
+    "sampleDiscordMessagesWith": "Sample Discord messages with harumin",
+    "newTheOsuDiscord": "New: the osu! Discord bot",
+    "profilesRecentAndTop": "Profiles, recent and top plays with pp, and map cards for your server. Link a map once and\n          every command knows which one you mean.",
+    "tourneyChat": "#tourney-chat",
+    "haruhimeFirstComboExpert": "haruhime - first combo [Expert]",
+    "n29840pp": "298.40pp",
+    "harumin": "harumin",
+    "addHarumin": "Add harumin",
+    "seeTheCommands": "See the commands",
+    "noMapGivenThe": "No map given. The channel remembered it."
+  },
+  "changelogHistory": {
+    "noReleasesYet": "No releases yet.",
+    "notReleasedYet": "Not released yet",
+    "onMainWaitingFor": "On main, waiting for the next release."
+  },
+  "releaseDate": {
+    "noDate": "No date"
+  },
+  "changelogLayout": {
+    "changelogs": "Changelogs"
+  },
+  "releaseNotes": {
+    "noNotesForThis": "No notes for this release."
+  },
+  "changelogFeed": {
+    "noReleasesYet": "No releases yet.",
+    "olderReleasesAreOn": "Older releases are on each repo's own changelog page."
+  },
+  "breadcrumbs": {
+    "breadcrumb": "Breadcrumb"
+  },
+  "productFamily": {
+    "productFamily": "Product family",
+    "eachToolHasIts": "Each tool has its own icon and hue. The rest of its palette follows from the hue, the same\n        way as the colors above."
+  },
+  "readmeBanners": {
+    "readmeBanners": "README banners",
+    "repoBannerTagline": "{repo} banner: {tagline}",
+    "downloadRepoBannerFor": "Download {repo} banner for dark backgrounds",
+    "downloadRepoBannerFor2": "Download {repo} banner for light backgrounds",
+    "oneForTheTop": "One for the top of each haruhimemoe repo's README. pools uses its own blue and bb its own\n        violet; everything else, packs included, uses haruhime's pink.",
+    "dark": "dark",
+    "light": "light"
+  },
+  "preferencesForm": {
+    "timeZone": "Time zone",
+    "hourFormat": "Hour format",
+    "couldnTSaveTry": "Couldn't save. Try again.",
+    "useMyBrowserS": "Use my browser's",
+    "save": "Save",
+    "cycles": {
+      "default": "Default (12-hour)",
+      "h12": "12-hour",
+      "h23": "24-hour"
+    },
+    "saved": "Saved.",
+    "preview": "Preview: {time}",
+    "loading": "loading"
+  },
+  "sessionsList": {
+    "whereYouReSigned": "Where you're signed in",
+    "signOut": "Sign out",
+    "keepIt": "Keep it",
+    "yesSignOut": "Yes, sign out",
+    "signOutEverywhereElse": "Sign out everywhere else",
+    "everyOtherDeviceIs": "Every other device is signed out of packs, pools, bb and this site.",
+    "keepThem": "Keep them",
+    "yesSignThemOut": "Yes, sign them out",
+    "signOutDevice": "Sign out {device}?",
+    "signedOutOfThat": "Signed out of that device.",
+    "signedOutEverywhereElse": "Signed out everywhere else.",
+    "thisDevice": "This device",
+    "failed": "That didn't work ({status})."
+  },
+  "discordUnlink": {
+    "couldnTUnlinkTry": "Couldn't unlink. Try again.",
+    "unlink": "Unlink",
+    "unlinked": "Unlinked."
+  },
+  "pageTitles": {
+    "home": "Home",
+    "thanks": "Thanks",
+    "libraries": "Libraries",
+    "changelog": "Changelog",
+    "brand": "Brand",
+    "ui": "UI",
+    "contact": "Contact"
+  },
+  "changelog": {
+    "title": "Changelog",
+    "allReleases": "All releases",
+    "notReleased": "Not released yet",
+    "libraryPage": "Library page",
+    "releases": "Releases",
+    "kindTitle": "Changelog: {kind}"
+  },
+  "libraries": {
+    "version": "Version {version}",
+    "all": "All libraries",
+    "title": "Libraries"
+  }
+}
