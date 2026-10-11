@@ -165,7 +165,9 @@
       "gradient": "Gradient",
       "flag": "Flag",
       "players": "Players",
-      "pool": "Pool"
+      "pool": "Pool",
+      "markdown": "Markdown",
+      "import": "Import"
     },
     "items": {
       "bold": "Bold",
@@ -523,5 +525,50 @@
   "brand": {
     "title": "Brand",
     "lead": "The bb name, logos, colors and type."
+  },
+  "markdown": {
+    "label": "Markdown",
+    "field": "Markdown to convert",
+    "insert": "Insert as BBCode",
+    "replace": "Replace all",
+    "headingStyle": "## and smaller headings",
+    "headingStyles": {
+      "heading": "Heading",
+      "bold": "Bold text"
+    },
+    "nothingLost": "Converts with nothing lost.",
+    "dropped": "Lost in the conversion:",
+    "losses": {
+      "no-equivalent": "{count, plural, one {# piece} other {# pieces}} with no counterpart (text kept)",
+      "table": "{count, plural, one {# table} other {# tables}} (kept as a code block)",
+      "html": "{count, plural, one {# HTML tag} other {# HTML tags}} (kept as text)",
+      "heading-level": "{count, plural, one {# smaller heading} other {# smaller headings}} (osu! has one heading size)",
+      "footnote": "{count, plural, one {# footnote} other {# footnotes}}",
+      "reference-link-unresolved": "{count, plural, one {# link} other {# links}} with no definition"
+    },
+    "copy": "Copy as markdown",
+    "copied": "{count, plural, =0 {Copied as markdown.} one {Copied. # thing has no markdown form, marked in the editor.} other {Copied. # things have no markdown form, marked in the editor.}}",
+    "copyFallback": "Your browser blocked the clipboard. Copy it from here.",
+    "copyField": "The post as markdown",
+    "confirmTitle": "Replace the whole post?",
+    "confirmBody": "Everything in the editor is replaced. Undo (Ctrl+Z) brings it back.",
+    "confirm": "Replace"
+  },
+  "import": {
+    "label": "Import",
+    "field": "Forum link, profile link or username",
+    "note": "A forum post or someone's userpage, as the BBCode they wrote. For a post, a topic link with ?start= works best.",
+    "fetch": "Fetch",
+    "fetching": "Fetching…",
+    "invalid": "Paste an osu! forum link, a profile link, a username, or @ and an id.",
+    "failed": "The import failed",
+    "offline": "Couldn't reach bb. Check your connection and try again.",
+    "unreadable": "The answer wasn't readable. Try again.",
+    "chars": "{count, plural, one {# character} other {# characters}}",
+    "insert": "Insert",
+    "replace": "Replace all",
+    "confirmTitle": "Replace the whole post?",
+    "confirmBody": "Everything in the editor is replaced. Undo (Ctrl+Z) brings it back.",
+    "confirm": "Replace"
   }
 }
