@@ -1,0 +1,527 @@
+{
+  "nav": {
+    "editor": "Editor",
+    "templates": "Templates",
+    "collab": "Collab",
+    "docs": "Docs",
+    "newTemplate": "New template",
+    "myTemplates": "My templates",
+    "settings": "bb settings",
+    "collabMaker": "Collab maker",
+    "guides": "Guides"
+  },
+  "footer": {
+    "finePrint": "bb never hosts images: pictures in a preview load straight from where they're hosted. Not affiliated with or endorsed by ppy Pty Ltd. osu! is a trademark of ppy Pty Ltd."
+  },
+  "palette": {
+    "goTo": "Go to {title}",
+    "guides": "Guides",
+    "docs": "Docs",
+    "newTemplate": "New template",
+    "myTemplates": "My templates"
+  },
+  "apiKey": {
+    "title": "API key",
+    "lead": "Scripts and bots can use a key to call the bb API as you. Keep it secret.",
+    "docs": "Read the API docs",
+    "createFailed": "Creating the key failed",
+    "created": "API key created. Copy it now; it won't be shown again.",
+    "revokeFailed": "Revoking the key failed",
+    "revoked": "API key revoked.",
+    "saved": "Key saved.",
+    "copyNow": "Copy your key now. You won't see it again.",
+    "newKey": "Your new API key",
+    "copied": "Key copied.",
+    "copyFailed": "Couldn't copy. Select the key and copy it by hand.",
+    "savedIt": "I've saved it",
+    "create": "Create API key",
+    "createdOn": "Created {date}.",
+    "lastUsed": "Last used {date}.",
+    "notUsed": "Not used yet.",
+    "regenerate": "Regenerate",
+    "regenerateQuestion": "Your current key stops working right away.",
+    "keep": "Keep it",
+    "confirmRegenerate": "Yes, regenerate",
+    "revoke": "Revoke",
+    "revokeQuestion": "Revoke this key? Anything using it stops working right away.",
+    "confirmRevoke": "Yes, revoke"
+  },
+  "account": {
+    "title": "bb settings",
+    "admin": "Admin",
+    "myTemplates": "My templates",
+    "osuAccount": "Your osu! account",
+    "hubNote": "Your devices and deleting your haruhime account are on <link>haruhime.moe/account</link>.",
+    "deleteTitle": "Delete my bb data",
+    "deletes": "This deletes {count, plural, =0 {your API key} one {your template and your API key} other {all # of your templates and your API key}} from bb. Drafts saved in your browser stay there, and so does your haruhime account. It can't be undone.",
+    "delete": {
+      "trigger": "Delete my bb data",
+      "title": "Delete your bb data?",
+      "confirm": "Delete for good",
+      "pending": "Deleting…",
+      "done": "Your bb data is deleted.",
+      "unreachable": "Couldn't reach bb. Nothing was deleted.",
+      "failed": "Deleting failed ({status})."
+    }
+  },
+  "pool": {
+    "ref": {
+      "past": "That's a past pool. Only pools built on pools.haruhime.moe can be imported for now.",
+      "invalid": "Enter a pool's id, like b-abcd1234, or its pools.haruhime.moe link."
+    },
+    "failed": "The import failed",
+    "unreadable": "The pool's answer wasn't readable. Try again.",
+    "inserted": "Inserted {name}.",
+    "partial": "Inserted {name}. Some maps or star ratings couldn't be looked up and show as ?★; import again in a minute to fill them in.",
+    "offline": "The import couldn't reach bb. Check your connection.",
+    "label": "Pool",
+    "field": "Pool id or link",
+    "layout": "Layout",
+    "layouts": {
+      "boxes": "A box per bucket",
+      "headings": "Plain headings"
+    },
+    "note": "Public and unlisted pools built on pools.haruhime.moe. Stars are under each bucket's mods; free mod buckets show no-mod stars.",
+    "importing": "Importing...",
+    "import": "Import pool"
+  },
+  "gradient": {
+    "label": "Gradient",
+    "sample": "Gradient text",
+    "text": "Text",
+    "colors": "Colors, first to last",
+    "color": "Color {n}",
+    "add": "Add color",
+    "removeLast": "Remove last",
+    "skipSpaces": "Skip spaces",
+    "skipHint": "Spaces get no color of their own, which saves characters.",
+    "cost": "The colors add {count, number} characters.",
+    "insert": "Insert gradient"
+  },
+  "color": {
+    "label": "Color",
+    "picker": "Picker",
+    "value": "Hex code or color name",
+    "invalid": "Use #rrggbb, #rgb or a color name in letters.",
+    "sample": "Sample text",
+    "names": "Color names osu! accepts",
+    "lowContrast": "Hard to read on osu!'s dark background: contrast {ratio}:1. Aim for {min}:1 or more.",
+    "contrast": "Contrast {ratio}:1 on osu!'s dark background.",
+    "unknown": "bb can't check this name's contrast. Look at it in the preview.",
+    "apply": "Color the selection"
+  },
+  "flag": {
+    "label": "Flag",
+    "country": "Country",
+    "placeholder": "Japan or JP",
+    "style": "Flag style",
+    "styles": {
+      "legacy": "Small (PNG)",
+      "modern": "Current (SVG)"
+    },
+    "svgNote": "SVG flags have no size of their own, so they fill the width of the page or box they're in. osu! also shows images through its own proxy, and bb can't check that it passes SVG. The small PNG flags are about a line of text high.",
+    "none": "No country matches \"{query}\".",
+    "name": "{name} ({code})"
+  },
+  "drafts": {
+    "opening": "Opening your drafts...",
+    "draft": "Draft",
+    "name": "Draft name",
+    "saveName": "Save name",
+    "new": "New draft",
+    "rename": "Rename",
+    "delete": "Delete",
+    "deleteQuestion": "Delete \"{name}\"?",
+    "deleteConfirm": "Delete draft",
+    "saved": "Drafts are saved in this browser.",
+    "notSaved": "This browser isn't saving drafts.",
+    "full": "You have {max} drafts: a new one replaces the oldest, \"{name}\"."
+  },
+  "players": {
+    "label": "Players",
+    "names": "osu! names, ids or profile links, one per line",
+    "count": "{count} of at most {max}",
+    "list": "List",
+    "listStyles": {
+      "numbered": "Numbered list",
+      "bullets": "Bullet list",
+      "lines": "Plain lines"
+    },
+    "flags": "Flags",
+    "flagStyles": {
+      "legacy": "Small flags",
+      "modern": "SVG flags",
+      "none": "No flags"
+    },
+    "lookingUp": "Looking up...",
+    "lookUp": "Look up and insert"
+  },
+  "toolbar": {
+    "formatting": "Formatting",
+    "size": "Size",
+    "shortcut": "{about} (Ctrl+{key} or Cmd+{key})",
+    "tools": {
+      "color": "Color",
+      "gradient": "Gradient",
+      "flag": "Flag",
+      "players": "Players",
+      "pool": "Pool"
+    },
+    "items": {
+      "bold": "Bold",
+      "italic": "Italic",
+      "underline": "Underline",
+      "strike": "Strikethrough",
+      "spoiler": "Spoiler",
+      "centre": "Align centre",
+      "left": "Align left",
+      "right": "Align right",
+      "heading": "Heading",
+      "box": "Box",
+      "spoilerbox": "Spoiler box",
+      "notice": "Notice",
+      "quote": "Quote",
+      "list": "List",
+      "code": "Code block",
+      "inline-code": "Inline code",
+      "link": "Link",
+      "image": "Image",
+      "profile": "Profile link"
+    }
+  },
+  "post": {
+    "for": "For",
+    "targets": {
+      "userpage": "Userpage (me!)",
+      "forum": "Forum post",
+      "beatmap": "Beatmap description"
+    },
+    "copy": "Copy BBCode",
+    "over": "This is {over, number} characters over the {limit, number} a {target, select, userpage {userpage} forum {forum post} other {beatmap description}} holds. osu! won't save it until it's shorter."
+  },
+  "preview": {
+    "size": "Preview size",
+    "fit": "Fit to pane ({percent}%)",
+    "actual": "Actual size",
+    "loading": "Loading the editor...",
+    "show": "Show",
+    "bbcode": "BBCode",
+    "preview": "Preview",
+    "fromTemplate": "The template's text is open as a new draft, \"{name}\".",
+    "empty": "The preview shows here as you type. New to osu! BBCode? The docs have every tag."
+  },
+  "kinds": {
+    "userpage": "Userpage",
+    "tournament": "Tournament",
+    "forum": "Forum post",
+    "beatmap": "Beatmap description",
+    "other": "Other"
+  },
+  "form": {
+    "reloaded": "Someone changed this template first. It's reloaded; your change wasn't saved.",
+    "saved": "Saved.",
+    "saveFailed": "Saving failed",
+    "offline": "Couldn't reach bb. Nothing was saved.",
+    "pulled": "Pulled.",
+    "bbcode": "BBCode",
+    "body": "Body",
+    "bodyHint": "Put a field's value anywhere with '{{key}}'.",
+    "fields": "Fields",
+    "saving": "Saving…",
+    "save": "Save changes",
+    "create": "Create template",
+    "details": "Details",
+    "name": "Name",
+    "description": "Description",
+    "for": "For",
+    "visibility": "Who sees it",
+    "hints": {
+      "private": "Only you can see it.",
+      "unlisted": "Anyone with the link can see it; it isn't in the gallery.",
+      "public": "Anyone can see it, and it's listed in the gallery."
+    }
+  },
+  "uses": "{count, plural, =0 {Not used yet} one {Used once} other {Used # times}}",
+  "row": {
+    "changed": "It changed elsewhere; this is how it is now.",
+    "offline": "Couldn't reach bb. Nothing changed.",
+    "deleteFailed": "Deleting failed",
+    "deleted": "Deleted {name}.",
+    "hidden": "Hidden by reports",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleteQuestion": "Delete {name}? This can't be undone.",
+    "deleting": "Deleting…"
+  },
+  "field": {
+    "key": "Key",
+    "keyHint": "Use it in the body as '{{'{key}'}}'.",
+    "label": "Label",
+    "kind": "Kind",
+    "default": "Default",
+    "required": "Required",
+    "remove": "Remove field {name}",
+    "none": "No fields. Add one, then put its key in the body as '{{key}}'.",
+    "undeclared": "The body uses {keys}, which no field declares.",
+    "addThem": "Add them as fields",
+    "unusable": "{keys} can't be a field key: start with a letter and use only letters, digits and _ (up to 32).",
+    "add": "Add field"
+  },
+  "upstream": {
+    "gone": "The template you copied isn't available any more.",
+    "changed": "{name} changed since you copied it ({count, plural, one {# change} other {# changes}}). Pull them in?",
+    "pulling": "Pulling…",
+    "pull": "Pull changes",
+    "conflicted": "That pull conflicted.",
+    "failed": "Pulling changes failed ({status}).",
+    "offline": "Couldn't reach bb. Nothing was pulled."
+  },
+  "lookup": {
+    "empty": "Paste at least one name or id.",
+    "tooMany": "That's {count} lines; look up at most {max} at a time.",
+    "failed": "The lookup failed",
+    "unreadable": "The lookup's answer wasn't readable. Try again.",
+    "offline": "The lookup couldn't reach bb. Check your connection and try again.",
+    "foundAll": "Found all {count}.",
+    "notFound": "osu! has no user for {count, plural, one {this line} other {these lines}}: <names></names>",
+    "unchecked": "Not looked up (bb's osu! lookups are used up for a minute), so left out: <names></names>. Try them again shortly."
+  },
+  "card": {
+    "builtIn": "Built in",
+    "byBb": "By bb",
+    "by": "By {name}"
+  },
+  "report": {
+    "sent": "Thanks. An admin will look at it.",
+    "failed": "Reporting failed",
+    "summary": "Report this template",
+    "offline": "Couldn't reach bb. Try again."
+  },
+  "fork": {
+    "failed": "Forking failed",
+    "failedDot": "Forking failed.",
+    "forking": "Forking…",
+    "fork": "Fork"
+  },
+  "gallery": {
+    "search": "Search templates",
+    "kind": "Kind",
+    "allKinds": "All kinds",
+    "sort": "Sort",
+    "sorts": {
+      "newest": "Newest",
+      "used": "Most used"
+    },
+    "submit": "Search"
+  },
+  "fill": {
+    "noStorage": "This browser won't let bb save the text for the editor. Copy it from the preview.",
+    "title": "Fill in",
+    "preview": "Preview",
+    "use": "Use in the editor",
+    "none": "This template has no fields to fill in.",
+    "missing": "Still to fill in: {fields}.",
+    "required": "{label} (required)",
+    "hints": {
+      "user": "An osu! username or user ID.",
+      "users": "One osu! username or user ID per line.",
+      "country": "A two-letter country code, like JP.",
+      "color": "A hex color like #ff66aa, or a color name."
+    }
+  },
+  "history": {
+    "revisions": {
+      "root": "Started",
+      "save": "Saved",
+      "autosave": "Autosaved",
+      "merge": "Saved (merged)",
+      "revert": "Restored",
+      "fork": "Copied",
+      "pull": "Pulled"
+    },
+    "privateTitle": "This history is private",
+    "privateBody": "Only the owner can see it.",
+    "empty": "No changes since history started.",
+    "revertQuestion": "Restore the template as it was here? It saves as a new change.",
+    "publicLabel": "Who can see this template's history",
+    "lines": {
+      "renamed": "Renamed to {name}",
+      "description": "Changed the description",
+      "kind": "Changed what it's for to {kind}",
+      "fieldAdded": "Added the field {label}",
+      "fieldRemoved": "Removed the field {label}",
+      "reordered": "Reordered fields",
+      "fieldChanged": "Changed the field {key}"
+    },
+    "bodyChanges": "Changes to the body",
+    "unchanged": "{count, plural, one {# unchanged line} other {# unchanged lines}}",
+    "inThisVersion": "Changes in this version",
+    "first": "The first saved version.",
+    "versions": "Versions",
+    "when": "When",
+    "who": "Who",
+    "what": "What",
+    "changes": "Changes",
+    "older": "Older versions",
+    "visibility": {
+      "private": "Only me",
+      "public": "Anyone who can see the template"
+    },
+    "saved": "Saved.",
+    "saveFailed": "Saving failed",
+    "restore": "Restore this version",
+    "restoreFailed": "Restoring failed"
+  },
+  "collab": {
+    "title": "osu! collab maker",
+    "lead": "Draw link regions over an image hosted anywhere and get the [imagemap] for your userpage or forum post. The image loads from its own host in your browser; bb never fetches or keeps it.",
+    "canvasHint": "Paste an image URL above to start.",
+    "drawHint": "Drag on the image to draw a region. Drag a region to move it, or its corners and edges to resize it. With a region focused, arrow keys move it (Shift for bigger steps) and Alt with arrows resizes it.",
+    "imageFailed": "That image didn't load. Check the URL opens as an image in a new tab; some hosts refuse to be shown on other sites.",
+    "httpImage": "This is an http link. Pages served over https, this one included, may refuse to show it, and it may not show on osu! either; use an https link if the host has one.",
+    "linkHint": "An osu! profile or any http(s) or mailto link, or # for none.",
+    "saved": "Your image and regions are saved in this browser as you work.",
+    "restored": "Your last collab is back from this browser's storage.",
+    "clear": "Clear",
+    "clearQuestion": "Clear the image and every region? This can't be undone.",
+    "result": "Result",
+    "notReady": "Your imagemap shows here once it's ready.",
+    "fixRegions": "Fix the regions marked in the list.",
+    "output": "Your imagemap",
+    "copy": "Copy BBCode",
+    "open": "Open in the editor",
+    "preview": "Preview",
+    "howTo": "How to make an osu! collab imagemap",
+    "guideNote": "The <link>imagemap guide</link> explains the format line by line.",
+    "steps": {
+      "url": {
+        "name": "Paste the banner's URL",
+        "text": "Host the banner anywhere that serves images over https and paste its address. It loads straight from that host; bb never keeps it."
+      },
+      "draw": {
+        "name": "Draw a region per person",
+        "text": "Drag over each face or name to draw its area, then give it a link (an osu! profile, any https link, or # for none) and a title. Link players fills them from a list of names."
+      },
+      "copy": {
+        "name": "Copy the [imagemap]",
+        "text": "Copy the BBCode and paste it into your userpage or forum post, or open it in the editor to check the preview first."
+      }
+    },
+    "importSummary": "Edit an imagemap you already have",
+    "importField": "Paste the whole [imagemap] block",
+    "importButton": "Edit this imagemap",
+    "importRefused": "osu! wouldn't accept this imagemap:",
+    "importLine": "Line {line}: {message}",
+    "badUrl": "Use an http:// or https:// link to the image, without spaces.",
+    "imageUrl": "Image URL",
+    "load": "Load image",
+    "linkPlayers": "Link players to regions",
+    "playerNames": "osu! names or ids, one per line, in region order",
+    "playerHint": "Region 1 gets the first player found, region 2 the next. {count} names for {regions} regions.",
+    "lookingUp": "Looking up...",
+    "linkButton": "Link players",
+    "noLink": "no link",
+    "region": "Region {number}",
+    "regionNamed": "Region {number}: {name}",
+    "yourCollab": "Your collab",
+    "regions": "Regions",
+    "regionsCount": "Regions ({count})",
+    "none": "No regions yet. Draw one on the image.",
+    "deleteRegion": "Delete region {number}",
+    "link": "Link",
+    "titleField": "Title (shown on hover)"
+  },
+  "tag": {
+    "block": "Block",
+    "inline": "Inline",
+    "oneLine": "One line only",
+    "raw": "Content shown as written",
+    "optionalArg": "Optional argument",
+    "requiredArg": "Needs an argument",
+    "alias": "Also [{alias}]",
+    "facts": "Facts",
+    "syntax": "Syntax",
+    "try": "Try it",
+    "example": "[{name}] example",
+    "gotchas": "Good to know"
+  },
+  "example": {
+    "label": "Example",
+    "edit": "{label} (edit me)",
+    "reset": "Reset",
+    "open": "Open in the editor",
+    "preview": "Preview"
+  },
+  "docs": {
+    "questions": "Questions"
+  },
+  "admin": {
+    "clearFailed": "Clearing failed",
+    "clearFailedDot": "Clearing failed.",
+    "cleared": "Cleared. It shows again.",
+    "clearing": "Clearing…",
+    "clear": "Clear reports",
+    "title": "Admin",
+    "lead": "Templates people reported since an admin last cleared them.",
+    "nothing": "Nothing is reported.",
+    "hidden": "Hidden",
+    "summary": "{count, plural, one {# report} other {# reports}} · by {owner} · {visibility}"
+  },
+  "home": {
+    "title": "osu! BBCode editor",
+    "lead": "Write a userpage, forum post or beatmap description and see it as you type. Your drafts stay in this browser; nothing is sent anywhere."
+  },
+  "templates": {
+    "title": "osu! BBCode templates",
+    "lead": "Ready-made osu! userpages, tournament forum posts and beatmap descriptions. Fill in a template's fields and open it in the editor, or fork it to make your own.",
+    "new": "New template",
+    "builtIn": "Built in",
+    "noBuiltIn": "No built-in template matches.",
+    "shared": "Shared by players",
+    "noShared": "No shared template matches.",
+    "noneShared": "Nobody has shared a template yet."
+  },
+  "me": {
+    "title": "My templates",
+    "count": "{count} of {max}",
+    "new": "New template",
+    "none": "You have no templates yet. Make one, or fork one from the gallery.",
+    "newTitle": "New template",
+    "newLead": "Write the BBCode, then add a field for each part people fill in and put '{{key}}' where it goes.",
+    "editTitle": "Edit {name}",
+    "history": "History"
+  },
+  "template": {
+    "by": "By {name}",
+    "builtIn": "Built in",
+    "edit": "Edit",
+    "history": "History",
+    "hidden": "Reports hid this template. Only its owner and admins can see it until an admin clears the reports.",
+    "historyTitle": "History of {name}",
+    "back": "Back to the template"
+  },
+  "docsPage": {
+    "title": "osu! BBCode reference",
+    "guides": "Read the guides",
+    "pages": "Tags and pages",
+    "search": "Search the docs",
+    "count": "{total, plural, one {# page} other {# pages}}.",
+    "matches": "{count, plural, one {# match} other {# matches}}.",
+    "tagUpdated": "Last updated {date}",
+    "moreTags": "More tags",
+    "previous": "Previous",
+    "next": "Next",
+    "guidesTitle": "Guides",
+    "guidesLead": "Step by step: a userpage, a tournament forum post, flags, colors and collab imagemaps.",
+    "guidesSearch": "Search the guides",
+    "guidesCount": "{total, plural, one {# guide} other {# guides}}.",
+    "onThisPage": "On this page"
+  },
+  "legal": {
+    "lead": "The terms, and what bb stores and why."
+  },
+  "brand": {
+    "title": "Brand",
+    "lead": "The bb name, logos, colors and type."
+  }
+}

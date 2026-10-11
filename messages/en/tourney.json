@@ -1,0 +1,571 @@
+{
+  "nav": {
+    "home": "Home",
+    "browse": "Browse",
+    "host": "Host a tournament",
+    "yours": "Your tournaments",
+    "settings": "tourney settings",
+    "docs": "Docs",
+    "credits": "Credits"
+  },
+  "palette": {
+    "host": "Host a tournament",
+    "hostSub": "Make a lineage and its first edition",
+    "browse": "Browse tournaments",
+    "browseSub": "Open registrations and running editions"
+  },
+  "time": {
+    "hint": "Times in {zone}, {cycle, select, h23 {24-hour} other {12-hour}}.",
+    "change": "Change"
+  },
+  "rounds": {
+    "format": "Format",
+    "entrants": "Entrants",
+    "n2To256Byes": "2 to 256. Byes fill up to the next power of two.",
+    "defaultBestOf": "Default best-of",
+    "seeding": "Seeding",
+    "grandFinalReset": "Grand final reset",
+    "thirdPlaceMatch": "Third place match",
+    "qualifiers": "Qualifiers",
+    "qualifierRanking": "Qualifier ranking",
+    "rounds": "Rounds",
+    "bracket": "Bracket",
+    "doubleElimination": "Double elimination",
+    "singleElimination": "Single elimination",
+    "byHand": "By hand",
+    "fromQualifiers": "From qualifiers",
+    "random": "Random",
+    "totalScore": "Total score",
+    "averageRankPerMap": "Average rank per map",
+    "saveBracketAndRebuild": "Save bracket and rebuild rounds",
+    "windowsAreInYour": "Windows are in your time zone.",
+    "code": "Code",
+    "name": "Name",
+    "bestOf": "Best of",
+    "windowStart": "Window start",
+    "windowEnd": "Window end",
+    "poolId": "Pool id",
+    "poolShown": "Pool shown",
+    "check": "Check",
+    "saveRounds": "Save rounds",
+    "nameOfCode": "Name of {code}",
+    "bestOfOfCode": "Best-of of {code}",
+    "windowStartOfCode": "Window start of {code}",
+    "windowEndOfCode": "Window end of {code}",
+    "poolIdOfCode": "Pool id of {code}",
+    "showThePoolOf": "Show the pool of {code}",
+    "saved": "Saved."
+  },
+  "pages": {
+    "home": {
+      "hi": "Hi, {name}",
+      "osuTournamentsRunIn": "osu! tournaments, run in one place",
+      "registerPlayOrHost": "Register, play, or host."
+    },
+    "brand": {
+      "brand": "Brand",
+      "theTourneyNameLogos": "The tourney name, logos, colors and type."
+    },
+    "docsLayout": {
+      "docs": "Docs"
+    },
+    "docs": {
+      "docs": "Docs",
+      "howToHostAnd": "How to host and play in tournaments on tourney.",
+      "searchTheDocs": "Search the docs"
+    },
+    "browse": {
+      "openRegistrations": "Open registrations",
+      "osuTournamentsTakingPlayers": "osu! tournaments taking players now."
+    },
+    "account": {
+      "tourneySettings": "tourney settings",
+      "yourOsuAccount": "Your osu! account",
+      "admin": "Admin",
+      "haruhimeMoeAccount": "haruhime.moe/account"
+    },
+    "legalLayout": {
+      "legal": "Legal"
+    },
+    "legal": {
+      "legal": "Legal",
+      "theTermsHowWe": "The terms, how we handle your data, and what tourney is not."
+    },
+    "credits": {
+      "credits": "Credits",
+      "tourneyIsBuiltOn": "tourney is built on other people's work. This is where everything comes from.",
+      "playerAndMatchData": "Player and match data",
+      "builtWith": "Built with"
+    },
+    "lineage": {
+      "noEditionsToShow": "No editions to show yet."
+    },
+    "adminHosts": {
+      "verifiedHosts": "Verified hosts",
+      "aVerifiedHostMay": "A verified host may run {LIMIT} active editions at once; anyone else {LIMIT2}."
+    },
+    "manageNew": {
+      "hostATournament": "Host a tournament",
+      "discordServer": "Discord server"
+    },
+    "lineageEditionLayout": {
+      "hiddenOnlyThisLineage": "Hidden: only this lineage's hosts see this page. Change it in the edition's settings."
+    },
+    "lineageEdition": {
+      "register": "Register",
+      "rules": "Rules",
+      "notSet": "Not set",
+      "phase": "Phase",
+      "mode": "Mode",
+      "format": "Format",
+      "formatBracket": "{sides}, {format, select, double {double elimination} other {single elimination}}",
+      "starts": "Starts",
+      "ends": "Ends",
+      "closes": "Registration closes"
+    },
+    "manageLineageEdition": {
+      "editionPages": "Edition pages",
+      "phasePhase": "Phase: {phase}",
+      "registrations": "Registrations",
+      "settings": "Settings",
+      "bracketAndRounds": "Bracket and rounds",
+      "qualifiersAndSeeds": "Qualifiers and seeds",
+      "schedule": "Schedule"
+    },
+    "lineageEditionRegister": {
+      "registerForName": "Register for {name}",
+      "registrationIsnTOpen": "Registration isn't open.",
+      "opens": "Opens",
+      "now": "Now",
+      "closes": "Closes",
+      "whenHostsClose": "When the hosts close it",
+      "cap": "Player cap",
+      "none": "None",
+      "who": "Who can join",
+      "anyone": "Anyone",
+      "utc": "{time} UTC",
+      "rank": "rank #{min} to #{max}",
+      "from": "from {countries}",
+      "in": "in {regions}"
+    },
+    "lineageEditionBracket": {
+      "theBracketIsnT": "The bracket isn't out yet."
+    },
+    "manageLineageEditionSettingsLayout": {
+      "editionSettings": "Edition settings"
+    },
+    "manageLineageEditionSchedule": {
+      "schedule": "Schedule"
+    },
+    "manageLineageEditionQualifiers": {
+      "qualifiersAndSeeds": "Qualifiers and seeds",
+      "qualifierScores": "Qualifier scores",
+      "linkTheQualifierPool": "Link the qualifier pool on the rounds page to get its maps.",
+      "seeds": "Seeds",
+      "bracket": "Bracket"
+    },
+    "manageLineageEditionRounds": {
+      "bracketAndRounds": "Bracket and rounds"
+    },
+    "manageLineageEditionRegistrations": {
+      "registrations": "Registrations",
+      "status": "Status",
+      "search": "Search",
+      "pages": "Pages",
+      "totalFound": "{total} found",
+      "any": "Any",
+      "filter": "Filter",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "manageLineageEditionSettingsModules": {
+      "noModulesAvailableYet": "No modules available yet."
+    },
+    "manageLineageEditionMatchesCode": {
+      "statusStatus": "Status: {status}",
+      "thisRoundHasNo": "This round has no pool linked, so type the score in.",
+      "bothSidesHaveTo": "Both sides have to be known before a result can go in."
+    }
+  },
+  "signedOutHome": {
+    "browseOpenRegistrations": "Browse open registrations",
+    "hostATournament": "Host a tournament",
+    "osuTournamentsTakingPlayers": "osu! tournaments taking players now.",
+    "signInWithYour": "Sign in with your haruhime.moe account, then set up registration, a bracket and a schedule."
+  },
+  "homeTabs": {
+    "yourTournaments": "Your tournaments",
+    "playing": "Playing",
+    "hosting": "Hosting"
+  },
+  "browseList": {
+    "nothingIsOpenFor": "Nothing is open for registration right now."
+  },
+  "hostingTab": {
+    "allCaughtUp": "All caught up",
+    "noEditionsYet": "No editions yet."
+  },
+  "playingTab": {
+    "yourAvailability": "Your availability",
+    "noMatchScheduledYet": "No match scheduled yet.",
+    "roundPool": "Round pool",
+    "next": "Next: <link>{code} ({round})</link> vs {opponent}, <time></time>",
+    "tbd": "TBD"
+  },
+  "registerForm": {
+    "youReAlreadyRegistered": "You're already registered for this edition.",
+    "saveAnswers": "Save answers",
+    "withdraw": "Withdraw",
+    "register": "Register",
+    "status": {
+      "pending": "You're registered. The hosts haven't reviewed it yet.",
+      "approved": "You're registered and approved.",
+      "waitlisted": "You're on the waitlist. The hosts will move you up if a place opens.",
+      "rejected": "The hosts declined this registration.",
+      "withdrawn": "You withdrew. You can register again while registration is open."
+    },
+    "required": "This question needs an answer."
+  },
+  "teamFields": {
+    "teamName": "Team name",
+    "tag": "Tag",
+    "optionalUpTo8": "Optional, up to 8 characters.",
+    "teammatesOsuIds": "Teammates (osu! ids)",
+    "separateIdsWithCommas": "Separate ids with commas. You're the captain and don't need to list yourself."
+  },
+  "hostsTable": {
+    "osuId": "osu! id",
+    "verifiedHosts": "Verified hosts",
+    "removeName": "Remove {name}",
+    "verify": "Verify",
+    "host": "Host",
+    "action": "Action",
+    "noVerifiedHostsYet": "No verified hosts yet.",
+    "remove": "Remove"
+  },
+  "poolLinks": {
+    "noRoundsYet": "No rounds yet.",
+    "notRevealedYet": "Not revealed yet"
+  },
+  "editionTabs": {
+    "edition": "Edition",
+    "overview": "Overview",
+    "tabs": {
+      "bracket": "Bracket",
+      "schedule": "Schedule",
+      "teams": "Teams",
+      "pools": "Pools",
+      "results": "Results"
+    }
+  },
+  "teamList": {
+    "noTeamsYet": "No teams yet.",
+    "out": "Out"
+  },
+  "resultsTable": {
+    "results": "Results",
+    "noResultsYet": "No results yet.",
+    "place": "Place",
+    "team": "Team"
+  },
+  "matchDetail": {
+    "picksAndBans": "Picks and bans",
+    "maps": "Maps",
+    "tiebreaker": "Tiebreaker",
+    "mp": "mp {n}",
+    "mpLink": "mp link",
+    "stream": "Stream",
+    "vod": "VOD",
+    "round": "Round",
+    "bestOf": "Best of",
+    "time": "Time",
+    "notSet": "Not set",
+    "score": "Score",
+    "notPlayed": "Not played",
+    "tiebreakerSlot": "Tiebreaker {slot}",
+    "action": "{side} {action, select, protect {protects} ban {bans} pick {picks} other {tiebreaker}} {slot}"
+  },
+  "staffContact": {
+    "questionsContactStaff": "Questions? Contact staff"
+  },
+  "scheduleList": {
+    "noMatchesYet": "No matches yet.",
+    "unscheduled": "Not scheduled yet"
+  },
+  "availabilityEditor": {
+    "availabilitySaved": "Availability saved.",
+    "saveAvailability": "Save availability"
+  },
+  "setupChecklist": {
+    "setup": "Setup",
+    "done": "Done",
+    "missing": "Missing",
+    "before": "before {phase}"
+  },
+  "moduleCard": {
+    "turnNameOn": "Turn {name} on",
+    "settings": "Settings"
+  },
+  "matchEditor": {
+    "mpLink": "mp link",
+    "warmups": "Warmups",
+    "streamLink": "Stream link",
+    "vodLink": "VOD link",
+    "aMaps": "{a} maps",
+    "bMaps": "{b} maps",
+    "fillFromMp": "Fill from mp",
+    "fill": "Fill",
+    "withMapsListedThe": "With maps listed, the score is counted from them.",
+    "picksAndBans": "Picks and bans",
+    "saveResult": "Save result",
+    "undoResult": "Undo result",
+    "saved": "Result saved.",
+    "forfeit": "{name} advance by forfeit.",
+    "undone": "Result undone."
+  },
+  "registrationsTable": {
+    "note": "Note",
+    "registrations": "Registrations",
+    "selectAll": "Select all",
+    "selectOsuid": "Select {osuId}",
+    "player": "Player",
+    "status": "Status",
+    "team": "Team",
+    "otherAnswers": "Other answers",
+    "deleted": "Deleted account",
+    "unranked": "unranked",
+    "actions": {
+      "approved": "Approve",
+      "waitlisted": "Waitlist",
+      "rejected": "Reject"
+    },
+    "actionCount": "{action} {count}"
+  },
+  "questionBuilder": {
+    "registrationQuestions": "Registration questions",
+    "onePerLine2": "One per line, 2 to 30.",
+    "helpText": "Help text",
+    "required": "Required",
+    "questionIndex": "Question {index}",
+    "removeIndex": "Remove {index}",
+    "typeOfIndex": "Type of {index}",
+    "optionsForIndex": "Options for {index}",
+    "addQuestion": "Add question",
+    "remove": "Remove",
+    "types": {
+      "text": "Short text",
+      "longText": "Long text",
+      "number": "Number",
+      "url": "Link",
+      "checkbox": "Checkbox",
+      "choice": "One choice",
+      "multi": "Several choices"
+    },
+    "questionN": "Question {n}"
+  },
+  "scheduleTable": {
+    "schedule": "Schedule",
+    "timeOfCode": "Time of {code}",
+    "match": "Match",
+    "round": "Round",
+    "sides": "Sides",
+    "time": "Time",
+    "setTime": "Set time",
+    "save": "Save",
+    "suggest": "Suggest",
+    "suggestions": "{count, plural, one {# time} other {# times}} for {code}.",
+    "noSuggestion": "No time in the window suits both sides of {code}.",
+    "filled": "Filled {count} in {round}.",
+    "left": "Left: {codes}.",
+    "timesIn": "Times in {zone}."
+  },
+  "registrationSettingsForm": {
+    "opens": "Opens",
+    "inYourTimeZone": "In your time zone.",
+    "closes": "Closes",
+    "playerCap": "Player cap",
+    "pastItPlayersJoin": "Past it, players join the waitlist. Empty for no cap.",
+    "saved": "Saved.",
+    "windowAndCap": "Window and cap",
+    "questions": "Questions",
+    "eligibility": "Eligibility",
+    "saveSettings": "Save settings"
+  },
+  "socialsEditor": {
+    "socialLinks": "Social links",
+    "url": "URL",
+    "label": "Label",
+    "kindOfSocialIndex": "Kind of social {index}",
+    "removeRowLink": "Remove {row} link",
+    "saved": "Saved.",
+    "addSocial": "Add social",
+    "saveSocials": "Save socials",
+    "remove": "Remove"
+  },
+  "qualifierScores": {
+    "lobbyMpLink": "Lobby mp link",
+    "fillsTheSheetFor": "Fills the sheet for the teams in that lobby. Nothing saves until you press Save.",
+    "qualifierScores": "Qualifier scores",
+    "fillFromMp": "Fill from mp",
+    "leftOutOfThe": "Left out of the fill:",
+    "team": "Team",
+    "saveScores": "Save scores",
+    "filled": "Filled {count} scores. Check them, then save.",
+    "savedCount": "Saved {count} scores."
+  },
+  "contactForm": {
+    "email": "Email",
+    "shownOnThePublic": "Shown on the public tournament page.",
+    "discordHandle": "Discord handle",
+    "howPlayersReachYou": "How players reach you, not a server invite (that goes in Socials). Shown on the public tournament page.",
+    "saved": "Saved.",
+    "saveContact": "Save contact"
+  },
+  "seedList": {
+    "seedNumber": "Seed number",
+    "theSameNumberAlways": "The same number always gives the same order.",
+    "seeds": "Seeds",
+    "seedOfName": "Seed of {name}",
+    "seedsSaved": "Seeds saved.",
+    "someTeamsTiedMarked": "Some teams tied. Marked below: settle them by hand if you need to.",
+    "seed": "Seed",
+    "team": "Team",
+    "saveSeedsAsTyped": "Save seeds as typed",
+    "seedFromQualifiers": "Seed from qualifiers",
+    "seedAtRandom": "Seed at random"
+  },
+  "mapResultsEditor": {
+    "warmup": "Warmup",
+    "aborted": "Aborted",
+    "mapI": "Map {i}",
+    "winnerOfMapI": "Winner of map {i}",
+    "none": "None",
+    "addMap": "Add map",
+    "remove": "Remove",
+    "pickSlot": "Pick a slot"
+  },
+  "pickBanEditor": {
+    "stepIBy": "Step {i} by",
+    "stepIAction": "Step {i} action",
+    "stepISlot": "Step {i} slot",
+    "nobodyTiebreaker": "Nobody (tiebreaker)",
+    "remove": "Remove",
+    "addStep": "Add step",
+    "bansFirst": "Bans first",
+    "picksFirst": "Picks first"
+  },
+  "eligibilityForm": {
+    "bestRankAllowed": "Best rank allowed",
+    "leaveBothEmptyFor": "Leave both empty for any rank.",
+    "worstRankAllowed": "Worst rank allowed",
+    "countries": "Countries",
+    "twoLetterCodesSeparated": "Two-letter codes separated by commas, like US, CA. Empty for any country.",
+    "continents": "Continents",
+    "nonePickedMeansAny": "None picked means any continent."
+  },
+  "createEditionForm": {
+    "series": "Series",
+    "seriesName": "Series name",
+    "seriesAddress": "Series address",
+    "n3To40Lowercase": "3 to 40 lowercase letters, numbers and dashes.",
+    "editionName": "Edition name",
+    "code": "Code",
+    "mode": "Mode",
+    "teamSize": "Team size",
+    "year": "Year",
+    "aNewSeries": "A new series",
+    "createEdition": "Create edition"
+  },
+  "mpFillPreview": {
+    "iCheckedThisSave": "I checked this, save anyway"
+  },
+  "settingsTabs": {
+    "editionSettings": "Edition settings",
+    "general": "General",
+    "tabs": {
+      "socials": "Socials",
+      "contact": "Contact",
+      "registration": "Registration",
+      "modules": "Modules"
+    }
+  },
+  "generateBracketButton": {
+    "bracketMade": "Bracket made.",
+    "remake": "Remake the bracket",
+    "make": "Make the bracket"
+  },
+  "generalSettingsForm": {
+    "editionName": "Edition name",
+    "acronym": "Acronym",
+    "shownNextToThe": "Shown next to the name, 12 characters at most.",
+    "starts": "Starts",
+    "inYourTimeZone": "In your time zone.",
+    "ends": "Ends",
+    "bannerUrl": "Banner URL",
+    "hue": "Hue",
+    "n0To359Empty": "0 to 359. Empty for the lineage's own.",
+    "rulesText": "Rules text",
+    "markdown": "Markdown.",
+    "siteVisibility": "Site visibility",
+    "saved": "Saved.",
+    "nameAndDates": "Name and dates",
+    "look": "Look",
+    "rules": "Rules",
+    "publicPage": "Public page",
+    "saveSettings": "Save settings",
+    "modes": {
+      "auto": {
+        "label": "Automatic",
+        "hint": "Shows once registration opens."
+      },
+      "live": {
+        "label": "Live",
+        "hint": "Always shown."
+      },
+      "hidden": {
+        "label": "Hidden",
+        "hint": "Only lineage members see it."
+      }
+    },
+    "hueRange": "Enter a whole number from 0 to 359."
+  },
+  "phase": {
+    "setup": "Setup",
+    "registration": "Registration",
+    "qualifiers": "Qualifiers",
+    "draft": "Draft",
+    "bracket": "Bracket",
+    "done": "Done"
+  },
+  "phasePublic": {
+    "setup": "Setup",
+    "registration": "Registration",
+    "qualifiers": "Qualifiers",
+    "draft": "Draft",
+    "bracket": "Bracket",
+    "done": "Finished"
+  },
+  "checklist": {
+    "registration": "Registration opens and closes",
+    "questions": "Registration questions",
+    "eligibility": "Who may register (rank, countries)",
+    "rounds": "Rounds",
+    "pools": "A mappool for every round"
+  },
+  "phaseButton": {
+    "moveTo": "Move to {phase}"
+  },
+  "status": {
+    "pending": "Waiting for review",
+    "approved": "Approved",
+    "waitlisted": "Waitlisted",
+    "rejected": "Not accepted",
+    "withdrawn": "Withdrawn"
+  },
+  "common": {
+    "tbd": "TBD",
+    "versus": "{a} vs {b}",
+    "notSet": "Not set",
+    "unknownTeam": "Unknown team"
+  }
+}
