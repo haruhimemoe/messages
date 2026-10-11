@@ -1,0 +1,159 @@
+{
+  "nav": {
+    "commands": "Commands",
+    "dashboard": "Dashboard",
+    "servers": "Your servers",
+    "card": "Your card",
+    "linkDiscord": "Link Discord"
+  },
+  "palette": {
+    "invite": "Add harumin to Discord"
+  },
+  "footer": {
+    "finePrint": "harumin never keeps message text and never hosts beatmaps. Not affiliated with or endorsed by ppy Pty Ltd or Discord. osu! is a trademark of ppy Pty Ltd."
+  },
+  "home": {
+    "kicker": "the osu! Discord bot",
+    "title": "The osu! bot that reads the room.",
+    "lead": "Profiles, recent plays, top plays and pp for your Discord server. Link a map once and every command knows which one you mean.",
+    "addToDiscord": "Add to Discord",
+    "addToApps": "Add to your apps",
+    "seeCommands": "See the commands",
+    "whatHeading": "What it does",
+    "features": {
+      "remembers": {
+        "title": "It remembers the map",
+        "body": "Someone links a beatmap and the channel keeps it. /score, /map, /leaderboard and /simulate work on it without pasting the link again. Matches, packs and pools too."
+      },
+      "pp": {
+        "title": "pp, worked out on the spot",
+        "body": "Full-combo pp on every recent play, pp from 95 to 100% on map cards, /nochoke for your top 100, and /simulate. Computed with rosu-pp, the same calculator tosu uses."
+      },
+      "cards": {
+        "title": "Cards your server picks",
+        "body": "Beatmap, match, pack and pool links get a card. Server managers switch each kind on or off from the dashboard."
+      }
+    },
+    "toolsHeading": "Speaks haruhime",
+    "toolsLead": "harumin is part of haruhime.moe, osu! tools for players, mappers and tournament hosts. One account links them all: sign in with osu! once, link Discord, done.",
+    "linkAccount": "Link your account",
+    "tools": {
+      "packs": "Pack links and pack keys open as a card with every map. /pack does the same.",
+      "pools": "/pool view shows a pool by slot. /pool check runs osu!'s content rules over every map.",
+      "bb": "Template links get a small preview, if your server turns them on."
+    }
+  },
+  "demo": {
+    "label": "Sample Discord conversation with harumin",
+    "app": "App",
+    "time": "Today at {time}",
+    "question": "is this one ok for the pool??",
+    "mappedBy": "Mapped by {name}",
+    "difficulty": "Difficulty",
+    "length": "Length",
+    "ranked": "ranked",
+    "bestScore": "Best score on this map",
+    "caption": "No map given to <code>/score</code>. The channel remembered it."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "lead": "Signed in as {username}. Pick a server to set up.",
+    "linkFirst": "Link Discord first",
+    "linkOnHub": "Link on haruhime.moe",
+    "linkFirstBody": "Your haruhime account has no Discord linked, so harumin can't tell which servers are yours. Link it, then come back.",
+    "offline": "harumin isn't answering",
+    "offlineBody": "The dashboard asks the bot which servers you manage, and it's offline right now. Try again in a minute.",
+    "noServers": "No servers yet",
+    "addToServer": "Add harumin to a server",
+    "noServersBody": "You'll see servers here where harumin is a member and you have Manage Server."
+  },
+  "settings": {
+    "result": {
+      "not-a-server": "That isn't a server.",
+      "no-discord": "Sign in and link Discord on haruhime.moe first.",
+      "offline": "harumin isn't answering right now, so nothing was saved. Try again in a minute.",
+      "forbidden": "You need Manage Server in that server, and harumin has to be in it.",
+      "invalid": "Those settings don't look right. Reload and try again.",
+      "saved": "Saved. harumin uses the new settings within a minute."
+    },
+    "cards": "Link cards",
+    "cardsLead": "When someone posts one of these links, harumin answers with a card. Commands work either way.",
+    "embeds": {
+      "map": {
+        "name": "Beatmaps",
+        "line": "osu.ppy.sh beatmap links get a map card."
+      },
+      "match": {
+        "name": "Matches",
+        "line": "Multiplayer match links get a summary with match costs."
+      },
+      "pack": {
+        "name": "Packs",
+        "line": "packs.haruhime.moe links get a pack card."
+      },
+      "pool": {
+        "name": "Pools",
+        "line": "pools.haruhime.moe links get a pool card."
+      },
+      "bb": {
+        "name": "BBCode",
+        "line": "bb.haruhime.moe links get a small preview."
+      },
+      "replay": {
+        "name": "Replays",
+        "line": ".osr files get a score card and a render button."
+      }
+    },
+    "ruleset": "Default ruleset",
+    "rulesetLead": "For commands where nobody picks a mode. \"Player's own\" uses each player's main mode.",
+    "playersOwn": "Player's own",
+    "save": "Save",
+    "saving": "Saving…"
+  },
+  "guild": {
+    "offlineBody": "Settings need the bot to confirm you manage this server, and it's offline right now. Try again in a minute.",
+    "allServers": "← All servers",
+    "tracked": "Tracked players",
+    "trackedLead": "New top plays get posted to these channels. Add and remove them with <code>/track</code> in Discord.",
+    "nobody": "Nobody tracked yet.",
+    "hiddenChannel": "a channel harumin can't see"
+  },
+  "card": {
+    "result": {
+      "signIn": "Sign in again to save.",
+      "saved": "Saved. /osu shows it now.",
+      "accent": "Pick one of the colors.",
+      "cover": "Pick a cover.",
+      "set-link": "Use a difficulty link (one with #osu/ and an id), or the id.",
+      "not-a-map": "That isn't a beatmap link or id."
+    },
+    "title": "Your card",
+    "lead": "How <code>/osu</code> draws {username} in every server.",
+    "previewSoon": "Preview arrives with the signature banner.",
+    "accent": "Accent",
+    "accentLead": "Colors your pp, the rule under your name, and the favorite line.",
+    "cover": "Cover",
+    "covers": {
+      "profile": "Profile cover",
+      "paper": "Plain paper"
+    },
+    "favorite": "Favorite map",
+    "favoriteLead": "A difficulty link or id. /osu shows your best score on it. Leave it empty for none.",
+    "save": "Save",
+    "saving": "Saving…"
+  },
+  "commands": {
+    "title": "Commands",
+    "lead": "Player options default to your linked account. Map options default to the last map in the channel. <star>*</star> means required.",
+    "categories": "Categories",
+    "required": "required",
+    "from": "From harumin {version}."
+  },
+  "brand": {
+    "title": "Brand",
+    "lead": "The harumin name, logos, colors and type."
+  },
+  "legal": {
+    "lead": "The terms, and what harumin keeps and why."
+  }
+}

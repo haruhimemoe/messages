@@ -1,0 +1,14 @@
+{
+  "footer": {
+    "about": "About",
+    "legal": "Legal",
+    "source": "Source on GitHub",
+    "brand": "Brand",
+    "support": "Support"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "lead": "That page doesn't exist, or it moved.",
+    "home": "Back home"
+  }
+}

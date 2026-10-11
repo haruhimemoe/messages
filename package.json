@@ -1,0 +1,64 @@
+{
+  "name": "@haruhimemoe/messages",
+  "version": "0.1.0",
+  "description": "The translation catalogs for the haruhime.moe tools and the harumin bot: one ICU message catalog per app and locale, English as the source, missing keys falling back to English. Loaders shaped for next-intl through @haruhimemoe/next-kit. No dependencies.",
+  "keywords": [
+    "i18n",
+    "translations",
+    "messages",
+    "icu",
+    "next-intl",
+    "osu",
+    "haruhime"
+  ],
+  "homepage": "https://github.com/haruhimemoe/messages#readme",
+  "bugs": "https://github.com/haruhimemoe/messages/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haruhimemoe/messages.git"
+  },
+  "license": "MIT",
+  "author": "David (https://dvh.sh)",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "bin",
+    "CHANGELOG.md"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=22.12"
+  },
+  "packageManager": "bun@1.4.2",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "biome check .",
+    "check:fix": "biome check --write .",
+    "typecheck": "tsc --noEmit",
+    "test": "bun run build && vitest run",
+    "test:watch": "vitest",
+    "test:dist": "bun run build && node scripts/smoke.mjs",
+    "prepublishOnly": "bun run check && bun run typecheck && bun run test && bun run test:dist"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@types/node": "26.6.5",
+    "typescript": "7.0.2",
+    "vitest": "5.0.3"
+  },
+  "bin": {
+    "messages-check-keys": "./bin/check-keys.mjs"
+  }
+}
