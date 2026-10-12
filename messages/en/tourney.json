@@ -830,7 +830,7 @@
   "events": {
     "registration": {
       "created": "New registration",
-      "reviewed": "Registrations reviewed"
+      "reviewed": "Registrations approved, waitlisted, rejected or withdrawn"
     },
     "match": {
       "scheduled": "Match time set",
