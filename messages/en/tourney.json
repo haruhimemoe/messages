@@ -133,7 +133,8 @@
       "qualifiersAndSeeds": "Qualifiers and seeds",
       "schedule": "Schedule",
       "auditLog": "Audit log",
-      "embeds": "Embeds"
+      "embeds": "Embeds",
+      "staffing": "Staffing"
     },
     "lineageEditionRegister": {
       "registerForName": "Register for {name}",
@@ -166,6 +167,11 @@
     },
     "manageLineageEditionSchedule": {
       "schedule": "Schedule"
+    },
+    "manageLineageEditionStaffing": {
+      "staffing": "Staffing",
+      "assign": "Assign staff",
+      "assignHint": "Give someone a slot by their osu! id. They need that slot's role on this edition, and can't play in the match or staff another one at the same time."
     },
     "manageLineageEditionQualifiers": {
       "qualifiersAndSeeds": "Qualifiers and seeds",
@@ -689,6 +695,25 @@
     "left": "Left: {codes}.",
     "timesIn": "Times in {zone}."
   },
+  "matchStaffTable": {
+    "staffing": "Staffing",
+    "none": "No matches to staff yet.",
+    "match": "Match",
+    "time": "Time",
+    "filled": "{count} of {cap}",
+    "claim": "Claim",
+    "claimKind": "Claim {kind} on {code}",
+    "remove": "Remove",
+    "removeName": "Remove {name} as {kind} on {code}"
+  },
+  "assignStaffForm": {
+    "match": "Match",
+    "role": "Role",
+    "osuId": "osu! id",
+    "assign": "Assign",
+    "assigned": "Assigned.",
+    "badId": "Enter an osu! id, a whole number."
+  },
   "registrationSettingsForm": {
     "opens": "Opens",
     "inYourTimeZone": "In your time zone.",
@@ -1192,6 +1217,9 @@
       "donation": "Donation linked to an account",
       "tierUnlocked": "Stretch tier reached",
       "refunded": "Linked donation refunded"
+    },
+    "staff": {
+      "claimed": "Match staff slot claimed"
     }
   },
   "embed": {
