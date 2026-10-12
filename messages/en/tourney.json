@@ -698,6 +698,10 @@
     "create": "Create role",
     "save": "Save role",
     "delete": "Delete role",
+    "deleteTitle": "Delete {name}?",
+    "deleteDescription": "This deletes the role on every edition of the lineage. It can't be undone.",
+    "deleting": "Deleting…",
+    "cancel": "Cancel",
     "created": "Role created.",
     "saved": "Saved.",
     "deleted": "Role deleted."
