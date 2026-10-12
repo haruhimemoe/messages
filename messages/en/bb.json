@@ -682,5 +682,25 @@
     "emptyHint": "A field left empty also drops what's wrapped in '{{#key}}…{{/key}}'.",
     "fill": "Fill in",
     "fillHint": "Writes the values into the text in place of their keys."
+  },
+  "proposals": {
+    "title": "Proposals",
+    "lead": "Changes people offered from their copies of this template. Merging keeps your own changes since.",
+    "by": "{name} proposed",
+    "merge": "Merge",
+    "merging": "Merging…",
+    "decline": "Decline",
+    "merged": "Merged {name}'s proposal.",
+    "declined": "Declined {name}'s proposal.",
+    "failed": "That didn't work ({status}).",
+    "offline": "You're offline. Try again when you're back.",
+    "propose": {
+      "title": "Offer your changes to {name}",
+      "lead": "Send this copy's BBCode and fields to the original. Its owner sees what changed and can merge it. Your name, description and kind stay yours.",
+      "message": "A note for them (optional)",
+      "send": "Propose",
+      "sending": "Sending…",
+      "sent": "Proposed. The owner of {name} can merge it now."
+    }
   }
 }
