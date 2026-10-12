@@ -314,14 +314,19 @@
     "tiebreakerSlot": "Tiebreaker {slot}",
     "action": "{side} {action, select, protect {protects} ban {bans} pick {picks} other {tiebreaker}} {slot}",
     "tbd": "TBD",
-    "unknownTeam": "Unknown team"
+    "unknownTeam": "Unknown team",
+    "warmupSlot": "{slot} (warmup)",
+    "abortedSlot": "{slot} (aborted)",
+    "slotWinner": "{slot}: {winner}",
+    "slotNoWinner": "{slot}: no winner"
   },
   "staffContact": {
     "questionsContactStaff": "Questions? Contact staff"
   },
   "scheduleList": {
     "noMatchesYet": "No matches yet.",
-    "unscheduled": "Not scheduled yet"
+    "unscheduled": "Not scheduled yet",
+    "timesIn": "Times in {zone}."
   },
   "availabilityEditor": {
     "availabilitySaved": "Availability saved.",
