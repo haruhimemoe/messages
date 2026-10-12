@@ -121,7 +121,10 @@
     },
     "svgNote": "SVG flags have no size of their own, so they fill the width of the page or box they're in. osu! also shows images through its own proxy, and bb can't check that it passes SVG. The small PNG flags are about a line of text high.",
     "none": "No country matches \"{query}\".",
-    "name": "{name} ({code})"
+    "name": "{name} ({code})",
+    "recent": "Recently used",
+    "all": "All countries",
+    "inserted": "Inserted {name}."
   },
   "drafts": {
     "opening": "Opening your drafts...",
@@ -168,7 +171,10 @@
       "pool": "Pool",
       "markdown": "Markdown",
       "import": "Import",
-      "settings": "Settings"
+      "settings": "Settings",
+      "emoji": "Emoji",
+      "table": "Table",
+      "art": "Art"
     },
     "items": {
       "bold": "Bold",
@@ -190,6 +196,11 @@
       "link": "Link",
       "image": "Image",
       "profile": "Profile link"
+    },
+    "groups": {
+      "insert": "Insert",
+      "bringIn": "Bring in",
+      "editor": "Editor"
     }
   },
   "post": {
@@ -599,5 +610,68 @@
     "failed": "osu! isn't answering right now.",
     "open": "Open on osu!",
     "id": "ID {id}"
+  },
+  "emoji": {
+    "label": "Emoji",
+    "search": "Search emoji",
+    "placeholder": "heart, sushi, music…",
+    "recent": "Recently used",
+    "groups": {
+      "smileys": "Smileys",
+      "people": "People",
+      "hearts": "Hearts and symbols",
+      "animals": "Animals and nature",
+      "food": "Food and drink",
+      "activities": "Activities",
+      "travel": "Travel and objects",
+      "music": "Music"
+    },
+    "none": "No emoji for “{query}”.",
+    "inserted": "Inserted {emoji}."
+  },
+  "table": {
+    "label": "Table",
+    "field": "Rows, one per line",
+    "hint": "Paste from a spreadsheet, a markdown table or CSV. osu! has no tables, so this lays one out in monospace inside [code].",
+    "style": "Borders",
+    "styles": {
+      "ascii": "ASCII",
+      "unicode": "Lines",
+      "none": "None"
+    },
+    "header": "First row is a header",
+    "preview": "Preview",
+    "count": "{count, plural, one {# character} other {# characters}}",
+    "insert": "Insert table",
+    "tooMany": "A table can have up to {rows} rows and {columns} columns.",
+    "empty": "Type or paste some rows first."
+  },
+  "art": {
+    "label": "Art",
+    "tabs": {
+      "kaomoji": "Kaomoji",
+      "banner": "Banner",
+      "pieces": "Pieces"
+    },
+    "kaomoji": {
+      "happy": "Happy",
+      "love": "Love",
+      "sad": "Sad",
+      "angry": "Angry",
+      "shrug": "Shrug",
+      "animals": "Animals"
+    },
+    "banner": "Banner text",
+    "bannerHint": "Letters, numbers, spaces and !?.-:' up to {max} characters. It goes in [code] so it lines up.",
+    "missing": "The banner font has no {chars}.",
+    "insertBanner": "Insert banner",
+    "pieces": {
+      "cat": "Cat",
+      "bunny": "Bunny",
+      "heart": "Heart",
+      "divider": "Divider"
+    },
+    "insertPiece": "Insert {name}",
+    "inserted": "Inserted {what}."
   }
 }
