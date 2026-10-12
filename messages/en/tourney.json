@@ -220,7 +220,8 @@
       "webhooksHint": "Each webhook posts to one Discord channel. The webhooks and what they get are shared by every edition of this lineage.",
       "routing": "What goes where",
       "reminders": "Match reminders",
-      "failed": "Failed notifications"
+      "failed": "Failed notifications",
+      "sweepOff": "Notification checks aren't set up on this server yet, so match reminders don't go out and failed notifications aren't tried again."
     }
   },
   "signedOutHome": {
@@ -809,10 +810,11 @@
     "retry": "Retry",
     "retryName": "Retry {event} to {target}",
     "retried": "Sending it again.",
+    "waiting": "Waiting to retry",
     "none": "No failed notifications.",
     "status": "HTTP {status}",
     "more": "Showing the newest {shown} of {total}.",
-    "kept": "A failed notification is listed for 30 days. Retry gives it another 24 hours of tries.",
+    "kept": "A failed notification is listed for 30 days. Retry gives it another 24 hours of tries. One waiting to retry goes again at the next check.",
     "errors": {
       "gone": "Discord says this webhook was deleted.",
       "refused": "Discord refused the message.",
