@@ -326,6 +326,7 @@
     "dueItem": "<link>{label}</link>, due <time></time>",
     "noTime": "No time yet",
     "nothing": "Nothing to staff right now.",
+    "hostRemoves": "A host can take you off this match.",
     "conflicts": {
       "plays-in-match": "You play in this match",
       "claim-overlap": "This overlaps another match you staff"
