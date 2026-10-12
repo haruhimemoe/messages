@@ -509,7 +509,7 @@
       "title": "Refund {donor}'s {amount}?",
       "description": "Record money you sent back. Stretch tiers it helped reach stay reached.",
       "amount": "Total refunded",
-      "amountHint": "In {currency}, everything refunded so far. Empty: all of it.",
+      "amountHint": "In {currency}, everything refunded so far. Empty: all of it. 0 takes a refund back.",
       "reason": "Reason",
       "reasonHint": "Kept in the audit log.",
       "cancel": "Cancel",
