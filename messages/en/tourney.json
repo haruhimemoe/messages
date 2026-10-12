@@ -185,6 +185,12 @@
       "statusStatus": "Status: {status}",
       "thisRoundHasNo": "This round has no pool linked, so type the score in.",
       "bothSidesHaveTo": "Both sides have to be known before a result can go in."
+    },
+    "manageLineageEditionSettingsStaff": {
+      "people": "People",
+      "customRoles": "Custom roles",
+      "customRolesHint": "A custom role holds exactly the permissions ticked on it. You can only tick what you hold yourself.",
+      "newRole": "New role"
     }
   },
   "signedOutHome": {
@@ -486,7 +492,8 @@
       "socials": "Socials",
       "contact": "Contact",
       "registration": "Registration",
-      "modules": "Modules"
+      "modules": "Modules",
+      "staff": "Staff"
     }
   },
   "generateBracketButton": {
@@ -567,5 +574,113 @@
     "versus": "{a} vs {b}",
     "notSet": "Not set",
     "unknownTeam": "Unknown team"
+  },
+  "roles": {
+    "owner": "Owner",
+    "admin": "Admin",
+    "referee": "Referee",
+    "streamer": "Streamer",
+    "commentator": "Commentator",
+    "mappooler": "Mappooler",
+    "sheeter": "Sheeter"
+  },
+  "permissions": {
+    "areas": {
+      "lineage": "Lineage",
+      "edition": "Edition",
+      "registrations": "Registrations",
+      "teams": "Teams",
+      "bracket": "Bracket",
+      "matches": "Matches",
+      "pools": "Mappools",
+      "staff": "Staff",
+      "announcements": "Announcements",
+      "integrations": "Integrations",
+      "modules": "Modules",
+      "audit": "Audit log"
+    },
+    "lineage": {
+      "transfer": "Hand the lineage to someone else",
+      "delete": "Delete the lineage"
+    },
+    "edition": {
+      "create": "Create editions",
+      "settings": "Change settings",
+      "phase": "Move to the next phase",
+      "archive": "Archive editions",
+      "view": "See the edition's manage pages"
+    },
+    "registrations": {
+      "review": "Review registrations",
+      "edit": "Edit registrations"
+    },
+    "teams": {
+      "edit": "Edit teams",
+      "roster": "Change rosters"
+    },
+    "bracket": {
+      "generate": "Set up the bracket and rounds",
+      "seed": "Seed teams"
+    },
+    "matches": {
+      "schedule": "Schedule matches",
+      "results": "Enter results",
+      "override": "Override results",
+      "claim": "Claim matches"
+    },
+    "pools": {
+      "link": "Link mappools",
+      "reveal": "Reveal mappools"
+    },
+    "staff": {
+      "review": "Review staff applications",
+      "assign": "Give roles and edit custom roles",
+      "invite": "Invite staff"
+    },
+    "announcements": {
+      "post": "Post announcements"
+    },
+    "integrations": {
+      "edit": "Edit integrations"
+    },
+    "modules": {
+      "edit": "Turn modules on or off"
+    },
+    "audit": {
+      "read": "Read the audit log"
+    }
+  },
+  "staffList": {
+    "staff": "Staff",
+    "person": "Person",
+    "role": "Role",
+    "where": "Where",
+    "action": "Action",
+    "allEditions": "All editions",
+    "thisEdition": "This edition",
+    "remove": "Remove",
+    "removeName": "Remove {name}",
+    "osuIdName": "osu! id {osuId}",
+    "notSignedInYet": "Hasn't signed in yet",
+    "deletedAccount": "Deleted account",
+    "unknownRole": "Removed role"
+  },
+  "grantForm": {
+    "osuId": "osu! id",
+    "role": "Role",
+    "where": "Where",
+    "thisEdition": "This edition",
+    "allEditions": "All editions",
+    "add": "Add",
+    "added": "Added."
+  },
+  "roleEditor": {
+    "name": "Role name",
+    "create": "Create role",
+    "save": "Save role",
+    "delete": "Delete role",
+    "created": "Role created.",
+    "saved": "Saved.",
+    "deleted": "Role deleted."
   }
 }
