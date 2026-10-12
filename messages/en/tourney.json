@@ -301,14 +301,16 @@
   "homeTabs": {
     "yourTournaments": "Your tournaments",
     "playing": "Playing",
-    "hosting": "Hosting"
+    "hosting": "Hosting",
+    "staffing": "Staffing"
   },
   "browseList": {
     "nothingIsOpenFor": "Nothing is open for registration right now."
   },
   "hostingTab": {
     "allCaughtUp": "All caught up",
-    "noEditionsYet": "No editions yet."
+    "noEditionsYet": "No editions yet.",
+    "applications": "{count, plural, one {# staff application to review} other {# staff applications to review}}"
   },
   "playingTab": {
     "yourAvailability": "Your availability",
@@ -316,6 +318,24 @@
     "roundPool": "Round pool",
     "next": "Next: <link>{code} ({round})</link> vs {opponent}, <time></time>",
     "tbd": "TBD"
+  },
+  "staffingTab": {
+    "yourMatches": "Your matches",
+    "openSlots": "Open slots",
+    "due": "Due",
+    "dueItem": "<link>{label}</link>, due <time></time>",
+    "noTime": "No time yet",
+    "nothing": "Nothing to staff right now.",
+    "conflicts": {
+      "plays-in-match": "You play in this match",
+      "claim-overlap": "This overlaps another match you staff"
+    }
+  },
+  "claimButton": {
+    "claim": "Claim",
+    "unclaim": "Unclaim",
+    "claimKind": "Claim {kind} on {code}",
+    "unclaimKind": "Unclaim {kind} on {code}"
   },
   "registerForm": {
     "youReAlreadyRegistered": "You're already registered for this edition.",
