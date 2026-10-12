@@ -733,5 +733,8 @@
       "match": "Match",
       "round": "Round"
     }
+  },
+  "embed": {
+    "empty": "Nothing to show here yet."
   }
 }
