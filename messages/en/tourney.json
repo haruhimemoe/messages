@@ -213,6 +213,10 @@
     "manageLineageEditionSettingsStaffSignup": {
       "hint": "Staff apply in the same window as players: while registration is open, for the roles ticked here."
     },
+    "manageLineageEditionSettingsCredits": {
+      "people": "People",
+      "peopleHint": "People you credit who have no osu! account, like artists and sponsors. They belong to the lineage, so every edition can credit them."
+    },
     "manageLineageEditionAudit": {
       "auditLog": "Audit log",
       "totalFound": "{total} found",
@@ -815,6 +819,7 @@
       "staff-signup": "Staff signup",
       "modules": "Modules",
       "staff": "Staff",
+      "credits": "Credits",
       "notifications": "Notifications"
     }
   },
@@ -1015,6 +1020,28 @@
     "created": "Role created.",
     "saved": "Saved.",
     "deleted": "Role deleted."
+  },
+  "peopleEditor": {
+    "none": "No people yet.",
+    "add": "Add a person"
+  },
+  "personForm": {
+    "name": "Name",
+    "avatar": "Avatar link",
+    "avatarHint": "An image on {hosts}. Leave it empty for none.",
+    "links": "Links",
+    "linksHint": "One https link per line, {max} at most.",
+    "bio": "Bio",
+    "characters": "characters",
+    "add": "Add person",
+    "added": "Person added.",
+    "save": "Save",
+    "saved": "Saved.",
+    "delete": "Delete",
+    "deleteTitle": "Delete {name}?",
+    "deleteDescription": "They come off the credits of every edition. This can't be undone.",
+    "deleting": "Deleting…",
+    "cancel": "Cancel"
   },
   "auditTable": {
     "auditLog": "Audit log",
