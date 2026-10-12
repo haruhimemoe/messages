@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.2.7] - 2026-10-12
+
+### Added
+
+- `tourney`: strings for embeds (widget labels, empty state, the embed code builder and Embeds page), the schedule list zone line and match map labels.
+
 ## [0.2.6] - 2026-10-12
 
 ### Added
@@ -60,6 +66,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - `messages-check-keys`, a command that checks an app's translation keys against the English catalogs.
 
 [unreleased]: https://github.com/haruhimemoe/messages/compare/v0.2.0...HEAD
+[0.2.7]: https://github.com/haruhimemoe/messages/compare/v0.2.6...v0.2.7
 [0.2.6]: https://github.com/haruhimemoe/messages/compare/v0.2.5...v0.2.6
 [0.2.5]: https://github.com/haruhimemoe/messages/compare/v0.2.4...v0.2.5
 [0.2.4]: https://github.com/haruhimemoe/messages/compare/v0.2.3...v0.2.4
