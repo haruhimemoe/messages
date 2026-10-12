@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.2.10] - 2026-10-12
+
+### Added
+
+- `tourney`: strings for modules (Modules tab, module data delete) and the crowdfund module (settings, donations, providers, claims, public block, embed).
+
 ## [0.2.9] - 2026-10-12
 
 ### Added
@@ -82,6 +88,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - `messages-check-keys`, a command that checks an app's translation keys against the English catalogs.
 
 [unreleased]: https://github.com/haruhimemoe/messages/compare/v0.2.0...HEAD
+[0.2.10]: https://github.com/haruhimemoe/messages/compare/v0.2.9...v0.2.10
 [0.2.9]: https://github.com/haruhimemoe/messages/compare/v0.2.8...v0.2.9
 [0.2.8]: https://github.com/haruhimemoe/messages/compare/v0.2.7...v0.2.8
 [0.2.7]: https://github.com/haruhimemoe/messages/compare/v0.2.6...v0.2.7
