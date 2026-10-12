@@ -194,6 +194,9 @@
       "customRolesHint": "A custom role holds exactly the permissions ticked on it. You can only tick what you hold yourself.",
       "newRole": "New role"
     },
+    "manageLineageEditionSettingsStaffSignup": {
+      "hint": "Staff apply in the same window as players: while registration is open, for the roles ticked here."
+    },
     "manageLineageEditionAudit": {
       "auditLog": "Audit log",
       "totalFound": "{total} found",
@@ -638,6 +641,34 @@
     "eligibility": "Eligibility",
     "saveSettings": "Save settings"
   },
+  "staffSignupForm": {
+    "openRoles": "Open roles",
+    "openRolesHint": "Applicants pick from these. With none ticked, nobody can apply.",
+    "staffCap": "Staff cap",
+    "staffCapHint": "Past it, applicants join the waitlist. Empty for no cap.",
+    "questions": "Questions",
+    "conflicts": "Role conflicts",
+    "conflictsHint": "Nobody can hold both roles of a pair in this edition. Playing means registering to play.",
+    "slots": "Match slots",
+    "slotsHint": "How many people of each role can claim one match.",
+    "slotLabels": {
+      "referee": "Referees per match",
+      "streamer": "Streamers per match",
+      "commentator": "Commentators per match"
+    },
+    "slotRange": "Enter a whole number from 0 to {max}.",
+    "saved": "Saved.",
+    "save": "Save staff signup"
+  },
+  "roleConflictsEditor": {
+    "first": "Conflict {n}, first role",
+    "second": "Conflict {n}, second role",
+    "with": "can't go with",
+    "remove": "Remove",
+    "removeN": "Remove conflict {n}",
+    "add": "Add conflict",
+    "max": "{max} conflicts at most."
+  },
   "socialsEditor": {
     "socialLinks": "Social links",
     "url": "URL",
@@ -733,6 +764,7 @@
       "socials": "Socials",
       "contact": "Contact",
       "registration": "Registration",
+      "staff-signup": "Staff signup",
       "modules": "Modules",
       "staff": "Staff",
       "notifications": "Notifications"
@@ -824,7 +856,8 @@
     "streamer": "Streamer",
     "commentator": "Commentator",
     "mappooler": "Mappooler",
-    "sheeter": "Sheeter"
+    "sheeter": "Sheeter",
+    "player": "Playing"
   },
   "permissions": {
     "areas": {
