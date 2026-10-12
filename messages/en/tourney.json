@@ -246,7 +246,18 @@
       "title": "Crowdfund",
       "goal": "Goal and stretch tiers",
       "providers": "Payment providers",
-      "providersHint": "Each provider posts its donations to its own webhook URL. Paste the secret it gives you, so tourney can tell the posts really come from it."
+      "providersHint": "Each provider posts its donations to its own webhook URL. Paste the secret it gives you, so tourney can tell the posts really come from it.",
+      "embed": "Embed",
+      "embedCode": "Embed code",
+      "embedHint": "Paste it into your own site's HTML to show the crowdfund there. Its height is 600 pixels; change it in the code if you need.",
+      "embedTitle": "{edition} crowdfund"
+    },
+    "crowdfund": {
+      "empty": "This crowdfund has no goal yet.",
+      "link": "Link your donation",
+      "linkHint": "Donated? Link it to your osu! account with the claim code the host gave you. Your name shows on the donor list only if you choose.",
+      "yours": "Your donations",
+      "signIn": "Sign in with osu! to link a donation"
     }
   },
   "signedOutHome": {
@@ -515,6 +526,31 @@
       "relocking": "Re-locking…",
       "cancel": "Cancel",
       "relocked": "{label} is locked again."
+    },
+    "view": {
+      "raised": "Raised",
+      "raisedOf": "{raised} of {goal}",
+      "tiers": "Stretch tiers",
+      "reached": "Reached",
+      "toGo": "{amount} to go",
+      "topDonors": "Top donors",
+      "anonymous": "Anonymous",
+      "donate": "Donate",
+      "more": "More about the crowdfund"
+    },
+    "claimForm": {
+      "code": "Claim code",
+      "codeHint": "The code the host gave you, like ABCDE-FGHJK. For Ko-fi, your receipt link works too.",
+      "showName": "Show my name on the donor list",
+      "link": "Link donation",
+      "linked": "Linked your {amount} donation."
+    },
+    "ownDonations": {
+      "showName": "Show my name on the donor list",
+      "none": "You haven't linked a donation here yet."
+    },
+    "embed": {
+      "label": "Crowdfund"
     }
   },
   "matchEditor": {
