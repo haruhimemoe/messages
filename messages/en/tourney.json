@@ -109,7 +109,7 @@
       "discordServer": "Discord server"
     },
     "lineageEditionLayout": {
-      "hiddenOnlyThisLineage": "Hidden: only this lineage's hosts see this page. Change it in the edition's settings."
+      "hiddenOnlyThisLineage": "Hidden: only people with a role on this edition see this page. Change it in the edition's settings."
     },
     "lineageEdition": {
       "register": "Register",
@@ -130,7 +130,8 @@
       "settings": "Settings",
       "bracketAndRounds": "Bracket and rounds",
       "qualifiersAndSeeds": "Qualifiers and seeds",
-      "schedule": "Schedule"
+      "schedule": "Schedule",
+      "auditLog": "Audit log"
     },
     "lineageEditionRegister": {
       "registerForName": "Register for {name}",
@@ -191,6 +192,23 @@
       "customRoles": "Custom roles",
       "customRolesHint": "A custom role holds exactly the permissions ticked on it. You can only tick what you hold yourself.",
       "newRole": "New role"
+    },
+    "manageLineageEditionAudit": {
+      "auditLog": "Audit log",
+      "totalFound": "{total} found",
+      "who": "Who",
+      "whoHint": "A username or an osu! id.",
+      "area": "Area",
+      "any": "Any",
+      "from": "From",
+      "to": "To",
+      "utcDay": "A day in UTC.",
+      "filter": "Filter",
+      "pages": "Pages",
+      "previous": "Previous",
+      "next": "Next",
+      "pageOf": "Page {page} of {pages}",
+      "keptTwoYears": "Lines are kept for 2 years, then deleted."
     }
   },
   "signedOutHome": {
@@ -531,7 +549,7 @@
       },
       "hidden": {
         "label": "Hidden",
-        "hint": "Only lineage members see it."
+        "hint": "Only people with a role on the edition see it."
       }
     },
     "hueRange": "Enter a whole number from 0 to 359."
@@ -600,6 +618,7 @@
       "audit": "Audit log"
     },
     "lineage": {
+      "create": "Create the lineage",
       "transfer": "Hand the lineage to someone else",
       "delete": "Delete the lineage"
     },
@@ -682,5 +701,33 @@
     "created": "Role created.",
     "saved": "Saved.",
     "deleted": "Role deleted."
+  },
+  "auditTable": {
+    "auditLog": "Audit log",
+    "noLines": "Nothing to show.",
+    "when": "When",
+    "who": "Who",
+    "what": "What",
+    "target": "On",
+    "details": "Details",
+    "deletedAccount": "Deleted account",
+    "changes": "Changes",
+    "reason": "Reason: {reason}",
+    "before": "Before",
+    "after": "After",
+    "targets": {
+      "grant": "Role grant",
+      "role": "Custom role",
+      "lineage": "Lineage",
+      "edition": "Edition",
+      "module": "Module",
+      "registrations": "Registrations",
+      "rounds": "Rounds",
+      "qualifiers": "Qualifier scores",
+      "seeds": "Seeds",
+      "bracket": "Bracket",
+      "match": "Match",
+      "round": "Round"
+    }
   }
 }
