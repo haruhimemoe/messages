@@ -821,7 +821,8 @@
       "network": "Couldn't reach Discord.",
       "timeout": "Discord didn't answer in time.",
       "no-key": "Webhooks weren't set up on this server.",
-      "unreadable": "This webhook can't be read anymore."
+      "unreadable": "This webhook can't be read anymore.",
+      "expired": "It wasn't sent within 24 hours."
     }
   },
   "events": {
