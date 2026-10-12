@@ -175,7 +175,8 @@
       "emoji": "Emoji",
       "table": "Table",
       "art": "Art",
-      "variables": "Variables"
+      "variables": "Variables",
+      "snippets": "Snippets"
     },
     "items": {
       "bold": "Bold",
@@ -230,7 +231,8 @@
     "tournament": "Tournament",
     "forum": "Forum post",
     "beatmap": "Beatmap description",
-    "other": "Other"
+    "other": "Other",
+    "snippet": "Snippet"
   },
   "form": {
     "reloaded": "Someone changed this template first. It's reloaded; your change wasn't saved.",
@@ -709,5 +711,34 @@
     "declineLabel": "Decline {name}'s proposal",
     "saveFirst": "Save or undo your changes before merging a proposal.",
     "resolving": "Resolving: the clashes are in the form. Save to finish merging it."
+  },
+  "snippets": {
+    "label": "Snippets",
+    "mine": "Your snippets",
+    "shared": "Shared by others",
+    "by": "by {name}",
+    "insert": "Insert {name}",
+    "insertButton": "Insert",
+    "copy": "Copy file",
+    "copied": "Copied {name} as a snippet file.",
+    "none": "No snippets yet.",
+    "loading": "Loading snippets…",
+    "failed": "Snippets didn't load ({status}).",
+    "offline": "You're offline. Try again when you're back.",
+    "signIn": "Sign in to save your own snippets.",
+    "save": {
+      "title": "Save as a snippet",
+      "name": "Name",
+      "hint": "Saves the selection, or the whole draft when nothing is selected, as a private snippet. Make it public from your templates to share it.",
+      "button": "Save snippet",
+      "saved": "Saved {name}."
+    },
+    "import": {
+      "title": "Import a snippet file",
+      "field": "Snippet file (haruhime.snippet/1 JSON)",
+      "button": "Import",
+      "bad": "That isn't a snippet file bb can read.",
+      "imported": "Imported {name}."
+    }
   }
 }
