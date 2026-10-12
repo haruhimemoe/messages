@@ -637,5 +637,8 @@
     "firstPass": "first pass after {count, plural, one {# fail} other {# fails}}",
     "bestOf": "best of {count}",
     "bestWas": "best was {accuracy}%, {count, plural, one {# try} other {# tries}} ago"
+  },
+  "tourneyPosts": {
+    "register": "Register"
   }
 }
