@@ -794,7 +794,7 @@
   "remindersForm": {
     "hours": "Hours before each match",
     "hint": "Up to three, from 1 to 72, like 24, 1. Leave it empty for no reminders.",
-    "timing": "Reminders go to the webhooks that get Match reminder. They're only on time when tourney checks for them every 5 minutes. With one check a day, a match gets at most one reminder, sent at the first check after it's due.",
+    "timing": "Reminders go to the webhooks that get Match reminder. They're only on time when tourney checks for them every 5 minutes. With one check a day, each goes out at the first check after it's due, and when two are due by the same check, only the one nearer the match goes out.",
     "bad": "Use whole hours from 1 to 72, up to three, separated by commas, like 24, 1.",
     "save": "Save",
     "saved": "Saved."
