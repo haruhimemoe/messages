@@ -1,6 +1,6 @@
 {
   "name": "@haruhimemoe/messages",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "The translation catalogs for the haruhime.moe tools and the harumin bot: one ICU message catalog per app and locale, English as the source, missing keys falling back to English. Loaders shaped for next-intl through @haruhimemoe/next-kit. No dependencies.",
   "keywords": [
     "i18n",
