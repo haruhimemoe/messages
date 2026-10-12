@@ -696,7 +696,7 @@
     "offline": "You're offline. Try again when you're back.",
     "propose": {
       "title": "Offer your changes to {name}",
-      "lead": "Send this copy's BBCode and fields to the original. Its owner sees what changed and can merge it. Your name, description and kind stay yours.",
+      "lead": "Send this copy's saved BBCode and fields to the original. Its owner sees what changed and can merge it. Your name, description and kind stay yours.",
       "message": "A note for them (optional)",
       "send": "Propose",
       "sending": "Sending…",
@@ -704,6 +704,10 @@
       "open": "Your proposal to {name} is open. Proposing again replaces it.",
       "withdraw": "Withdraw it",
       "withdrawn": "Withdrawn."
-    }
+    },
+    "mergeLabel": "Merge {name}'s proposal",
+    "declineLabel": "Decline {name}'s proposal",
+    "saveFirst": "Save or undo your changes before merging a proposal.",
+    "resolving": "Resolving: the clashes are in the form. Save to finish merging it."
   }
 }
