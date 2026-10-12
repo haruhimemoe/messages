@@ -753,7 +753,7 @@
     "staffCapHint": "Past it, applicants join the waitlist. Empty for no cap.",
     "questions": "Questions",
     "conflicts": "Role conflicts",
-    "conflictsHint": "Nobody can hold both roles of a pair in this edition. Playing means registering to play.",
+    "conflictsHint": "Nobody can hold both roles of a pair in this edition. Playing means registering to play, or being listed on a team.",
     "slots": "Match slots",
     "slotsHint": "How many people of each role can claim one match.",
     "slotLabels": {
