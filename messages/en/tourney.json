@@ -1128,7 +1128,9 @@
       "target": "Webhook",
       "routes": "Notification routes",
       "delivery": "Notification",
-      "credit": "Credit"
+      "credit": "Credit",
+      "application": "Staff application",
+      "person": "Person"
     }
   },
   "targetsEditor": {
