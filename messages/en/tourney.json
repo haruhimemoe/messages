@@ -150,6 +150,10 @@
       "from": "from {countries}",
       "in": "in {regions}"
     },
+    "lineageEditionStaffApply": {
+      "applyForName": "Apply to staff {name}",
+      "closed": "Staff signup isn't open."
+    },
     "lineageEditionBracket": {
       "theBracketIsnT": "The bracket isn't out yet."
     },
@@ -301,6 +305,22 @@
       "withdrawn": "You withdrew. You can register again while registration is open."
     },
     "required": "This question needs an answer."
+  },
+  "staffApplyForm": {
+    "roles": "Roles",
+    "pickRole": "Pick at least one role.",
+    "required": "This question needs an answer.",
+    "apply": "Apply",
+    "save": "Save changes",
+    "withdraw": "Withdraw",
+    "alreadyApplied": "You've already applied to staff this edition.",
+    "status": {
+      "pending": "You've applied. The hosts haven't reviewed it yet.",
+      "approved": "The hosts approved you. You're on this edition's staff.",
+      "waitlisted": "You're on the staff waitlist. The hosts will move you up if a place opens.",
+      "rejected": "The hosts declined this application.",
+      "withdrawn": "You withdrew. You can apply again while staff signup is open."
+    }
   },
   "teamFields": {
     "teamName": "Team name",
