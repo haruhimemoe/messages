@@ -167,7 +167,8 @@
       "players": "Players",
       "pool": "Pool",
       "markdown": "Markdown",
-      "import": "Import"
+      "import": "Import",
+      "settings": "Settings"
     },
     "items": {
       "bold": "Bold",
@@ -570,5 +571,33 @@
     "confirmTitle": "Replace the whole post?",
     "confirmBody": "Everything in the editor is replaced. Undo (Ctrl+Z) brings it back.",
     "confirm": "Replace"
+  },
+  "settings": {
+    "label": "Editor settings",
+    "font": "Font",
+    "fonts": {
+      "mono": "Monospace",
+      "sans": "Sans (Nunito)"
+    },
+    "size": "Text size",
+    "sizeValue": "{size}px",
+    "autoClose": "Close tags as I type",
+    "listContinue": "Continue lists on Enter",
+    "saved": "Kept in this browser."
+  },
+  "problems": {
+    "none": "No problems",
+    "summary": "{errors, plural, =0 {} one {# error} other {# errors}}{both, select, yes {, } other {}}{warnings, plural, =0 {} one {# warning} other {# warnings}}",
+    "show": "Show problems",
+    "fixAll": "Fix all ({count})",
+    "fixed": "{count, plural, one {Fixed # problem.} other {Fixed # problems.}}"
+  },
+  "hover": {
+    "loading": "Looking up {name}…",
+    "notFound": "osu! has no user {name}.",
+    "busy": "Too many lookups. Try again in a minute.",
+    "failed": "osu! isn't answering right now.",
+    "open": "Open on osu!",
+    "id": "ID {id}"
   }
 }
