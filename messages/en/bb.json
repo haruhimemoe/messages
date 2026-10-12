@@ -174,7 +174,8 @@
       "settings": "Settings",
       "emoji": "Emoji",
       "table": "Table",
-      "art": "Art"
+      "art": "Art",
+      "variables": "Variables"
     },
     "items": {
       "bold": "Bold",
@@ -239,7 +240,7 @@
     "pulled": "Pulled.",
     "bbcode": "BBCode",
     "body": "Body",
-    "bodyHint": "Put a field's value anywhere with '{{key}}'.",
+    "bodyHint": "Put a field's value anywhere with '{{key}}'. Wrap a part that needs a field in '{{#key}}…{{/key}}' and it drops out when the field is empty.",
     "fields": "Fields",
     "saving": "Saving…",
     "save": "Save changes",
@@ -673,5 +674,13 @@
     },
     "insertPiece": "Insert {name}",
     "inserted": "Inserted {what}."
+  },
+  "variables": {
+    "label": "Variables",
+    "lead": "Set each '{{key}}' in this draft once. The preview, the count and Copy use the values; the text keeps the keys until you fill them in.",
+    "none": "No variables in this draft yet. Write one like '{{name}}' anywhere in the text, then set it here.",
+    "emptyHint": "A field left empty also drops what's wrapped in '{{#key}}…{{/key}}'.",
+    "fill": "Fill in",
+    "fillHint": "Writes the values into the text in place of their keys."
   }
 }
