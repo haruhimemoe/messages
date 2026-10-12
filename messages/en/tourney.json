@@ -131,7 +131,8 @@
       "bracketAndRounds": "Bracket and rounds",
       "qualifiersAndSeeds": "Qualifiers and seeds",
       "schedule": "Schedule",
-      "auditLog": "Audit log"
+      "auditLog": "Audit log",
+      "embeds": "Embeds"
     },
     "lineageEditionRegister": {
       "registerForName": "Register for {name}",
@@ -209,6 +210,10 @@
       "next": "Next",
       "pageOf": "Page {page} of {pages}",
       "keptTwoYears": "Lines are kept for 2 years, then deleted."
+    },
+    "manageLineageEditionEmbed": {
+      "embeds": "Embeds",
+      "notPublicYet": "This edition isn't public yet, so its embeds say there's nothing to show until it is. Change who sees it in the edition's settings."
     }
   },
   "signedOutHome": {
@@ -745,5 +750,40 @@
       "standings": "Standings",
       "match": "Match {code}"
     }
+  },
+  "embedBuilder": {
+    "widget": "Widget",
+    "widgets": {
+      "bracket": "Bracket",
+      "schedule": "Schedule",
+      "pool": "Mappools",
+      "standings": "Standings",
+      "match": "Match"
+    },
+    "match": "Match",
+    "theme": "Theme",
+    "dark": "Dark",
+    "light": "Light",
+    "hue": "Hue",
+    "hueHint": "0 to 359. Empty for the edition's own.",
+    "hueRange": "Enter a whole number from 0 to 359.",
+    "transparent": "Transparent",
+    "transparentHint": "Your page shows through behind it.",
+    "sizeToFit": "Size to fit",
+    "sizeToFitHint": "Adds a script that grows or shrinks the frame to fit what it shows.",
+    "height": "Height",
+    "heightHint": "In pixels. With Size to fit, the height it starts at.",
+    "heightRange": "Enter a whole number from 100 to 4000.",
+    "embedCode": "Embed code",
+    "script": "Script",
+    "scriptHint": "Once per page, anywhere on it.",
+    "titles": {
+      "bracket": "{edition} bracket",
+      "schedule": "{edition} schedule",
+      "pool": "{edition} mappools",
+      "standings": "{edition} standings",
+      "match": "{edition} match {code}"
+    },
+    "preview": "Preview"
   }
 }
