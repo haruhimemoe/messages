@@ -650,6 +650,34 @@
               "description": "Which tournament, when this server has more than one"
             }
           }
+        },
+        "result": {
+          "description": "Enter a match's score (referees)",
+          "options": {
+            "code": {
+              "description": "Match code, like M12"
+            },
+            "tournament": {
+              "description": "Which tournament, when this server has more than one"
+            }
+          }
+        },
+        "mp": {
+          "description": "Fill a match from its mp link, then save (referees)",
+          "options": {
+            "code": {
+              "description": "Match code, like M12"
+            },
+            "link": {
+              "description": "The mp link or id"
+            },
+            "warmups": {
+              "description": "Warmup maps to skip (default 0)"
+            },
+            "tournament": {
+              "description": "Which tournament, when this server has more than one"
+            }
+          }
         }
       }
     },
@@ -763,7 +791,15 @@
       "cancelled": "Cancelled"
     },
     "nothingScheduled": "Nothing scheduled right now.",
-    "more": "{count, plural, one {# more match} other {# more matches}} on tourney.haruhime.moe"
+    "more": "{count, plural, one {# more match} other {# more matches}} on tourney.haruhime.moe",
+    "fillTitle": "{code} from the mp link",
+    "fillWon": "{slot}: {team}",
+    "fillNoWinner": "{slot}: no winner",
+    "fillWarmup": "{slot}: warmup, not counted",
+    "fillAborted": "{slot}: aborted, not counted",
+    "problems": "Problems",
+    "moreProblems": "{count, plural, one {+# more problem} other {+# more problems}}",
+    "notSaved": "Not saved yet. Check it, then press Save."
   },
   "tourneyDraft": {
     "onTheClock": "{team} is on the clock",
@@ -790,5 +826,22 @@
     "pickMoved": "That pick was already made, so the board moved on. Use the menu under the newest clock.",
     "notYourPick": "It isn't your pick. The captain on the clock or the draft's staff can pick.",
     "staleMenu": "That menu is out of date. Use the one under the newest clock."
+  },
+  "tourneyReferee": {
+    "scoreFor": "Score for {team}",
+    "firstSide": "First side",
+    "secondSide": "Second side",
+    "resultTitle": "{code}: the score",
+    "expired": "This ran out. Run the command again.",
+    "badScore": "Scores are whole numbers from 0 to 13.",
+    "notMpLink": "That isn't an mp link or id.",
+    "notYours": "This preview is someone else's.",
+    "cancelled": "Cancelled. Nothing was saved.",
+    "hasDetail": "{code} already has maps or picks and bans. Enter it on [the referee page]({url}) so they aren't lost.",
+    "hasPickBans": "{code} already has picks and bans. Save it on [the referee page]({url}) so they aren't lost.",
+    "saved": "Saved {code}: **{a}** {score} **{b}**.",
+    "savedScore": "Saved {code}: {score}.",
+    "save": "Save",
+    "cancel": "Cancel"
   }
 }
