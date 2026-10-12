@@ -353,7 +353,9 @@
     "deleteDataTitle": "Delete {name}'s data?",
     "deleteDataBody": "This deletes everything {name} saved for this lineage, in every edition. It can't be undone.",
     "deleted": "Deleted {count, plural, =0 {nothing} one {# record} other {# records}}.",
-    "cancel": "Cancel"
+    "cancel": "Cancel",
+    "on": "On",
+    "off": "Off"
   },
   "modules": {
     "crowdfund": {
