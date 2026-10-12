@@ -307,7 +307,9 @@
     "score": "Score",
     "notPlayed": "Not played",
     "tiebreakerSlot": "Tiebreaker {slot}",
-    "action": "{side} {action, select, protect {protects} ban {bans} pick {picks} other {tiebreaker}} {slot}"
+    "action": "{side} {action, select, protect {protects} ban {bans} pick {picks} other {tiebreaker}} {slot}",
+    "tbd": "TBD",
+    "unknownTeam": "Unknown team"
   },
   "staffContact": {
     "questionsContactStaff": "Questions? Contact staff"
@@ -735,6 +737,13 @@
     }
   },
   "embed": {
-    "empty": "Nothing to show here yet."
+    "empty": "Nothing to show here yet.",
+    "labels": {
+      "bracket": "Bracket",
+      "schedule": "Schedule",
+      "pool": "Mappools",
+      "standings": "Standings",
+      "match": "Match {code}"
+    }
   }
 }
