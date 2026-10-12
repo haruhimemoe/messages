@@ -222,6 +222,31 @@
       "reminders": "Match reminders",
       "failed": "Failed notifications",
       "sweepOff": "Notification checks aren't set up on this server yet, so match reminders don't go out and failed notifications aren't tried again."
+    },
+    "manageCrowdfund": {
+      "title": "Crowdfund",
+      "raised": "Raised",
+      "raisedOfGoal": "{raised} of {goal}",
+      "percent": "Of the goal",
+      "percentValue": "{percent}%",
+      "donations": "Donations",
+      "uncounted": "{count, plural, one {# donation is} other {# donations are}} in another currency than the goal's, so not counted.",
+      "tiers": "Stretch tiers",
+      "noGoal": "No goal yet. Set one in Settings to start counting.",
+      "openSettings": "Open Settings",
+      "add": "Add a donation by hand",
+      "addHint": "For money that came another way: PayPal, cash, a provider without a webhook.",
+      "list": "Donations",
+      "pages": "Donation pages",
+      "previous": "Previous",
+      "next": "Next",
+      "pageOf": "Page {page} of {count}"
+    },
+    "manageCrowdfundSettings": {
+      "title": "Crowdfund",
+      "goal": "Goal and stretch tiers",
+      "providers": "Payment providers",
+      "providersHint": "Each provider posts its donations to its own webhook URL. Paste the secret it gives you, so tourney can tell the posts really come from it."
     }
   },
   "signedOutHome": {
@@ -361,6 +386,135 @@
     "crowdfund": {
       "name": "Crowdfund",
       "description": "A donation goal with stretch tiers, filled by your payment provider or by hand."
+    }
+  },
+  "crowdfund": {
+    "tabs": {
+      "label": "Crowdfund",
+      "donations": "Donations",
+      "settings": "Settings"
+    },
+    "settingsForm": {
+      "label": "Goal name",
+      "description": "Description",
+      "descriptionHint": "Optional. What the money is for.",
+      "amount": "Goal amount",
+      "amountHint": "Like 500 or 499.99.",
+      "currency": "Currency",
+      "currencyHint": "A 3-letter code, like USD or EUR. It can't change once a donation is recorded.",
+      "donateUrl": "Donate link",
+      "donateUrlHint": "Optional. The https page where people donate, shown with the progress.",
+      "fromDefaults": "These are this lineage's defaults. Save to give this edition its own.",
+      "saveAsDefaults": "Also save as this lineage's defaults",
+      "saveAsDefaultsHint": "A new edition's crowdfund starts from them.",
+      "save": "Save",
+      "saving": "Saving…",
+      "saved": "Crowdfund settings saved.",
+      "fix": "Some fields need a fix. They're marked below."
+    },
+    "tierRows": {
+      "tier": "Tier {number}",
+      "label": "Name",
+      "threshold": "Unlocks at",
+      "thresholdHint": "In {currency}.",
+      "reward": "Reward",
+      "rewardHint": "Optional. What it unlocks.",
+      "remove": "Remove",
+      "removeName": "Remove tier {number}",
+      "add": "Add tier",
+      "count": "{count} of {limit} tiers",
+      "none": "No stretch tiers yet. Each one unlocks when the total reaches its amount, and stays unlocked after a refund."
+    },
+    "providers": {
+      "names": {
+        "kofi": "Ko-fi",
+        "stripe": "Stripe",
+        "github-sponsors": "GitHub Sponsors",
+        "buymeacoffee": "Buy Me a Coffee"
+      },
+      "help": {
+        "kofi": "In Ko-fi's API settings, paste the webhook URL, then copy the verification token here.",
+        "stripe": "In Stripe's webhooks, add an endpoint with the webhook URL for checkout.session.completed, payment_intent.succeeded and charge.refunded, then paste its signing secret here.",
+        "github-sponsors": "In your GitHub Sponsors dashboard, add a webhook with the webhook URL, content type application/json and a secret you make up, then paste that secret here.",
+        "buymeacoffee": "In Buy Me a Coffee's webhooks, add the webhook URL, then paste the secret it shows here."
+      },
+      "webhookUrl": "Webhook URL",
+      "notSet": "No secret saved yet.",
+      "setOn": "Secret saved",
+      "unreadable": "Can't be read, paste it again",
+      "secretName": "{provider} secret",
+      "save": "Save",
+      "saved": "{provider} secret saved.",
+      "remove": "Remove",
+      "removeName": "Remove the {provider} secret",
+      "removeTitle": "Remove the {provider} secret?",
+      "removeDescription": "{provider}'s webhooks stop recording donations until you save a secret again. Donations already recorded stay.",
+      "removing": "Removing…",
+      "cancel": "Cancel",
+      "removed": "{provider} secret removed.",
+      "unavailable": "Payment providers aren't set up on this server yet, so their secrets can't be saved."
+    },
+    "manualForm": {
+      "amount": "Amount in {currency}",
+      "amountHint": "Like 25 or 25.50.",
+      "donorName": "Donor's name",
+      "donorNameHint": "Empty: Supporter.",
+      "showName": "Show their name on the public donor list",
+      "message": "Message",
+      "messageHint": "Optional. Only staff see it.",
+      "add": "Add donation",
+      "adding": "Adding…",
+      "added": "Donation added.",
+      "claimCode": "Claim code",
+      "claimCodeHint": "Pass it on to the donor. Signed in, they can link the donation to their account on the edition's crowdfund page."
+    },
+    "donationsTable": {
+      "caption": "Donations",
+      "when": "When",
+      "donor": "Donor",
+      "amount": "Amount",
+      "refunded": "Refunded",
+      "source": "From",
+      "linked": "Linked",
+      "claimCode": "Claim code",
+      "message": "Message",
+      "action": "Action",
+      "hidden": "Hidden",
+      "noRefund": "None",
+      "yes": "Yes",
+      "no": "No",
+      "none": "No donations yet.",
+      "sources": {
+        "manual": "By hand",
+        "ko-fi": "Ko-fi",
+        "stripe": "Stripe",
+        "github-sponsors": "GitHub Sponsors",
+        "buymeacoffee": "Buy Me a Coffee"
+      }
+    },
+    "refundDialog": {
+      "refund": "Refund",
+      "refundName": "Refund {donor}'s {amount}",
+      "title": "Refund {donor}'s {amount}?",
+      "description": "Record money you sent back. Stretch tiers it helped reach stay reached.",
+      "amount": "Total refunded",
+      "amountHint": "In {currency}, everything refunded so far. Empty: all of it.",
+      "reason": "Reason",
+      "reasonHint": "Kept in the audit log.",
+      "cancel": "Cancel",
+      "confirm": "Refund",
+      "pending": "Refunding…"
+    },
+    "reachedTiers": {
+      "none": "No stretch tiers yet. Add them in Settings.",
+      "reached": "Reached",
+      "notReached": "Not reached yet",
+      "relock": "Re-lock",
+      "relockName": "Re-lock {label}",
+      "relockQuestion": "Lock {label} again? The next donation that meets it reaches it again.",
+      "relocking": "Re-locking…",
+      "cancel": "Cancel",
+      "relocked": "{label} is locked again."
     }
   },
   "matchEditor": {
