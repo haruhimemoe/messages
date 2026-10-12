@@ -749,7 +749,7 @@
     },
     "noMatch": "There's no match {code} in {edition}.",
     "notOnTeam": "You aren't on a team in {edition}.",
-    "noUpcoming": "Your team has no matches left in {edition}.",
+    "noUpcoming": "Your team has no scheduled match coming up in {edition}.",
     "unknownRound": "{edition} has no round {round}.",
     "poolNotOut": "The {round} pool isn't out yet.",
     "noPool": "{round} has no pool on tourney.haruhime.moe.",
