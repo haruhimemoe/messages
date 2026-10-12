@@ -127,6 +127,7 @@
       "editionPages": "Edition pages",
       "phasePhase": "Phase: {phase}",
       "registrations": "Registrations",
+      "staffApplications": "Staff applications",
       "settings": "Settings",
       "bracketAndRounds": "Bracket and rounds",
       "qualifiersAndSeeds": "Qualifiers and seeds",
@@ -183,6 +184,17 @@
       "filter": "Filter",
       "previous": "Previous",
       "next": "Next"
+    },
+    "manageLineageEditionApplications": {
+      "staffApplications": "Staff applications",
+      "totalFound": "{total} found",
+      "status": "Status",
+      "any": "Any",
+      "filter": "Filter",
+      "pages": "Pages",
+      "previous": "Previous",
+      "next": "Next",
+      "pageOf": "Page {page} of {pages}"
     },
     "manageLineageEditionSettingsModules": {
       "noModulesAvailableYet": "No modules available yet."
@@ -610,6 +622,22 @@
       "rejected": "Reject"
     },
     "actionCount": "{action} {count}"
+  },
+  "staffApplications": {
+    "none": "No staff applications here.",
+    "appliedFor": "Applied for",
+    "approvedAs": "Approved as",
+    "otherAnswers": "Other answers",
+    "note": "Note",
+    "conflicts": "They also registered to play, and these can't go together:",
+    "pair": "{a} and {b}",
+    "rolesToApprove": "Roles to approve",
+    "rolesHint": "Approving gives the ticked roles on this edition. You can only tick roles you could grant yourself.",
+    "actions": {
+      "approved": "Approve",
+      "waitlisted": "Waitlist",
+      "rejected": "Reject"
+    }
   },
   "questionBuilder": {
     "registrationQuestions": "Registration questions",
