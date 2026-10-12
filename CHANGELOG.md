@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [0.2.2] - 2026-10-11
+
+### Added
+
+- `bb`: strings for the toolbar's tool groups and the Emoji, Table and Art tools, and the flag picker's recent and all lists.
+
 ## [0.2.1] - 2026-10-11
 
 ### Added
@@ -26,6 +32,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - `messages-check-keys`, a command that checks an app's translation keys against the English catalogs.
 
 [unreleased]: https://github.com/haruhimemoe/messages/compare/v0.2.0...HEAD
+[0.2.2]: https://github.com/haruhimemoe/messages/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/haruhimemoe/messages/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/haruhimemoe/messages/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/haruhimemoe/messages/releases/tag/v0.1.0
