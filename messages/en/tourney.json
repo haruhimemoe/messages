@@ -355,7 +355,12 @@
     "deleted": "Deleted {count, plural, =0 {nothing} one {# record} other {# records}}.",
     "cancel": "Cancel"
   },
-  "modules": {},
+  "modules": {
+    "crowdfund": {
+      "name": "Crowdfund",
+      "description": "A donation goal with stretch tiers, filled by your payment provider or by hand."
+    }
+  },
   "matchEditor": {
     "mpLink": "mp link",
     "warmups": "Warmups",
@@ -642,7 +647,8 @@
       "announcements": "Announcements",
       "integrations": "Integrations",
       "modules": "Modules",
-      "audit": "Audit log"
+      "audit": "Audit log",
+      "crowdfund": "Crowdfund"
     },
     "lineage": {
       "create": "Create the lineage",
@@ -694,6 +700,10 @@
     },
     "audit": {
       "read": "Read the audit log"
+    },
+    "crowdfund": {
+      "edit": "Run the crowdfund: goal, tiers, providers, donations and refunds",
+      "view": "See donations"
     }
   },
   "staffList": {
@@ -845,6 +855,11 @@
     },
     "pool": {
       "revealed": "Pool revealed"
+    },
+    "crowdfund": {
+      "donation": "Donation linked to an account",
+      "tierUnlocked": "Stretch tier reached",
+      "refunded": "Linked donation refunded"
     }
   },
   "embed": {
