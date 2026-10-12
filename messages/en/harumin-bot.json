@@ -639,6 +639,17 @@
         },
         "roles": {
           "description": "Get your tournament roles on this server now"
+        },
+        "draft": {
+          "description": "Show the live draft in this channel (draft staff)",
+          "options": {
+            "stop": {
+              "description": "Stop showing it here"
+            },
+            "tournament": {
+              "description": "Which tournament, when this server has more than one"
+            }
+          }
         }
       }
     },
@@ -753,5 +764,31 @@
     },
     "nothingScheduled": "Nothing scheduled right now.",
     "more": "{count, plural, one {# more match} other {# more matches}} on tourney.haruhime.moe"
+  },
+  "tourneyDraft": {
+    "onTheClock": "{team} is on the clock",
+    "captain": "Captain: {captain}",
+    "pickOf": "Pick {pick} of {total} · round {round}",
+    "deadline": "Pick due {time}",
+    "upNext": "Up next: {teams}",
+    "poolEmpty": "Nobody is left to pick.",
+    "more": "{count, plural, one {+# more player} other {+# more players}} on tourney.haruhime.moe",
+    "menu": "Pick a player ({from} to {to})",
+    "pickLine": "Pick {pick} · round {round}: **{team}** takes {player}",
+    "undone": "{count, plural, one {The last pick was undone.} other {The last # picks were undone.}}",
+    "doneTitle": "The draft is done",
+    "teamLine": "**{team}**: {players}",
+    "moreTeams": "{count, plural, one {# more team} other {# more teams}} on tourney.haruhime.moe",
+    "cancelled": "This draft isn't on tourney.haruhime.moe anymore, so it stopped showing here.",
+    "cantPostHere": "harumin can't post here. It needs View Channel, Send Messages and Embed Links in this channel.",
+    "noDraft": "There's no draft in {edition} right now.",
+    "staffOnly": "Only the draft's staff can show it in a channel.",
+    "showing": "The draft shows here now. The captain on the clock picks from the menu under it.",
+    "stopped": "The draft isn't shown on Discord anymore.",
+    "notMirrored": "The draft isn't shown anywhere on Discord right now.",
+    "picked": "Picked **{player}**.",
+    "pickMoved": "That pick was already made, so the board moved on. Use the menu under the newest clock.",
+    "notYourPick": "It isn't your pick. The captain on the clock or the draft's staff can pick.",
+    "staleMenu": "That menu is out of date. Use the one under the newest clock."
   }
 }
