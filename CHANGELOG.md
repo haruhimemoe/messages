@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+### Added
+
+- `tourney`: strings for the Notifications tab (Discord webhooks, which events go where, match reminders and failed notifications) and the event names.
+
 ## [0.2.7] - 2026-10-12
 
 ### Added

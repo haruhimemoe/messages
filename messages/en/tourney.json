@@ -214,6 +214,13 @@
     "manageLineageEditionEmbed": {
       "embeds": "Embeds",
       "notPublicYet": "This edition isn't public yet, so its embeds say there's nothing to show until it is. Change who sees it in the edition's settings."
+    },
+    "manageLineageEditionSettingsNotifications": {
+      "webhooks": "Discord webhooks",
+      "webhooksHint": "Each webhook posts to one Discord channel. The webhooks and what they get are shared by every edition of this lineage.",
+      "routing": "What goes where",
+      "reminders": "Match reminders",
+      "failed": "Failed notifications"
     }
   },
   "signedOutHome": {
@@ -523,7 +530,8 @@
       "contact": "Contact",
       "registration": "Registration",
       "modules": "Modules",
-      "staff": "Staff"
+      "staff": "Staff",
+      "notifications": "Notifications"
     }
   },
   "generateBracketButton": {
@@ -743,7 +751,91 @@
       "seeds": "Seeds",
       "bracket": "Bracket",
       "match": "Match",
-      "round": "Round"
+      "round": "Round",
+      "target": "Webhook",
+      "routes": "Notification routes",
+      "delivery": "Notification"
+    }
+  },
+  "targetsEditor": {
+    "label": "Label",
+    "labelHint": "Like the channel's name.",
+    "url": "Webhook URL",
+    "urlHint": "In Discord, open the channel's settings, then Integrations, Webhooks, New Webhook, and copy its URL.",
+    "add": "Add webhook",
+    "added": "Webhook added.",
+    "count": "{count} of {limit} webhooks",
+    "full": "Remove a webhook to add another.",
+    "none": "No webhooks yet.",
+    "endingIn": "ending in {hint}",
+    "unreadable": "Can't be read",
+    "unreadableHint": "A webhook that can't be read was saved under an older key. Remove it and add it again.",
+    "test": "Test",
+    "testName": "Send a test message to {label}",
+    "sent": "Test message sent to {label}.",
+    "remove": "Remove",
+    "removeName": "Remove {label}",
+    "removeTitle": "Remove {label}?",
+    "removeDescription": "Notifications stop going to this webhook. The webhook itself stays in Discord.",
+    "removing": "Removing…",
+    "cancel": "Cancel",
+    "removed": "Webhook removed.",
+    "unavailable": "Discord webhooks aren't set up on this server yet, so they can't be added or tested."
+  },
+  "routesEditor": {
+    "routes": "Which events go to which webhooks",
+    "event": "Event",
+    "send": "Send {event} to {target}",
+    "save": "Save",
+    "saved": "Saved.",
+    "addTargetFirst": "Add a webhook first, then pick what it gets."
+  },
+  "remindersForm": {
+    "hours": "Hours before each match",
+    "hint": "Up to three, from 1 to 72, like 24, 1. Leave it empty for no reminders.",
+    "timing": "Reminders go to the webhooks that get Match reminder. They're only on time when tourney checks for them every 5 minutes. With one check a day, a match gets at most one reminder, sent at the first check after it's due.",
+    "bad": "Use whole hours from 1 to 72, up to three, separated by commas, like 24, 1.",
+    "save": "Save",
+    "saved": "Saved."
+  },
+  "failedDeliveries": {
+    "failed": "Failed notifications",
+    "when": "When",
+    "event": "Event",
+    "target": "Webhook",
+    "tries": "Tries",
+    "error": "Error",
+    "action": "Action",
+    "retry": "Retry",
+    "retryName": "Retry {event} to {target}",
+    "retried": "Sending it again.",
+    "none": "No failed notifications.",
+    "status": "HTTP {status}",
+    "more": "Showing the newest {shown} of {total}.",
+    "kept": "A failed notification is listed for 30 days. Retry gives it another 24 hours of tries.",
+    "errors": {
+      "gone": "Discord says this webhook was deleted.",
+      "refused": "Discord refused the message.",
+      "rate-limited": "Discord kept asking to slow down.",
+      "discord-error": "Discord had an error every time.",
+      "network": "Couldn't reach Discord.",
+      "timeout": "Discord didn't answer in time.",
+      "no-key": "Webhooks weren't set up on this server.",
+      "unreadable": "This webhook can't be read anymore."
+    }
+  },
+  "events": {
+    "registration": {
+      "created": "New registration",
+      "reviewed": "Registrations reviewed"
+    },
+    "match": {
+      "scheduled": "Match time set",
+      "result": "Match result",
+      "reminder": "Match reminder"
+    },
+    "pool": {
+      "revealed": "Pool revealed"
     }
   },
   "embed": {
