@@ -700,7 +700,10 @@
       "message": "A note for them (optional)",
       "send": "Propose",
       "sending": "Sending…",
-      "sent": "Proposed. The owner of {name} can merge it now."
+      "sent": "Proposed. The owner of {name} can merge it now.",
+      "open": "Your proposal to {name} is open. Proposing again replaces it.",
+      "withdraw": "Withdraw it",
+      "withdrawn": "Withdrawn."
     }
   }
 }
