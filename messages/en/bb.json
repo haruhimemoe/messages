@@ -731,7 +731,8 @@
       "name": "Name",
       "hint": "Saves the selection, or the whole draft when nothing is selected, as a private snippet. Make it public from your templates to share it.",
       "button": "Save snippet",
-      "saved": "Saved {name}."
+      "saved": "Saved {name}.",
+      "nameHint": "At least 3 characters."
     },
     "import": {
       "title": "Import a snippet file",
@@ -739,6 +740,9 @@
       "button": "Import",
       "bad": "That isn't a snippet file bb can read.",
       "imported": "Imported {name}."
-    }
+    },
+    "copyNamed": "Copy {name} as a file",
+    "copyFailed": "Couldn't copy. The file is below to copy by hand.",
+    "copyField": "Snippet file"
   }
 }
