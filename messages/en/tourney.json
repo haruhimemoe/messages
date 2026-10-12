@@ -360,6 +360,7 @@
     "save": "Save changes",
     "withdraw": "Withdraw",
     "alreadyApplied": "You've already applied to staff this edition.",
+    "closed": "Staff signup has closed, so this application can't change now.",
     "status": {
       "pending": "You've applied. The hosts haven't reviewed it yet.",
       "approved": "The hosts approved you. You're on this edition's staff.",
