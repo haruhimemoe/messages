@@ -593,6 +593,55 @@
         }
       }
     },
+    "tourney": {
+      "description": "Tournaments on tourney.haruhime.moe",
+      "options": {
+        "match": {
+          "description": "A match: who, when, score and links",
+          "options": {
+            "code": {
+              "description": "Match code, like M12 (default: your next match)"
+            },
+            "tournament": {
+              "description": "Which tournament, when this server has more than one"
+            }
+          }
+        },
+        "schedule": {
+          "description": "Upcoming matches",
+          "options": {
+            "show": {
+              "description": "me, or a round (default: every match)"
+            },
+            "tournament": {
+              "description": "Which tournament, when this server has more than one"
+            }
+          }
+        },
+        "bracket": {
+          "description": "The bracket and results links",
+          "options": {
+            "tournament": {
+              "description": "Which tournament, when this server has more than one"
+            }
+          }
+        },
+        "pool": {
+          "description": "A round's mappool",
+          "options": {
+            "round": {
+              "description": "Round (default: the newest pool out)"
+            },
+            "tournament": {
+              "description": "Which tournament, when this server has more than one"
+            }
+          }
+        },
+        "roles": {
+          "description": "Get your tournament roles on this server now"
+        }
+      }
+    },
     "link": {
       "description": "Link your osu! account, or see which one is linked"
     },
@@ -640,5 +689,69 @@
   },
   "tourneyPosts": {
     "register": "Register"
+  },
+  "tourney": {
+    "notSetUp": "Tournaments aren't set up on this harumin.",
+    "rolesQueued": "On it. Your tournament roles here update in a few seconds.",
+    "rolesNothing": "No tournament roles for you on this server right now. Playing or staffing here? Check that your Discord is linked on {hub}/account.",
+    "poolGone": "That pool isn't public on pools.haruhime.moe."
+  },
+  "tourneyReads": {
+    "notLinked": "This server isn't linked to a tournament on tourney.haruhime.moe.",
+    "paused": "This server's tournament link is paused.",
+    "noneRunning": "No tournament is running on this server right now.",
+    "ambiguous": "This server runs more than one tournament. Pick one with `tournament`.",
+    "unknownTournament": "No tournament here goes by that name. Pick one from the `tournament` list.",
+    "errors": {
+      "unavailable": "tourney.haruhime.moe isn't answering right now. Try again in a minute.",
+      "linkFirst": "Link your Discord account on {hub}/account first, so tourney.haruhime.moe knows who you are.",
+      "forbidden": "Your tourney.haruhime.moe account can't do that in this tournament.",
+      "tooMany": "That's a lot at once. Try again in a minute."
+    },
+    "noMatch": "There's no match {code} in {edition}.",
+    "notOnTeam": "You aren't on a team in {edition}.",
+    "noUpcoming": "Your team has no matches left in {edition}.",
+    "unknownRound": "{edition} has no round {round}.",
+    "poolNotOut": "The {round} pool isn't out yet.",
+    "noPool": "{round} has no pool on tourney.haruhime.moe.",
+    "noPoolsYet": "No pool is out yet in {edition}.",
+    "me": "me (your team's matches)",
+    "scheduleTitle": "{edition}: upcoming matches",
+    "teamTitle": "{edition}: {team}",
+    "roundTitle": "{edition}: {round}",
+    "bracketText": "The bracket and every result are on tourney.haruhime.moe.",
+    "matchPage": "Match page",
+    "stream": "Stream",
+    "vod": "VOD",
+    "mpLink": "mp link {n}",
+    "fullSchedule": "Full schedule",
+    "bracket": "Bracket",
+    "results": "Results"
+  },
+  "tourneyRegister": {
+    "gone": "This tournament isn't taking sign-ups here anymore.",
+    "formDm": "Here's the sign-up form. It opens on tourney.haruhime.moe.",
+    "openForm": "Open the form",
+    "sentDm": "Check your DMs: the sign-up form is there.",
+    "formHere": "Your DMs are closed to harumin, so here's the sign-up form.",
+    "linkFirst": "Link your Discord account on haruhime.moe first, then press Register again.",
+    "linkButton": "Link on haruhime.moe",
+    "signedUp": "You're signed up. Good luck!",
+    "openTournament": "Tournament page"
+  },
+  "tourneyEmbeds": {
+    "versus": "{a} vs {b}",
+    "tbd": "TBD",
+    "unknownTeam": "Unknown team",
+    "notScheduled": "Not scheduled yet",
+    "bestOf": "Best of {count}",
+    "status": {
+      "live": "Live now",
+      "done": "Done",
+      "forfeit": "Forfeit",
+      "cancelled": "Cancelled"
+    },
+    "nothingScheduled": "Nothing scheduled right now.",
+    "more": "{count, plural, one {# more match} other {# more matches}} on tourney.haruhime.moe"
   }
 }
