@@ -155,6 +155,9 @@
       "applyForName": "Apply to staff {name}",
       "closed": "Staff signup isn't open."
     },
+    "lineageEditionStaff": {
+      "intro": "The people who run {name}."
+    },
     "lineageEditionBracket": {
       "theBracketIsnT": "The bracket isn't out yet."
     },
@@ -367,12 +370,17 @@
       "schedule": "Schedule",
       "teams": "Teams",
       "pools": "Pools",
-      "results": "Results"
+      "results": "Results",
+      "staff": "Staff"
     }
   },
   "teamList": {
     "noTeamsYet": "No teams yet.",
     "out": "Out"
+  },
+  "creditsList": {
+    "none": "Nobody is credited here yet.",
+    "apply": "Apply to join the staff"
   },
   "resultsTable": {
     "results": "Results",
@@ -1043,6 +1051,29 @@
     "deleting": "Deleting…",
     "cancel": "Cancel"
   },
+  "creditsEditor": {
+    "title": "This edition's credits",
+    "hint": "The Staff tab lists everyone with a role on this edition and the people credited here. Hide anyone who shouldn't be listed.",
+    "staff": "Staff",
+    "noStaff": "Nobody holds a role here yet.",
+    "name": "Name",
+    "roles": "Roles",
+    "onStaffTab": "On the Staff tab",
+    "shown": "Shown",
+    "hidden": "Hidden",
+    "action": "Action",
+    "hide": "Hide",
+    "show": "Show",
+    "hideName": "Hide {name}",
+    "showName": "Show {name}",
+    "people": "Credited people",
+    "noPeople": "Add people below to credit them here.",
+    "rolesOf": "{name}'s roles",
+    "rolesHint": "Separate roles with commas, like Artist, Sponsor. Empty takes them off this edition's credits.",
+    "save": "Save",
+    "saveName": "Save {name}",
+    "saved": "Saved."
+  },
   "auditTable": {
     "auditLog": "Audit log",
     "noLines": "Nothing to show.",
@@ -1071,7 +1102,8 @@
       "round": "Round",
       "target": "Webhook",
       "routes": "Notification routes",
-      "delivery": "Notification"
+      "delivery": "Notification",
+      "credit": "Credit"
     }
   },
   "targetsEditor": {
